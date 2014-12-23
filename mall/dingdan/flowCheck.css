@@ -1,0 +1,60 @@
+.fl{float:left;}
+.fr{float:right;}
+.tr{text-align:right;}
+.tc{text-align: center;}
+.clear{clear:both}
+
+.wrapF{width:978px;margin:0 auto;}
+.titleF{width:710px;height:28px;margin:32px 0;background:url(../images/andyzhou/flow_check.png) no-repeat;font-size:13px;}
+.titleF span{width:236px;height:28px;line-height:28px;text-align:center;display:inline-block;zoom:1;*display:inline;color:#999;}
+.titleF .titleSelect{color:#fff;}
+.mainF{padding:10px;border:1px solid #ececec;line-height:22px;}
+.subtitle{border-bottom:1px solid #ececec;padding:10px 0 6px 16px;}
+.consigneeInfo{font-size:15px;font-weight:bold;}
+.canceCI{color:#1f3d99;}
+.contentF{background:#f4f4f4;margin:10px 0;padding:10px;overflow:auto;}
+.contentF input[type="radio"]{margin:0 5px;}
+/*.contentF input,.contentF span,.contentF b,.contentF img{vertical-align:middle;}*/
+.textSpace{margin-left:18px;margin-right:10px;}
+.starIcon{color:red;margin-right:6px;}
+.adressInfo{margin: 0 0 0 24px;}
+.adressInfo dd{padding:6px 0 0 0;}
+.adressInfo input[type="text"]{padding:0 6px;width:180px;}
+.adressInfo select{width:150px;}
+.infoItem{width:70px;display:inline-block;zoom:1;*display:inline;overflow:hidden;}
+.nameJustify{letter-spacing:4px;}
+.IB{display:inline-block;zoom:1;*display:inline;}
+/*.adressInfo input,.adressInfo select{border:1px solid #ececec;height:22px;line-height:22px;}*/
+.adressInfo .adressInput{width:330px;}
+.adressInfo .selectInput{border:1px solid #ffbbc6;}
+.popUpLeft{margin-left:6px;/*padding-left:14px;*/height:22px;line-height:22px;background:url(../images/andyzhou/flow_check.png) left -70px no-repeat;display:inline-block;zoom:1;*display:inline;}
+.popUpRight{/*padding:0 6px;*/background:url(../images/andyzhou/flow_check.png) right -70px no-repeat;}
+.textLeftSpace{margin-left:8px;}
+.inputBox{cursor:pointer;overflow:auto;padding:15px 0;}
+.inputLeft{padding-left:16px;height:34px;line-height:34px;background:url(../images/andyzhou/flow_check.png) left -34px no-repeat ;}
+.inputRight{padding-right:16px;height:34px;line-height:34px;border:none;margin:0;color:#fff;font-size:14px;text-align:center;background:url(../images/andyzhou/flow_check.png) right -34px no-repeat ;}
+
+.gray{color:#c0c0c0;}
+.bankList{padding: 0 10px  10px 26px;overflow:auto;}
+.bankList li{float:left;padding:16px 0 0 10px;}
+.bankList img{margin:0 20px 0 6px;}
+.payBox{border:1px solid #999;border-width:1px 0;margin:10px 0;padding:8px;overflow:auto;}
+.flwoTable{border:none;text-align:center;width:100%;}
+.flwoTable thead{background:#f4f4f4;}
+.flwoTable th,.flwoTable td{height:28px; line-height:28px;text-align: center;}
+.payBox .backCart{margin-left:14px;width:160px;color:#1f3d99;}
+.bigFont{font-size:17px;}
+.bigPrice{font-size:38px;}
+.surePrice{color:red;padding:14px 0 4px 0;}
+.finalSubmit{background:red;width:168px;height:51px;border:none;font-size: 26px;color:white}
+.fianlP input,.fianlP span{vertical-align:middle;}
+
+/*check Done  create by Andyzhou 2013 April 1*/
+.checkDoneTitle{font-size: 20px;font-weight: bold;color: #f62345;padding: 0 0 20px 0;text-align: center;}
+.flowTableB{width: 760px;border: 1px solid #ccc;text-align: center;}
+.flowTableB thead{background: #f3f3f3;}
+.flowTableB th,.flowTableB td{border:1px solid #ccc;border-width: 0 1px 1px 0;height: 24px;vertical-align:middle; }
+.tipsF{width: 680px;margin: 40px auto;}
+.tipsFT{background: #fffde1;border: 1px solid #ffe1b9;padding: 10px;line-height: 22px;}
+.checkBtn{width: 110px;font: 400 16px/22px 'Microsoft YaHei',SimHei,sans-serif;height: 22px;color: #1f3d99;border-right: 1px solid #ccc;text-align: center;margin: 20px 0 0 0;cursor: pointer;display: inline-block;zoom: 1;*display: inline;}
+
