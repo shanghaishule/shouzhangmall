@@ -112,21 +112,6 @@
 						<?php else : ?>
 						<div class="btn-group">
 							<div class="btn-group">
-								<!--
-								<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
-									购买数量：<span id="buy-num">1</span>
-									<span class="caret">
-									</span>
-								</button>
-								<ul class="dropdown-menu" role="menu">
-									<?php do { $i++; ?>
-									<li>
-										<a href="javascript:;">
-											<?php echo $i; ?>
-										</a>
-									</li>
-									<?php } while ($i < 10); ?>
-								</ul>-->
 							<ul id="allqty" style="font-size:12px; font-color:#999;">
 		                    <li style="margin-right:10px;margin-top:10px;padding-bottom:5px;padding-left:5px;color:#3e4245">购买数量:</li>
 		                    <li style="margin-top:5px;margin-left:5px;padding-bottom:5px">
@@ -138,7 +123,7 @@
                     </ul>
 							</div>
 							<button type="submit" class="btn btn-warning add-cart">
-								<i class="glyphicon glyphicon-plus"></i> 加入购物车
+								<!-- -<i class="glyphicon glyphicon-plus"></i> --> 立即购买
 							</button>
 						</div>
 						<?php endif; ?>
@@ -192,61 +177,6 @@
 		</div>
 	</div>
 	<div class="home-main">
-		<div class="row mb-20">
-			<div class="col-sm-12" id="post-list-default">
-				<h4 class="title mb-10">
-					<i class="icon-globe"></i> 相关话题
-					<a class="pull-right" href="<?php echo U('post/group/single?id='.$val['id']); ?>">
-						<i class="icon-angle-right"></i>
-					</a>
-				</h4>
-				<?php 
-				$condition['type'] = 'publish';
-		        $args_id = M('meta')->where("meta_key='group' AND meta_value='".$val['id']."'")->getField('page_id',true);
-		        $condition['id']  = array('in',$args_id);
-			    $page_group = M('page')->where($condition)->order('date desc')->limit(0,5)->select();
-				if($page_group) :
-				?>
-				<ul class="list-group mb-0">
-				<?php foreach($page_group as $val_group) : ?>
-				<li class="list-group-item" id="mc-page-<?php echo $val_group['id']; ?>">
-					<div class="row">
-						<div class="col-sm-6 col-md-7 col-lg-8">
-							<div class="media">
-								<?php $author_group = mc_get_meta($val_group['id'],'author',true); ?>
-								<a class="pull-left img-div" href="<?php echo mc_get_url($author_group); ?>">
-									<img width="40" class="media-object" src="<?php echo mc_user_avatar($author_group); ?>" alt="<?php echo mc_user_display_name($author_group); ?>">
-								</a>
-								<div class="media-body">
-									<h4 class="media-heading">
-										<a href="<?php echo mc_get_url($val_group['id']); ?>"><?php echo $val_group['title']; ?></a>
-									</h4>
-									<p class="post-info">
-										<i class="glyphicon glyphicon-user"></i><a href="<?php echo mc_get_url($author_group); ?>"><?php echo mc_user_display_name($author_group); ?></a>
-										<i class="glyphicon glyphicon-time"></i><?php echo date('Y-m-d H:i:s',$val_group['date']); ?>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-5 col-lg-4 text-right">
-							<ul class="list-inline">
-							<?php if(mc_last_comment_user($val_group['id'])) : ?>
-							<li>最后：<?php echo mc_user_display_name(mc_last_comment_user($val_group['id'])); ?></li>
-							<?php endif; ?>
-							<li>点击：<?php echo mc_views_count($val_group['id']); ?></li>
-							</ul>
-						</div>
-					</div>
-				</li>
-				<?php endforeach; ?>
-				</ul>
-				<?php else : ?>
-				<div id="nothing">
-					没有任何相关话题！<a rel="nofollow" href="<?php echo U('post/group/single?id='.$val['id']); ?>">发表新话题</a>
-				</div>
-				<?php endif; ?>
-			</div>
-		</div>
 		<h4 class="title mb-0">
 			<i class="icon-comments"></i> 商品评论
 		</h4>

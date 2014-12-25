@@ -87,11 +87,11 @@ hr {border-color: #f3f6f9;}
 .animated {transition:top 0.5s;-moz-transition:top 0.5s;-webkit-transition:top 0.5s;-o-transition:top 0.5s;}
 .animated.slideDown {top:0px;}
 .animated.slideUp {top:-107px;}
-#topnav .navbar-brand {width: 161px; height: 45px;/* background-image: url(img/logo-s.png); */background:#c47002;background-repeat: no-repeat; background-position:left center; margin-left: 0; /*opacity: 0.9; filter: alpha(opacity=90);*/font-size:14px;color:#fff;}
+#topnav .navbar-brand {width: 120px; height: 45px;/* background-image: url(img/logo-s.png); */background:#c47002;background-repeat: no-repeat; background-position:left center; margin-left: 0; /*opacity: 0.9; filter: alpha(opacity=90);*/font-size:14px;color:#fff;}
 #topnav .navbar-nav:first-child {margin-left:0;}
 #topnav .navbar-collapse {padding-left: 0; padding-right: 0;background:#df8918;}
 #topnav .navbar-toggle {border: 0; background-color: #9fa3a7;}
-#topnav .navbar-nav > li > a {color: #fff; font-weight: 700; line-height: 25px; height: 45px;}
+#topnav .navbar-nav > li > a {color: #fff; line-height: 25px; height: 45px;}
 #topnav .navbar-nav > li > a:hover { background-color:#dea150; }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {background-color: #dea150;}
 .dropdown-menu {border: 1px solid #e3e3e3;-webkit-box-shadow: none;box-shadow: none;}
