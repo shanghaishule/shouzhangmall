@@ -10,4 +10,5 @@ return array(
 	'DB_CHARSET' => 'utf8', //数据库编码
 	'ADMIN_LOGIN' => 'admin', //创始人账号
 	'ADMIN_PASS' => '123456', //创始人密码
-); ?>
+);
+ ?>
