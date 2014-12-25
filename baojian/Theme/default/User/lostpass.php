@@ -54,7 +54,7 @@ a:hover {color: #3f484f;}
 <div class="container" id="login">
 	<div class="text-center login-head">
 		<a href="<?php echo mc_site_url(); ?>"><img src="<?php echo mc_theme_url(); ?>/img/logo.png"></a>
-		<h1>一个帐号，玩转本站所有服务！</h1>
+		<h1>专业让健康更简单！</h1>
 		<p><?php echo mc_option('site_name'); ?></p>
 	</div>
 	<div class="row">
@@ -77,8 +77,9 @@ a:hover {color: #3f484f;}
 		</div>
 	</div>
 	<div class="text-center login-foot">
-		<p>Copyright <?php echo date('Y'); ?> <?php echo mc_option('site_name'); ?></p>
-		由<a href="http://www.mao10.com/">Mao10CMS</a>强力驱动</p>
+	 <!--<p>Copyright <?php echo date('Y'); ?> <?php echo mc_option('site_name'); ?></p>- -->
+	   <p>Copyright 2009 - 2014 <a href="http://www.hajk.com.cn">www.hajk.com.cn</a> All rights reserved ( 沪ICP备14044077号-2 )</p>
+	   <p>沪爱健康管理有限公司</p>
 	</div>
 </body>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

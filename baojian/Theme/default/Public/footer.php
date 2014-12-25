@@ -1,7 +1,7 @@
 <footer>
     <img src="<?php echo mc_theme_url(); ?>/img/btm.png" width="980px" />
 	<div class="footer">
-	   <p>Copyright 2009 - 2014 <a href="http://www.hajk.com.cn">www.hajk.com.cn</a> All rights reserved</p>
+	   <p>Copyright 2009 - 2014 <a href="http://www.hajk.com.cn">www.hajk.com.cn</a> All rights reserved ( 沪ICP备14044077号-2 )</p>
 	   <p>沪爱健康管理有限公司</p>
 	</div>
 </footer>

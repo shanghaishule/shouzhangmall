@@ -89,7 +89,7 @@ a:hover {color: #3f484f;}
 	</div>
 	<div class="text-center login-foot">
 	   <!--<p>Copyright <?php echo date('Y'); ?> <?php echo mc_option('site_name'); ?></p>-->
-	   <p>Copyright 2009 - 2014 <a href="http://www.hajk.com.cn">www.hajk.com.cn</a> All rights reserved</p>
+	   <p>Copyright 2009 - 2014 <a href="http://www.hajk.com.cn">www.hajk.com.cn</a> All rights reserved ( 沪ICP备14044077号-2 )</p>
 	   <p>沪爱健康管理有限公司</p>
 	</div>
 </body>
