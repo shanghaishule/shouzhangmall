@@ -4,6 +4,7 @@
 <title><?php echo mc_title(); ?></title>
 <?php echo mc_seo(); ?>
 <meta name="renderer" content="webkit">
+<meta property="qc:admins" content="03351025176012251446375" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="<?php echo mc_site_url(); ?>/favicon.ico" mce_href="<?php echo mc_site_url(); ?>/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="<?php echo mc_site_url(); ?>/favicon.ico" mce_href="<?php echo mc_site_url(); ?>/favicon.ico" type="image/x-icon">
