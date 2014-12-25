@@ -1,0 +1,46 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="o-search">
+    <div class="allsort">
+        <div class="mc">
+          <volist name="homeCato" id="cat" mod="2" key="i">
+          <if condition="$i lt 13">
+            <div class="item<if condition='$i eq 1'> fore</if>" onMouseOver="this.className='item<if condition=' $i eq 1'> fore</if> hover'" onMouseOut="this.className='item<if condition=' $i eq 1'> fore</if>'">
+                <span>
+                    <h3>
+                        <a href="{$cat.url}">{$cat.name}</a>	
+						 <div class="childcat">
+						 <volist name="$cat.id" id="child" key="k">
+						 {$child.name}
+					 <if condition="$k lt 4">
+					  <a href="{$child.url}" title="{$child.name}">{$child.name}</a>
+					 </if>
+					  </volist> 
+					  </div>
+                    </h3>
+                     <s></s>
+                </span>
+                <div class="i-mc" <if condition="$k lt 9">style="top:0;"<else />style="top:300px;"</if>>
+                    <div class="subitem">
+                     <volist name="$cat.id" id="child" key="s">
+                     <dl<if condition="$s eq 1"> class="fore" </if>>
+                            <dt>
+                                <a href="{$child.url}" title="{$child.name}">{$child.name}</a>
+                            </dt>
+                            <dd>
+                                <volist name="$child.id" id="childer">
+                                <em>
+                                    <a href="{$childer.url}">{$childer.name}</a>
+                                </em>
+                                </volist>
+                            </dd>
+                        </dl>
+                   </volist>          
+                    </div>
+                </div>
+            </div>
+            </if>
+            </volist>
+        </div>
+    </div>
+    </div>
+<div class="clear"></div>

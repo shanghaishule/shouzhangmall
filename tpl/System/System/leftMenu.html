@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首长保健商城-{$title}</title>
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" type="text/css" media="screen" />
+
+<!--                       Javascripts                       -->
+<!-- jQuery -->
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/admin.js"></script>
+<base target="mainFrame" />
+</head>
+<body>
+<div class="welc">欢迎您，<span class="red">{$Think.session.username}</span></div>
+<table cellpadding="0" cellspacing="0" width="188" height="100%">
+<tbody>
+<tr>
+<td id="bar" class="bar" valign="top" align="center">
+	 沪爱健康-首长保健商城-后台管理
+</td>
+<td valign="top" class="barmain">
+<div class="bartop">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr height="20">
+<td width="5"></td>
+<td id="name">商城面板</td>
+<td width="60" align="right">
+<a href="/index.php" target="_blank"><img src="__PUBLIC__/images/home.gif" width="8" height="8" title="网站首页"></a>&nbsp;
+<a href="{:U('System/index')}" target="_top"><img src="__PUBLIC__/images/reload.gif" width="8" height="8" title="刷新(返回后台起始页)"></a>&nbsp;
+<a href="{:U('Admin/logout')}" target="_top" onclick="if(!confirm('确实要注销登录吗?')) return false;"><img src="__PUBLIC__/images/quit.gif" width="8" height="8" title="注销登录"></a>
+</td>
+<td width="5"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="menu">
+	<dl>
+		<dt onclick="s(this)" onmouseover="this.className='dt_on';" onmouseout="this.className='';" class="">订单管理</dt>
+		<dd onclick="c(this);" style="display:none;"><a href="{:U('Item/index')}">订单信息</a></dd>
+	</dl>
+
+	</div>
+</td>
+</tr>
+</tbody>
+</table>
+<script>
+$(function(){
+	$('dd').css('display','none');
+});
+</script>
+<script type="text/javascript">
+function c(o) {
+	var dds = Dd('menu').getElementsByTagName('dd');
+	for(var i=0;i<dds.length;i++) {
+		dds[i].className = dds[i] == o ? 'dd_on' : '';
+		if(dds[i] == o) o.firstChild.blur();
+	}
+}
+function s(o) {
+	var dds = o.parentNode.getElementsByTagName('dd');
+	for(var i=0;i<dds.length;i++) {
+		dds[i].style.display = dds[i].style.display == 'none' ? '' : 'none';
+	}
+}
+function h(o) {
+	var dds = o.parentNode.getElementsByTagName('dd');
+	for(var i=0;i<dds.length;i++) {
+		dds[i].style.display = 'none';
+	}
+}
+function m(ID) {
+	var dls = Dd('m_3').getElementsByTagName('dl');
+	for(var i=0;i<dls.length;i++) {
+		var dds = Dd(dls[i].id).getElementsByTagName('dd');
+		for(var j=0;j<dds.length;j++) {
+			dds[j].style.display = dls[i].id == 'dl_'+ID ? dds[j].style.display == 'none' ? '' : 'none' : 'none';
+		}
+	}
+}
+</script>
+</body>
+</html> 

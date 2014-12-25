@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"> 
+<title>温州电商</title>
+<link rel="stylesheet" type="text/css" href="{:RES}/css/root.css">
+</head>
+
+<body class="w1200">
+<script type="text/javascript">
+var isWidescreen=screen.width>=1280;
+if (isWidescreen){document.getElementsByTagName("body")[0].className="w1200";}
+</script>
+<div class="topNav">
+<div class="block">
+<div class="f_l" style="padding-left:5px;">
+<a style="cursor: pointer" onclick="window.external.AddFavorite(location.href,document.title);">收藏本站</a> 
+</div>
+<div class="f_r">
+  <script type="text/javascript" src="{:RES}/js/utils.js"></script>   <font id="ECS_MEMBERZONE">
+
+
+<span>您好，</span><span class="f4_b" style=" color:#c00">user</span>    
+ <a href="user.php">[用户中心]</a> 
+ <a href="user.php?act=logout">[退出]</a> 
+
+
+
+ 
+ </font>
+   <div class="account" onmouseover="this.className='account account_on'" onmouseout="this.className='account'">
+   <a href="user.php" style="display:inline-block; height:28px;">我的账户</a>
+   <ul class="account-no">
+      <li><a href="user.php?act=order_list">订单中心</a></li>
+      <li><a href="user.php?act=bonus">我的红包</a></li>
+      <li><a href="user.php?act=comment_list">我的评论</a></li>
+      <li><a href="user.php?act=collection_list">我的收藏</a></li>
+      <li><a href="user.php?act=profile">用户信息</a></li>
+   </ul>
+ </div>   
+    
+    
+      
+    |
+    
+     <a href="flow.php">查看购物车</a>
+           
+           
+         
+      
+    |
+    
+     <a href="pick_out.php">选购中心</a>
+           
+           
+         
+      
+    |
+    
+     <a href="tag_cloud.php">标签云</a>
+           
+           
+         
+      
+    |
+    
+     <a href="quotation.php">报价单</a>
+           
+           
+         
+     </div>
+</div>
+</div>
+
+<div class="wrap">
+		<a href="" target="_blank" class="banner_img">
+			<img src="" width="90%" height="80">
+		</a>
+		<img src="{:RES}/images/home/shaoshao.jpg" width="80" height="80">
+</div>
+
+<div class="block clearfix">  
+      <!--<div class="logo"><a href="index.php" name="top"><img src="{:RES}/images/home/logo.jpg"></a></div>-->
+   <div class="wrap logo-c clearfix">      
+      <div class="hd_logo_area fl clearfix">
+			<a href="/" target="_blank">
+				<img src="{:RES}/images/home/logo.png">
+			</a>
+	  </div>
+	 <script type="text/javascript">
+    
+    <!--
+    function checkSearchForm()
+    {
+        if(document.getElementById('keyword').value)
+        {
+            return true;
+        }
+        else
+        {
+            alert("请输入搜索关键词！");
+            return false;
+        }
+    }
+    -->
+    
+    </script>
+	<div class="hd_head_search">
+    <div class="hd_search_form clearfix">
+        <form id="searchForm" name="searchForm" onsubmit="return checkSearchForm()" action="search.php" method="get">
+        <div class="hd_search_wrap clearfix">
+            <input id="keyword" onblur="if (value ==''){value='请输入关键词'}" style="COLOR: #999999;width:330px;" onfocus="if (value =='请输入关键词'){value =''}" maxlength="70" value="请输入关键词" class="hd_input_test" name="keywords">
+            <button class="hd_search_btn" type="submit">搜 索</button>
+        </div>
+        </form>
+    </div>
+    <p id="hotKeywordsShow">
+    <a href="search.php?keywords=%E6%9C%80%E6%A8%A1%E6%9D%BF">最模板</a><a href="search.php?keywords=%E5%BA%8A%E5%93%81%E5%A5%97%E4%BB%B6">床品套件</a><a href="search.php?keywords=%E5%BE%A1%E6%B3%A5%E5%9D%8A">御泥坊</a><a href="search.php?keywords=%E5%85%8D%E8%B4%B9%E6%9C%BA%E7%A5%A8">免费机票</a><a href="search.php?keywords=%E6%9C%8D%E8%A3%85%E7%89%B9%E5%8D%96">服装特卖</a><a href="search.php?keywords=%E5%AE%9D%E5%AE%9D%E6%9C%8D%E9%A5%B0">宝宝服饰</a><a href="search.php?keywords=%E7%A7%BB%E5%8A%A8%E7%94%B5%E6%BA%90">移动电源</a>    </p>
+    </div>
+
+   <div class="hd_prism_wrap clearfix">
+			<div class="myshop clearfix">
+				<a href="">
+					<span></span>
+					<strong>我的商城</strong>
+				</a>
+			</div>
+			<div class="hd_prism_cart out" onmouseover="this.className='hd_prism_cart on'" onmouseout="this.className='hd_prism_cart out'">
+				<a href="flow.php">
+					<span></span>
+					<strong>购物车结算</strong>
+					<span class="prism_cart_S"></span>
+				</a>
+            </div>
+	</div>
+    </div>
+</div>
+
+<div class="content"><!-- content start -->
+	<div class="hd_header_nav ">
+		<div class="wrap clearfix">
+			<div class="allSortOuterbox">
+				<div class="hd_all_sort_link fl">
+					<a class="fl allgoods" href="#">所有商品分类</a>
+				</div>
+			</div>
+			<div class="headerNavWrap">
+				<ul id="wideScreenTabShowID" class="headerNavMain clearfix">
+				 <volist name="imenu" id="imenu">
+				    <li style="z-index:799">
+						<a href="{$imenu.url}">{$imenu.name}</a>
+					</li>
+				 </volist>	
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="layout_main">
+		<div class="layout_wrap">
+			<div class="layout_col_a clearfix">
+				<div class="mod_promo_nav">
+					<div class="allsort">
+						<div class="mc AreaiL">
+							<!-- 下拉菜单 -->
+								<include file="Public:menu"/>
+							<!-- 下拉结束  -->	
+						</div>
+					</div>
+				</div>
+				<div class="mod_promo_show">
+					<div id="container"><!-- scroll start -->
+						<div id="example">
+							<div id="slides">
+								<div class="slides_container">
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-1.jpg" width="710" height="275" alt="Slide 1"></a>
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-2.jpg" width="710" height="275" alt="Slide 2"></a>
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-3.jpg" width="710" height="275" alt="Slide 3"></a>
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-4.jpg" width="710" height="275" alt="Slide 4"></a>
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-5.jpg" width="710" height="275" alt="Slide 5"></a>
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-6.jpg" width="710" height="275" alt="Slide 6"></a>
+									<a href="#" title="#" target="_blank"><img src="{:RES}/images/home/img/slide-7.jpg" width="710" height="275" alt="Slide 7"></a>
+								</div>
+								<a class="prev" style="display:none;"></a>
+								<a class="next" style="display:none;"></a>
+							</div>
+						</div>
+					</div><!-- scroll end -->
+					<div class="mini_promo clearfix">
+						<a href="" target="_blank"><img src=""/></a>
+						<a href="" target="_blank"><img src=""/></a>
+						<a href="" target="_blank"><img src=""/></a>
+					</div>
+				</div>
+			</div>
+			<div class="layout_col_b clearfix">
+				<a href="" target="_blank"><img src="" width="100%" height="" /></a>
+				<a href="" target="_blank"><img src="" width="100%" height="" /></a>
+				<a href="" target="_blank"><img src="" width="100%" height="" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="scroll_c clearfix">
+		<div class="scroll_left float_l">
+			<div class="scroll_left_tab">
+				<ul class="clearfix">
+					<li  model_value="0">
+						<a href="" target="_blank" class="hover">爆品抢购</a>
+						<span class="tab_s" style="display:block;"></span>
+					</li>
+					<li model_value="1">
+						<a href="" target="_blank">猜你喜欢</a>
+						<span class="tab_s" style="display:none;"></span>
+					</li>
+					<li model_value="2">
+						<a href="" target="_blank">新品速递</a>
+						<span class="tab_s" style="display:none;"></span>
+					</li>
+					<li model_value="3">
+						<a href="" target="_blank">好评单品</a>
+						<span class="tab_s" style="display:none;"></span>
+					</li>
+					<li model_value="4">
+						<a href="" target="_blank">天天低价</a>
+						<span class="tab_s" style="display:none;"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="scroll_left_c">
+				<ul class="clearfix" style="block">
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="li_box">
+							<a class="pro_img" target="_blank" title="" href="#">
+								<img src="{:RES}/images/home/img/img01.jpg">
+							</a>
+							<a class="pro_name" target="_blank" title="" href="#"> ASDA 艾思达 全脂牛奶 1L*6 英国进口 </a>
+							<p class="tl">
+								<span>¥69</span>
+								<del>¥108</del>
+							</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>2</li>
+				</ul>
+				<ul>
+					<li>3</li>
+				</ul>
+				<ul>
+					<li>4</li>
+				</ul>
+				<ul>
+					<li>5</li>
+				</ul>
+			</div>
+		</div>
+		<div class="scroll_right float_l">
+			<h4>你选预售</h4>
+			<div class="scroll_right_line"></div>
+			<img src="{:RES}/images/home/img/index-g-right.jpg" width="260" />
+			<img src="{:RES}/images/home/img/index-g-right.jpg" width="260" />
+		</div>
+	</div>
+	<div class="content_banner">
+		<img src="" />
+	</div>
+	<div class="mod_index_floor clearfix"><!-- index_floor1 start -->
+		<h2>
+			<img src="{:RES}/images/home/index-title-1.jpg" />
+		</h2>
+		<div class="left_module float_l">
+			<ul class="clearfix">
+				<li>
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li class="">
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<img src="{:RES}/images/home/img/index-nav.jpg" width="100%" height="280" />
+		</div>
+		<div class="right_module float_l">
+			<div class="mid_big_img clearfix">
+				<a href="#" target="_blank" class="small_img">
+					<img src="" width="395" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+			</div>
+			<div class="mid_small_img clearfix">
+				<a href="#" target="_blank">
+					<img src="" width="199" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="196" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+			</div>
+		</div>
+	</div><!-- index_floor1 end -->
+	<div class="mod_index_floor clearfix"><!-- index_floor2 start -->
+		<h2>
+			<img src="{:RES}/images/home/index-title-2.jpg">
+		</h2>
+		<div class="left_module float_l">
+			<ul class="clearfix">
+				<li>
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li class="">
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<img src="{:RES}/images/home/img/index-nav.jpg" width="100%" height="280" />
+		</div>
+		<div class="right_module float_l">
+			<div class="mid_big_img clearfix">
+				<a href="#" target="_blank" class="small_img">
+					<img src="" width="395" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+			</div>
+			<div class="mid_small_img clearfix">
+				<a href="#" target="_blank">
+					<img src="" width="199" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="196" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+			</div>
+		</div>
+	</div><!-- index_floor2 end -->
+	<div class="mod_index_floor clearfix"><!-- index_floor3 start -->
+		<h2>
+			<img src="{:RES}/images/home/index-title-3.jpg">
+		</h2>
+		<div class="left_module float_l">
+			<ul class="clearfix">
+				<li>
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li class="">
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<img src="{:RES}/images/home/img/index-nav.jpg" width="100%" height="280" />
+		</div>
+		<div class="right_module float_l">
+			<div class="mid_big_img clearfix">
+				<a href="#" target="_blank" class="small_img">
+					<img src="" width="395" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+			</div>
+			<div class="mid_small_img clearfix">
+				<a href="#" target="_blank">
+					<img src="" width="199" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="196" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+			</div>
+		</div>
+	</div><!-- index_floor3 end -->
+	<div class="mod_index_floor clearfix"><!-- index_floor4 start -->
+		<h2>
+			<img src="{:RES}/images/home/index-title-4.jpg">
+		</h2>
+		<div class="left_module float_l">
+			<ul class="clearfix">
+				<li>
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li class="">
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<img src="{:RES}/images/home/img/index-nav.jpg" width="100%" height="280" />
+		</div>
+		<div class="right_module float_l">
+			<div class="mid_big_img clearfix">
+				<a href="#" target="_blank" class="small_img">
+					<img src="" width="395" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+			</div>
+			<div class="mid_small_img clearfix">
+				<a href="#" target="_blank">
+					<img src="" width="199" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="196" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+			</div>
+		</div>
+	</div><!-- index_floor4 end -->
+	<div class="mod_index_floor clearfix"><!-- index_floor5 start -->
+		<h2>
+			<img src="{:RES}/images/home/index-title-5.jpg">
+		</h2>
+		<div class="left_module float_l">
+			<ul class="clearfix">
+				<li>
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li class="">
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<img src="{:RES}/images/home/img/index-nav.jpg" width="100%" height="280" />
+		</div>
+		<div class="right_module float_l">
+			<div class="mid_big_img clearfix">
+				<a href="#" target="_blank" class="small_img">
+					<img src="" width="395" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+			</div>
+			<div class="mid_small_img clearfix">
+				<a href="#" target="_blank">
+					<img src="" width="199" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="196" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+			</div>
+		</div>
+	</div><!-- index_floor5 end -->
+	<div class="mod_index_floor clearfix"><!-- index_floor6 start -->
+		<h2>
+			<img src="{:RES}/images/home/index-title-6.jpg">
+		</h2>
+		<div class="left_module float_l">
+			<ul class="clearfix">
+				<li>
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li class="">
+					<a href="" target="_blank"><strong>手机通讯</strong></a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+				<li>
+					<a href="" target="_blank">手机通讯</a>
+				</li>
+			</ul>
+			<img src="{:RES}/images/home/img/index-nav.jpg" width="100%" height="280" />
+		</div>
+		<div class="right_module float_l">
+			<div class="mid_big_img clearfix">
+				<a href="#" target="_blank" class="small_img">
+					<img src="" width="395" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="280" />
+				</a>
+			</div>
+			<div class="mid_small_img clearfix">
+				<a href="#" target="_blank">
+					<img src="" width="199" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="196" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+				<a href="#" target="_blank">
+					<img src="" width="195" height="150" />
+				</a>
+			</div>
+		</div>
+	</div><!-- index_floor6 end -->
+	<div class="content_banner">
+		<img src="" />
+	</div>
+</div><!-- content start -->
+{$footer['content']}
+<script type="text/javascript" src="{:RES}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{:RES}/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="{:RES}/js/public.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#slides').slides({
+			preload: true,
+			preloadImage: 'images/loading.gif',
+			play: 5000,
+			pause: 2500,
+			hoverPause: true
+		});
+
+		//鼠标移上背景图片上面时左右点击按钮出现
+		$('.slides_container').hover(function(){
+			$('.prev').stop().show();
+			$('.next').stop().show();
+			$('.prev').hover(function(){
+				$('.prev').stop().show();
+				$('.next').stop().show();
+			});
+			$('.next').hover(function(){
+				$('.prev').stop().show();
+				$('.next').stop().show();
+			});
+		},function(){
+			$('.prev').stop().hide();
+			$('.next').stop().hide();
+		});
+
+		// here is index scroll
+		$(".scroll_left_c ul").css({'display':'none'});
+	    $(".scroll_left_c ul").eq(0).css({'display':'block'});
+		$('.scroll_left_tab ul li').hover(function(){
+			$('.scroll_left_tab ul li').find('.tab_s').hide();
+			$('.scroll_left_tab ul li').find('a').removeClass('hover');
+			$(this).find('.tab_s').show();
+			$(this).find('a').addClass('hover');
+			setCityIndex1($(this).attr("model_value"));
+		});
+		//index hover tab
+		function setCityIndex1(val){
+		        var current = val;
+		        var panel = $('#dealer' + current);
+		        $(".scroll_left_c ul").hide().eq(current).show();
+		    }
+		//home selected
+		$("#wideScreenTabShowID li:first").addClass('cur');
+	});
+</script>
+</body>
+</html>

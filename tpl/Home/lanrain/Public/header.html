@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<meta name="keywords" content="红棉良医">
+<meta name="description" content="">
+<title>红棉良医-{$title}</title>
+<link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico">
+<link rel="apple-touch-icon" href="__PUBLIC__/images/touchicon.png">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main.css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery.featureList-1.0.0.js"></script>
+<!--[if lt IE 9]> 
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+<![endif]-->
+<script type="text/javascript">
+function addFavorite(title,url){
+           try {
+			window.external.addFavorite(url, title); 
+			 }catch (e) { 
+			       try {  
+						window.sidebar.addPanel(title, url, ""); 
+                       } 
+			       catch(e) {   
+							alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+					  }   
+              } 
+}
+</script>
+
+</head>
+<body>
+	<header id="header">
+		<div id="site-nav">
+			<div class="sn-bd clearfix">
+				<p id="login-info">
+					<a href="javascript:void(0)" onclick="addFavorite(document.title,location.href)"><em>收藏</em></a> |
+					<span>您好，欢迎[{$Think.session.uname}]来到红棉良医！</span>&nbsp;&nbsp;<span><a href="{:U('Index/logout')}">登出</a></span>
+				</p>
+				<ul id="sn-quick-menu" class="clearfix">
+					<li class="sn-myDr clearfix">
+						<a href="{:U('Index/Individualcenter')}">我的红棉良医</a>
+						<i class="mui-global-iconfont"></i>
+					</li>
+					<li class="sn-mobile clearfix">
+						<i class="mui-global-iconphone"></i>
+						<a href="{:U('Index/download')}">移动端下载</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="headerLayout">
+			<div class="headerLayou-c clearfix">
+				<div id="logo">
+					<a href="index.html">
+						<img src="__PUBLIC__/images/logo.jpg">
+					</a>
+				</div>
+				<div class="search">
+					<form>
+						<div class="search-c">
+							<input type="text" class="txt-search" />
+							<button class="btn-search">问医生</button>
+							<label class="lab-search">向红棉良医提问...</label>
+						</div>
+					</form>
+				</div>
+				<div class="login-info-btn">
+					<div class="btn-login h_opacity">
+						<a href="{:U('Index/register')}" class="a_block h_opacity"></a>
+					</div>
+					<div class="btn-register h_opacity">
+						<a href="{:U('Index/login')}" class="a_block h_opacity"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav id="nav">
+			<div class="nav-c">
+				<ul class="clearfix">
+				   <volist name="imenu" id="vo">
+					<li class="clearfix">
+						<a href="{$vo.url}">{$vo.name}</a>
+						<span class="nav-line"></span>
+					</li>
+				   </volist>	
+				</ul>
+			</div>
+		</nav>
+	</header>
