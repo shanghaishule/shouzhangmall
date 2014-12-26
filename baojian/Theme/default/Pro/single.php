@@ -141,7 +141,6 @@
 							$('#pro-single-form').attr('action','<?php echo U('publish/index/add_post?group='.$val['id'].'&wish=1'); ?>');
 						});
 					</script>
-					
 					<input id="buy-num-input" type="hidden" name="number" value="1">
 					<input type="hidden" value="<?php echo $val['id']; ?>" name="id">
 					</form>
