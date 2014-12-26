@@ -149,6 +149,7 @@ class AlipayController extends Controller {
 					};
                     $mobaddrname= I('param.buyer_name')."(".I('param.buyer_phone').")";
                     $mobaddr = I('param.buyer_province').I('param.buyer_city').I('param.buyer_address');
+                    
                     //给下单人员和商家发送短信通知
                     $this->PHPSMS(I('param.buyer_phone'), I('param.buyer_phone'),rtrim($item, '、'),$sumPrice,$mobaddrname,$mobaddr);
                     $this->PHPSMS('15214328120', I('param.buyer_phone'),rtrim($item, '、'),$sumPrice,$mobaddrname,$mobaddr);
