@@ -147,6 +147,7 @@ class AlipayController extends Controller {
 					if(I('param.buyer_phone')) {
 						mc_add_meta($id,'buyer_phone',I('param.buyer_phone'),'user');
 					};
+					
                     $mobaddrname= I('param.buyer_name')."(".I('param.buyer_phone').")";
                     $mobaddr = I('param.buyer_province').I('param.buyer_city').I('param.buyer_address');
                     
