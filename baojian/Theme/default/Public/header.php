@@ -73,7 +73,7 @@ a:hover {color: #3f484f;}
 					<span class="icon-bar">
 					</span>
 				</button>
-				<a <?php if(mc_option('logo')) echo 'style="background-image:url('.mc_option('logo').');"'; ?> class="navbar-brand" href="<?php echo mc_option('site_url'); ?>">首长保健商城</a>
+				<a <?php if(mc_option('logo')) echo 'style="background-image:url('.mc_option('logo').');"'; ?> class="navbar-brand" href="<?php echo mc_option('site_url'); ?>">沪爱商城</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-top-navbar-collapse">
 				<ul class="nav navbar-nav" id="bs-top-navbar-nav">
