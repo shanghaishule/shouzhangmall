@@ -1,2 +1,2 @@
 <?php die('forbidden'); ?>
-{"appid":"101180911","appkey":"578e562a4f8b403a3d41fab18ac77f34","callback":"http://www.81bjmall.com/connect-qq/oauth/index.php","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"3283d22365","database":"shouzhangmall"}
+{"appid":"101180911","appkey":"578e562a4f8b403a3d41fab18ac77f34","callback":"http://www.81bjmall.com/connect-qq/oauth/callback.php","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"3283d22365","database":"shouzhangmall"}
