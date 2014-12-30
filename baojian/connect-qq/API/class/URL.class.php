@@ -45,7 +45,7 @@ class URL{
      * @return string           请求返回的内容
      */
     public function get_contents($url){
-        if (ini_get("allow_url_fopen") == "1") {
+        if (ini_get("allow_url_fopen") == "0") {
             $response = file_get_contents($url);
         }else{
             $ch = curl_init();
