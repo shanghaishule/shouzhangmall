@@ -1,11 +1,11 @@
 <?php
 require_once("./connect-qq/API/qqConnectAPI.php");
+echo '111';die;
 $qc = new QC();
 $acs = $qc->qq_callback();
 $oid = $qc->get_openid();
 $qc = new QC($acs,$oid);
 $uinfo = $qc->get_user_info();
-echo '111';die;
 $page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
 if($page_id){
 	$user_name = mc_get_meta($page_id,'user_name',true,'user');
