@@ -17,6 +17,7 @@ function mc_check_user_name($name) {
 		return false;
 	}
 }
+
 if($page_id){
 	$user_name = mc_get_meta($page_id,'user_name',true,'user');
 	$user_pass_true = mc_get_meta($page_id,'user_pass',true,'user');
