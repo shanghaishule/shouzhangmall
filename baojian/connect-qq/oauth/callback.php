@@ -44,3 +44,4 @@ if($page_id){
 		$this->error('登陆失败');
     }
 }
+?>
