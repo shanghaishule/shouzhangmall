@@ -1,5 +1,5 @@
 <?php
-//require_once("./connect-qq/API/qqConnectAPI.php");
+require_once("./connect-qq/API/qqConnectAPI.php");
 echo '111';die;
 /*
 $qc = new QC();
