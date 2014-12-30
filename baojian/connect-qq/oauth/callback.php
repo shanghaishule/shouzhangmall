@@ -6,7 +6,7 @@ $acs = $qc->qq_callback();
 
 $oid = $qc->get_openid();
 $qc = new QC($acs,$oid);
-$uinfo = $qc->get_user_info();
+//$uinfo = $qc->get_user_info();
 
 $page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
 if($page_id){
@@ -28,7 +28,7 @@ if($page_id){
 		$user_name_test = $oid.rand(1000,9999);
 	}
 	while (mc_check_user_name($user_name_test));
-	$user['title'] = $uinfo["nickname"];
+	//$user['title'] = $uinfo["nickname"];
 	$user['content'] = '';
 	$user['type'] = 'user';
 	$user['date'] = strtotime("now");
