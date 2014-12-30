@@ -7,17 +7,7 @@ $acs = $qc->qq_callback();
 $oid = $qc->get_openid();
 $qc = new QC($acs,$oid);
 $uinfo = $qc->get_user_info();
-$page_id = null;
-//$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
-function mc_check_user_name($name) {
-	$user_login = M('meta')->where("meta_key='user_login' AND type ='user'")->getField('meta_value',true);
-	if(in_array($name, $user_login)){
-		return true;
-	}else{
-		return false;
-	}
-}
-
+$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
 if($page_id){
 	$user_name = mc_get_meta($page_id,'user_name',true,'user');
 	$user_pass_true = mc_get_meta($page_id,'user_pass',true,'user');
