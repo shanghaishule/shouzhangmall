@@ -1,6 +1,5 @@
 <?php
 require_once("../API/qqConnectAPI.php");
-
 $qc = new QC();
 /*
 $acs = $qc->qq_callback();
