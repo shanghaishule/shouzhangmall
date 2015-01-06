@@ -7,7 +7,7 @@ $acs = $qc->qq_callback();
 $oid = $qc->get_openid();
 $qc = new QC($acs,$oid);
 $uinfo = $qc->get_user_info();
-var_dump();exit;
+var_dump($uinfo);
 
 /*
 $page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
