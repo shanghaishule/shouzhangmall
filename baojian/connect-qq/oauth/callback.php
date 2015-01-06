@@ -18,11 +18,11 @@ if($pageid) {
 }else {
 	function mc_check_user_name($name) {
 		$user_login = callbackSearch();
-	    if(in_array($name, $user_login)) :
+	    if(in_array($name, $user_login)){
 	    	return true;
-		else :
+	    }else{
 			return false;
-	    endif;
+		}
 	}
     do {
 		$user_name_test = $oid.rand(1000,9999);
