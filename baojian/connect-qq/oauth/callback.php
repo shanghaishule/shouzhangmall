@@ -5,22 +5,25 @@ $acs = $qc->qq_callback();
 $oid = $qc->get_openid();
 $qc = new QC($acs,$oid);
 $uinfo = $qc->get_user_info();
-$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
-if($page_id) :
-	$user_name = mc_get_meta($page_id,'user_name',true,'user');
-	$user_pass_true = mc_get_meta($page_id,'user_pass',true,'user');
-	session('user_name',$user_name);
-	session('user_pass',$user_pass_true);
-	$this->success('登陆成功',U('user/index/edit?id='.mc_user_id()));
-else :
+//$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
+$pageid = getPage_id($oid);
+if($pageid) {
+	$user_name = mc_get_meta($pageid,'user_name',true,'user');
+	$user_pass_true = mc_get_meta($pageid,'user_pass',true,'user');
+	//session('user_name',$user_name);
+	//session('user_pass',$user_pass_true);
+	$_SESSION['user_name'] = $user_name;
+	$_SESSION['user_pass'] = $user_pass_true;
+	success();
+}else {
 	function mc_check_user_name($name) {
-		$user_login = M('meta')->where("meta_key='user_login' AND type ='user'")->getField('meta_value',true);
+		$user_login = callbackSearch();
 	    if(in_array($name, $user_login)) :
 	    	return true;
 		else :
 			return false;
 	    endif;
-	};
+	}
     do {
 		$user_name_test = $oid.rand(1000,9999);
 	}
@@ -29,17 +32,19 @@ else :
 	$user['content'] = '';
 	$user['type'] = 'user';
 	$user['date'] = strtotime("now");
-	$result = M("page")->data($user)->add();
-	if($result) :
+	$result = callbackAdd($user);
+	if($result){
 		mc_add_meta($result,'user_name',$user_name_test,'user');
 		$user_pass = md5($oid.mc_option('site_key'));
 		mc_add_meta($result,'user_pass',$user_pass,'user');
 		mc_add_meta($result,'user_qqoid',$oid,'user');
 		mc_add_meta($result,'user_level','1','user');
-		session('user_name',$user_name_test);
-	    session('user_pass',$user_pass);
-		$this->success('登陆成功',U('user/index/edit?id='.mc_user_id()));
-	else :
-		$this->error('登陆失败');
-	endif;
-endif;
+		//session('user_name',$user_name_test);
+	    //session('user_pass',$user_pass);
+	    $_SESSION['user_name'] = $user_name_test;
+	    $_SESSION['user_pass'] = $user_pass;
+		success();
+	}else{
+		error();
+	}
+}
