@@ -25,10 +25,10 @@ function getMeta($page_id,$meta_key,$array=true,$type='basic'){
 
 		return $res['meta_value'];
 }
-$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
+//$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
 $query = "select page_id from mc_meta where meta_key = 'user_qqoid' and meta_value = '".$oid."' and type = 'user'";
-$result =  mysql_query($query,$link);
-if($page_id = mysql_query($result)){
+$result =  mysql_query($query);
+if($page_id = mysql_fetch_array($result)){
 	$user_name = getMeta($page_id['page_id'],'user_name',true,'user');
 	$user_pass_true = getMeta($page_id['page_id'],'user_pass',true,'user');
 	//session('user_name',$user_name);
@@ -41,8 +41,8 @@ if($page_id = mysql_query($result)){
 	function mc_check_user_name($name) {
 		//$user_login = M('meta')->where("meta_key='user_login' AND type ='user'")->getField('meta_value',true);
 		$query2 = "select meta_value from mc_meta where meta_key = 'user_login' and type = 'user'";
-		$resultp =  mysql_query($query2,$link);
-		$resp = mysql_query($resultp);
+		$resultp =  mysql_query($query2);
+		$resp = mysql_fetch_array($resultp);
 	    if(in_array($name, $resp['meta_value'])){
 	    	return true;
 	    }else{
