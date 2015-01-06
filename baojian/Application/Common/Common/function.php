@@ -456,10 +456,10 @@ function callbackAdd($user){
 	return M("page")->data($user)->add();
 }
 function success(){
-	$this->success('登陆成功',U('user/index/edit?id='.mc_user_id()));
+	//success('登陆成功',U('user/index/edit?id='.mc_user_id()));
 }
 function error(){
-	$this->error('登陆失败');
+	//$this->error('登陆失败');
 }
 
 function getPage_id($oid){
