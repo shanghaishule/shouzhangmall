@@ -446,25 +446,6 @@ function mc_update_meta($page_id,$meta_key,$meta_value,$type='basic',$prev_value
 		}
 	}
 };
-
-//
-function callbackSearch(){
-	return M('meta')->where("meta_key='user_login' AND type ='user'")->getField('meta_value',true);
-}
-
-function callbackAdd($user){
-	return M("page")->data($user)->add();
-}
-function success(){
-	//success('登陆成功',U('user/index/edit?id='.mc_user_id()));
-}
-function error(){
-	//$this->error('登陆失败');
-}
-
-function getPage_id($oid){
-	return M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
-}
 //删除meta
 function mc_delete_meta($page_id,$meta_key,$type='basic',$prev_value = false) {
 	if($prev_value) {
