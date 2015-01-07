@@ -81,6 +81,7 @@ if($page_id = mysql_fetch_array($result)){
 	    //$result = M("page")->data($user)->add();
 	    $sql  = "insert into mc_page ('title','content','type','date') values('". $user['title']."','".$user['content'] ."','".$user['type']."','".$user['date']."')";
 	    $res = mysql_query($sql);
+	    mysql_close($link);
 	  if($res){
 	  	$id = mysql_insert_id();
 		
