@@ -46,12 +46,11 @@ function mc_check_user_name($name) {
 function add_meta($page_id,$meta_key,$meta_value,$type='basic') {
 		$insert = "insert into mc_meta(page_id,meta_key,meta_value,type) values('".$page_id."','".$meta_key."','".$meta_value."','".$type."')";
 		$res = mysql_query($insert);
-		return mysql_insert_id();
 }	
 
 function get_option($meta_key,$type='public') {
 	//return M('option')->where("meta_key='$meta_key' AND type='$type'")->getField('meta_value');
-	$query5 = "select meta_alue from mc_option where meta_ley ='".$meta_key."' and type = '".$type."'";
+	$query5 = "select meta_value from mc_option where meta_key ='".$meta_key."' and type = '".$type."'";
 	$res = mysql_query($query5);
 	$result =  mysql_fetch_array($res);
 	return $result['meta_value'];
@@ -83,6 +82,7 @@ if($page_id = mysql_fetch_array($result)){
 	    //$result = M("page")->data($user)->add();
 	    $sql = "insert into mc_page(title,content,type,date) values('". $user['title']."','".$user['content'] ."','".$user['type']."','".$user['date']."')";
 	    $res = mysql_query($sql,$link);
+		
 	  if($res){
 	  	$id = mysql_insert_id();
 		
@@ -94,7 +94,6 @@ if($page_id = mysql_fetch_array($result)){
 		//session('user_name',$user_name_test);
 		$_SESSION['user_name'] = $user_name_test;
 		$_SESSION['user_pass'] = $user_pass;
-
 		header("Location:/user-index-edit-id-".getUserId().".html");
 	}else{
 	    echo "登陆失败！";
