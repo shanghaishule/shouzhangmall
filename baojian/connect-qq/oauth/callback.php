@@ -44,7 +44,7 @@ function mc_check_user_name($name) {
 	}
 	
 function add_meta($page_id,$meta_key,$meta_value,$type='basic') {
-		$insert = "insert into mc_meta('page_id','meta_key','meta_value','type') values('".$page_id."','".$meta_key."','".$meta_value."','".$type."')";
+		$insert = "insert into mc_meta(page_id,meta_key,meta_value,type) values('".$page_id."','".$meta_key."','".$meta_value."','".$type."')";
 		$res = mysql_query($insert);
 		return mysql_insert_id();
 }	
@@ -59,6 +59,7 @@ function get_option($meta_key,$type='public') {
 //$page_id = M('meta')->where("meta_key='user_qqoid' AND meta_value='".$oid."' AND type='user'")->getField('page_id');
 $query = "select page_id from mc_meta where meta_key = 'user_qqoid' and meta_value = '".$oid."' and type = 'user'";
 $result =  mysql_query($query);
+
 if($page_id = mysql_fetch_array($result)){
 	$user_name = getMeta($page_id['page_id'],'user_name',true,'user');
 	$user_pass_true = getMeta($page_id['page_id'],'user_pass',true,'user');
@@ -69,6 +70,7 @@ if($page_id = mysql_fetch_array($result)){
 	//$this->success('登陆成功',U('user/index/edit?id='.getUserId()));
 	header("Location:/user-index-edit-id-".getUserId().".html");
 }else{
+
    do{
 		$user_name_test = $oid.rand(1000,9999);
 	}
@@ -79,9 +81,8 @@ if($page_id = mysql_fetch_array($result)){
 	$user['type'] = 'user';
 	$user['date'] =time();
 	    //$result = M("page")->data($user)->add();
-	    $sql  = "insert into mc_page ('title','content','type','date') values('". $user['title']."','".$user['content'] ."','".$user['type']."','".$user['date']."')";
-	    $res = mysql_query($sql);
-	    mysql_close($link);
+	    $sql = "insert into mc_page(title,content,type,date) values('". $user['title']."','".$user['content'] ."','".$user['type']."','".$user['date']."')";
+	    $res = mysql_query($sql,$link);
 	  if($res){
 	  	$id = mysql_insert_id();
 		
@@ -96,7 +97,8 @@ if($page_id = mysql_fetch_array($result)){
 
 		header("Location:/user-index-edit-id-".getUserId().".html");
 	}else{
-		$this->error('登陆失败');
+	    echo "登陆失败！";
+		header("Location:/");
     }
 }
 ?>
