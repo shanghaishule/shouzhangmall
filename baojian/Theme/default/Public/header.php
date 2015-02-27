@@ -58,7 +58,7 @@ a:hover {color: #3f484f;}
 <body>
 <a id="site-top"></a>
 <nav id="topnav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="top-bg"><div class="top"><img src="<?php echo mc_theme_url(); ?>/img/top.jpg" /></div></div>
+    <div class="top-bg"><div class="top"><img src="<?php echo mc_theme_url(); ?>/img/top.png" /></div></div>
 	<div class="container-bg">
 		<div class="container">
 			<div class="navbar-header">
