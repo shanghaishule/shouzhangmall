@@ -13,13 +13,13 @@ img {max-width: 100%;}
 
 .content_01 p{padding:15px 30px;margin:0;}
 .first{position:absolute;bottom:30px;right:60px;;background:#d97c19}
-.sec{position:absolute;bottom:-44px;left:299px;;background:#826001;z-index: 999;}
+.sec{position:absolute;bottom:-27px;left:273px;;background:#d97c19;z-index: 999;}
 .thd{position:absolute;bottom:30px;right:60px;;background:#d97c19}
-.forth{position:absolute;bottom:46px;left:287px;;background:#bd7c00;z-index:999;}
+.forth{position:absolute;bottom:10px;left:287px;;background:#d97c19;z-index:999;}
 a.first:hover{background:#975611}
 a.thd:hover{background:#975611}
-a.sec:hover{background:#4e3a03}
-a.forth:hover{background:#a17013}
+a.sec:hover{background:#975611}
+a.forth:hover{background:#975611}
 .margin-top{margin-top:15px}
 .container .navbar-right li a {padding:10px 10px}
 /* 公共 */
@@ -130,7 +130,7 @@ hr {border-color: #f3f6f9;}
 #single-top #pro-index-tlin .carousel-indicators li {width: 30px; height: 8px; background-color: #222222; margin: 0; border: 0; opacity: 0.7; filter: alpha(opacity=70);}
 #single-top #pro-index-tlin .carousel-indicators li.active {background-color: #ff4a00;}
 
-#pro-index-trin {padding: 20px;  border: 1px solid #e3e3e3;}
+#pro-index-trin {padding: 71px 20px 20px 20px;  border: 1px solid #e3e3e3;}
 #pro-index-trin h1 {margin-top: 0px; line-height: 40px; font-size: 30px; color: #3f484f;}
 #pro-index-trin h1 .form-control {font-size: 30px; color: #3f484f; line-height: 40px;}
 #pro-index-trin h3 {font-size: 18px; margin-bottom: 30px; line-height: 40px; }

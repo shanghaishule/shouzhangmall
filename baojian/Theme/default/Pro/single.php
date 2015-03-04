@@ -65,7 +65,7 @@
 					<h3>
 						<div class="row">
 							<div class="col-xs-0 col">
-								官方价：<span id="price" price-data="<?php echo mc_get_meta($val['id'],'price'); ?>">￥<?php echo mc_price_now($val['id']); ?></span>
+								优惠价：<span id="price" price-data="<?php echo mc_get_meta($val['id'],'price'); ?>">￥<?php echo mc_price_now($val['id']); ?></span>
 							</div>
 							<div class="col-xs-0 col">
 								<small>库存：<?php echo mc_get_meta($val['id'],'kucun'); ?></small>
