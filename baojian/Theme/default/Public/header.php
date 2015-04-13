@@ -46,6 +46,9 @@ a:hover {color: #3f484f;}
 #group-side ul.nav-stacked li.active a,
 #group-side ul.nav-stacked a:hover {background-color: <?php echo $site_color; ?>; border-color: <?php echo $site_color; ?>; }
 </style>
+<link rel="stylesheet" type="text/css" href="<?php echo mc_theme_url(); ?>/css/datouwang.css"/>
+<script type="text/javascript" src="<?php echo mc_theme_url(); ?>/js/jquery-1.7.2.min.js"></script>
+<script language="javascript" src="<?php echo mc_theme_url(); ?>/js/jquery.Sonline.js"></script>
 <?php endif; ?>
 <link href="<?php echo mc_theme_url(); ?>/css/media.css" rel="stylesheet">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -54,6 +57,17 @@ a:hover {color: #3f484f;}
 <script src="<?php echo mc_theme_url(); ?>/js/html5shiv.min.js"></script>
 <script src="<?php echo mc_theme_url(); ?>/js/respond.min.js"></script>
 <![endif]-->
+<script>
+$(function(){
+	$("body").Sonline({
+		Position:"left",//left或right
+		Top:200,//顶部距离，默认200px
+		Effect:true, //滚动或者固定两种方式，布尔值：true或false
+		DefaultsOpen:false, //默认展开：true,默认收缩：false
+		Qqlist:"1402612547|客服01,1402612547|客服02,313362389|客服03,351363496" //多个QQ用','隔开，QQ和客服名用'|'隔开
+	});
+})
+</script>
 </head>
 <body>
 <a id="site-top"></a>
