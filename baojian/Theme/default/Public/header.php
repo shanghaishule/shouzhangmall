@@ -46,9 +46,6 @@ a:hover {color: #3f484f;}
 #group-side ul.nav-stacked li.active a,
 #group-side ul.nav-stacked a:hover {background-color: <?php echo $site_color; ?>; border-color: <?php echo $site_color; ?>; }
 </style>
-<link rel="stylesheet" type="text/css" href="<?php echo mc_theme_url(); ?>/css/datouwang.css"/>
-<script type="text/javascript" src="<?php echo mc_theme_url(); ?>/js/jquery-1.7.2.min.js"></script>
-<script language="javascript" src="<?php echo mc_theme_url(); ?>/js/jquery.Sonline.js"></script>
 <?php endif; ?>
 <link href="<?php echo mc_theme_url(); ?>/css/media.css" rel="stylesheet">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -57,6 +54,9 @@ a:hover {color: #3f484f;}
 <script src="<?php echo mc_theme_url(); ?>/js/html5shiv.min.js"></script>
 <script src="<?php echo mc_theme_url(); ?>/js/respond.min.js"></script>
 <![endif]-->
+<link rel="stylesheet" type="text/css" href="<?php echo mc_theme_url(); ?>/css/datouwang.css"/>
+<script type="text/javascript" src="<?php echo mc_theme_url(); ?>/js/jquery-1.7.2.min.js"></script>
+<script language="javascript" src="<?php echo mc_theme_url(); ?>/js/jquery.Sonline.js"></script>
 <script>
 $(function(){
 	$("body").Sonline({
