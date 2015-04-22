@@ -19,7 +19,6 @@ a:hover {color: #3f484f;}
 .btn-warning {color: #fff; background-color:<?php echo $site_color; ?>; border-color: <?php echo $site_color; ?>;}
 .btn-warning:hover {background-color:<?php echo $site_color; ?>; border-color: <?php echo $site_color; ?>;}
 .label-warning {background-color: <?php echo $site_color; ?>;}
-
 .home-main h4.title a.pull-right:hover {background-color: <?php echo $site_color; ?>; }
 #pro-list .thumbnail h4 a:hover,
 .home-side .media-heading a:hover {color: #3f484f;}
