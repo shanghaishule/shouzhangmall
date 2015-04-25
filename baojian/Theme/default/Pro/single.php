@@ -113,7 +113,7 @@
 						<div class="btn-group">
 							<div class="btn-group">
 							<ul id="allqty" style="font-size:12px; font-color:#999;">
-		                    <li style="margin-right:10px;margin-top:10px;padding-bottom:5px;padding-left:5px;color:#3e4245">购买数量:</li>
+		                    <li style="margin-right:10px;margin-top:10px;padding-bottom:5px;padding-left:0px;color:#3e4245">购买数量:</li>
 		                    <li style="margin-top:5px;margin-left:5px;padding-bottom:5px">
 		                        <a id="jia" style="float:left;margin-left: 1px;border:1px solid #cccccc" href="javascript:minus();"><img alt="" src="<?php echo mc_theme_url(); ?>/img/minus.png" style="width:30px; height:30px;"></a>
 		                        <input type="text" value="1" id="buy-num" name="quantity" style="float:left;width:70px;height:32px;line-height:normal;border:1px solid #ddd;border-left:0;border-right:0;background:#fff;font-size:16px;background:#fff;text-align:center"/>
