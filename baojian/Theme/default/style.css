@@ -123,21 +123,21 @@ hr {border-color: #f3f6f9;}
 /* PRO */
 #pro-single { background-color: #fff;}
 #single-top {padding: 30px 0 30px; }
-#single-top #pro-index-tlin { padding: 20px 20px 40px;border: 1px solid #e3e3e3; }
+#single-top #pro-index-tlin { padding: 20px 20px 40px;; }
 #single-top #pro-index-tlin .imgshow {width: 513px;height: 513px;display: table-cell;vertical-align: middle;text-align: center;outline: none;}
 #single-top #pro-index-tlin .imgshow img { max-height: 513px; max-width: 513px; width: auto;vertical-align: middle; }
 #single-top #pro-index-tlin .carousel-indicators {bottom: -30px;;}
 #single-top #pro-index-tlin .carousel-indicators li {width: 30px; height: 8px; background-color: #222222; margin: 0; border: 0; opacity: 0.7; filter: alpha(opacity=70);}
 #single-top #pro-index-tlin .carousel-indicators li.active {background-color: #ff4a00;}
 
-#pro-index-trin {padding: 71px 20px 20px 20px;  border: 1px solid #e3e3e3;}
+#pro-index-trin {padding: 71px 20px 20px 20px;  ;}
 #pro-index-trin h1 {margin-top: 0px; line-height: 40px; font-size: 30px; color: #3f484f;}
 #pro-index-trin h1 .form-control {font-size: 30px; color: #3f484f; line-height: 40px;}
 #pro-index-trin h3 {font-size: 18px; margin-bottom: 30px; line-height: 40px; }
 #pro-index-trin h3 .row {margin-left: -5px; margin-right: -5px;}
 #pro-index-trin h3 .row .col {padding-left: 5px; padding-right: 5px;}
 #pro-index-trin h3 .input-group-addon { background-color: #fff; }
-#pro-index-trin h3 small {margin-left: 10px;}
+#pro-index-trin h3 small {;}
 #pro-index-trin .form-group {padding-top: 30px;}
 #pro-index-trin .btn-group .btn {padding: 15px 30px; font-size: 18px; border-radius: 0;}
 #pro-index-trin .open button,#pro-index-trin .btn-group button.add-cart {border-color:#ee330a;background-color:#ee330a; color: #fff;}
