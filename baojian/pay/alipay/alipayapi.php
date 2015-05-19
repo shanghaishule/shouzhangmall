@@ -53,10 +53,16 @@ require_once("lib/alipay_submit.class.php");
 		$mobaddrname = '';
 		$mobaddr = '';
 		if($cart) {
+			$index = 0;
 			foreach($cart as $key => $val){
 				//echo $val['page_id'].':'.$val['action_value'].'<br />';
 				$itemTitle = M('page')->field('id,title')->where(array('id'=>$val['page_id']))->find();
-				$item.= $itemTitle['title'].'、';
+				if($index ==0){
+					$item.= $itemTitle['title'];
+				}else{
+					$item.= $itemTitle['title'].'、';
+				}
+				$index++;
 			}
 						
 			$action['date'] = $now;
