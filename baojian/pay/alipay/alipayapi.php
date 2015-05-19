@@ -55,7 +55,7 @@ require_once("lib/alipay_submit.class.php");
 		if($cart) {
 			foreach($cart as $key => $val){
 				//echo $val['page_id'].':'.$val['action_value'].'<br />';
-				$itemTitle = M('page')->field('title')->where(array('id'=>$val['page_id']))->find();
+				$itemTitle = M('page')->field('id,title')->where(array('id'=>$val['page_id']))->find();
 				$item.= $itemTitle['title'].'、';
 			}
 						
@@ -126,8 +126,8 @@ require_once("lib/alipay_submit.class.php");
 		endif;
 		$total_fee = $mc_total2;
         //必填		//给下单人员和商家发送短信通知
-		$this->PHPSMS(I('param.buyer_phone'), I('param.buyer_phone'),rtrim($item, '、'),$total_fee,$mobaddrname,$mobaddr);
-		$this->PHPSMS('15214328120', I('param.buyer_phone'),rtrim($item, '、'),$total_fee,$mobaddrname,$mobaddr);
+		$this->PHPSMS(I('param.buyer_phone'), I('param.buyer_phone'),$item,$total_fee,$mobaddrname,$mobaddr);
+		$this->PHPSMS('15214328120', I('param.buyer_phone'),$item,$total_fee,$mobaddrname,$mobaddr);
         //订单描述
         $body = $_POST['WIDbody'];
         //商品展示地址
