@@ -17,6 +17,43 @@ class AlipayController extends Controller {
     	};
 		require_once("./pay/alipay2/alipayapi.php");
     }
+    
+    //发送短信
+    public function PHPSMS($mob,$mobuser,$mobitem,$mobprice,$mobaddrname,$mobaddr){
+    	$act = 'order_guke';
+    	if($mob != ""){
+    		$ch = curl_init();
+    		curl_setopt($ch, CURLOPT_URL, "http://api.weimi.cc/2/sms/send.html");
+    		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    		curl_setopt($ch, CURLOPT_POST, TRUE);
+    		$uid = '1A0mXEFdgXNn';
+    		$pas = '2bb3w3x4';
+    		$tel = '4006555899';
+    		if($act == 'register'){
+    			$smscode = $this->_request('smscode', 'trim', '');
+    			$cid = 'PPE1fo4CUJxJ';
+    			$title = '沪爱健康';
+    			//填写参数
+    			curl_setopt($ch, CURLOPT_POSTFIELDS, 'uid='.$uid.'&pas='.$pas.'&mob='.$mob.'&cid='.$cid
+    			.'&p1='.$title.'&p2='.$smscode.'&p3='.$tel.'&type=json');
+    		}elseif($act == 'order_guke' || $act == 'order_shangjia'){
+    			$cid = 'EJUFuhI08MHZ';
+    			//$mobuser = $this->_request('mobuser', 'trim', '');//用户
+    			//$mobitem = $this->_request('mobitem', 'trim', '');//购买的商品
+    			//$mobprice = $this->_request('mobprice', 'trim', '');//订单总价
+    			//$mobaddrname = $this->_request('mobaddrname', 'trim', '');//收货人姓名电话
+    			//$mobaddr = $this->_request('mobaddr', 'trim', '');//收货地址
+    			//填写参数
+    			curl_setopt($ch, CURLOPT_POSTFIELDS, 'uid='.$uid.'&pas='.$pas.'&mob='.$mob.'&cid='.$cid
+    			.'&p1='.$mobuser.'&p2='.$mobitem.'&p3='.$mobprice.'&p4='.$mobaddrname.'&p5='.$mobaddr
+    			.'&p6='.$tel.'&type=json');
+    		}
+    		$res = curl_exec( $ch );
+    		curl_close( $ch );
+    		//echo($res);
+    	}
+    }
+        
     public function alipay2_return(){
     	require_once("./pay/alipay2/return_url.php");
     }
@@ -164,39 +201,5 @@ class AlipayController extends Controller {
 	    	$this->success('请先登陆',U('User/login/index'));
 	    }
     }
-    //发送短信
-    public function PHPSMS($mob,$mobuser,$mobitem,$mobprice,$mobaddrname,$mobaddr){
-    	$act = 'order_guke';
-    	if($mob != ""){
-    		$ch = curl_init();
-    		curl_setopt($ch, CURLOPT_URL, "http://api.weimi.cc/2/sms/send.html");
-    		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-    		curl_setopt($ch, CURLOPT_POST, TRUE);
-    		$uid = '1A0mXEFdgXNn';
-    		$pas = '2bb3w3x4';
-    		$tel = '4006555899';
-    		if($act == 'register'){
-    			$smscode = $this->_request('smscode', 'trim', '');
-    			$cid = 'PPE1fo4CUJxJ';
-    			$title = '沪爱健康';
-    			//填写参数
-    			curl_setopt($ch, CURLOPT_POSTFIELDS, 'uid='.$uid.'&pas='.$pas.'&mob='.$mob.'&cid='.$cid
-    			.'&p1='.$title.'&p2='.$smscode.'&p3='.$tel.'&type=json');
-    		}elseif($act == 'order_guke' || $act == 'order_shangjia'){
-    			$cid = 'EJUFuhI08MHZ';
-    			//$mobuser = $this->_request('mobuser', 'trim', '');//用户
-    			//$mobitem = $this->_request('mobitem', 'trim', '');//购买的商品
-    			//$mobprice = $this->_request('mobprice', 'trim', '');//订单总价
-    			//$mobaddrname = $this->_request('mobaddrname', 'trim', '');//收货人姓名电话
-    			//$mobaddr = $this->_request('mobaddr', 'trim', '');//收货地址
-    			//填写参数
-    			curl_setopt($ch, CURLOPT_POSTFIELDS, 'uid='.$uid.'&pas='.$pas.'&mob='.$mob.'&cid='.$cid
-    			.'&p1='.$mobuser.'&p2='.$mobitem.'&p3='.$mobprice.'&p4='.$mobaddrname.'&p5='.$mobaddr
-    			.'&p6='.$tel.'&type=json');
-    		}
-    		$res = curl_exec( $ch );
-    		curl_close( $ch );
-    		//echo($res);
-    	}
-    }
+
 }

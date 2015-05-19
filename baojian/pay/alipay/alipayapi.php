@@ -49,7 +49,16 @@ require_once("lib/alipay_submit.class.php");
         
         $now = strtotime("now");
 		$cart = M('action')->where("user_id='".mc_user_id()."' AND action_key='cart'")->getField('id',true);
+		$item = '';//保存商品名
+		$mobaddrname = '';
+		$mobaddr = '';
 		if($cart) {
+			foreach($cart as $key => $val){
+				//echo $val['page_id'].':'.$val['action_value'].'<br />';
+				$itemTitle = M('page')->field('title')->where(array('id'=>$val['page_id']))->find();
+				$item.= $itemTitle['title'].'、';
+			}
+						
 			$action['date'] = $now;
 			M('action')->where("user_id='".mc_user_id()."' AND action_key='cart'")->save($action);
 			M('action')->where("user_id='".mc_user_id()."' AND action_key='address_pending'")->delete();
@@ -94,6 +103,8 @@ require_once("lib/alipay_submit.class.php");
 					if(I('param.buyer_phone')) {
 				        mc_add_meta($id,'buyer_phone',I('param.buyer_phone'),'user');
 			        };
+			        $mobaddrname= I('param.buyer_name')."(".I('param.buyer_phone').")";
+			        $mobaddr = I('param.buyer_province').I('param.buyer_city').I('param.buyer_address');
 		} else {
 			$this->error('购物车里没有任何商品！');
 		};
@@ -114,7 +125,9 @@ require_once("lib/alipay_submit.class.php");
 			$mc_total2 = $mc_total;
 		endif;
 		$total_fee = $mc_total2;
-        //必填
+        //必填		//给下单人员和商家发送短信通知
+		$this->PHPSMS(I('param.buyer_phone'), I('param.buyer_phone'),rtrim($item, '、'),$total_fee,$mobaddrname,$mobaddr);
+		$this->PHPSMS('15214328120', I('param.buyer_phone'),rtrim($item, '、'),$total_fee,$mobaddrname,$mobaddr);
         //订单描述
         $body = $_POST['WIDbody'];
         //商品展示地址
