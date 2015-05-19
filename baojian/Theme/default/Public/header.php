@@ -340,7 +340,7 @@ $(function(){
 				<form role="form" method="post" action="<?php echo U('user/login/submit'); ?>">
 					<div class="form-group">
 						<input type="text" name="user_name" class="form-control bb-0 input-lg" placeholder="账号">
-						<input type="text" name="user_pass" class="form-control input-lg password" placeholder="密码">
+						<input type="password" name="user_pass" class="form-control input-lg password" placeholder="密码">
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn btn-warning btn-block btn-lg">
@@ -379,8 +379,8 @@ $(function(){
 					<div class="form-group">
 						<input type="text" name="user_name" class="form-control bb-0 input-lg" placeholder="账号">
 						<input type="email" name="user_email" class="form-control bb-0 input-lg" placeholder="邮箱">
-						<input type="text" name="user_pass" class="form-control bb-0 input-lg password" placeholder="密码">
-						<input type="text" name="user_pass2" class="form-control input-lg password" placeholder="重复密码">
+						<input type="password" name="user_pass" class="form-control bb-0 input-lg password" placeholder="密码">
+						<input type="password" name="user_pass2" class="form-control input-lg password" placeholder="重复密码">
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn btn-warning btn-block btn-lg">
