@@ -1,0 +1,532 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+STRONG {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.wrap {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 970px; PADDING-RIGHT: 5px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+.nav_b1 {
+	MARGIN: 0px auto; WIDTH: 970px; HEIGHT: 200px; OVERFLOW: hidden
+}
+.nav_b1 H1 {
+	POSITION: absolute; TEXT-ALIGN: center; MARGIN: 50px 0px 0px; WIDTH: 970px; FONT: bold 48px/80px microsoft yahei,黑体; COLOR: #fff
+}
+.nav {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 970px; PADDING-RIGHT: 0px; BACKGROUND: #803a21; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+.top1{width:968px; height:36px; margin:0 auto;line-height:36px; background-color:#FFFFFF; }
+#bottominfo {width:970px;margin:0 auto;text-align:center;padding:25px 0 10px 0;line-height:15px;font-family:Verdana;;line-height:29px; color:#333333;; background-color:#FFFFFF;}
+#bottominfo a{ color:#333333;}
+#bottominfo a:hover{ color:#333333;}
+.wenziclass{width:133px;margin:0 auto; height:20px; margin-top:9px;  }
+.wenziclass a{color:#333333;}
+.wenziclass a:hover{color:#333333;}
+.nav_main {
+	BORDER-BOTTOM: #803a21 4px solid; BORDER-LEFT: #666 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px; PADDING-LEFT: 203px; WIDTH: 765px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BACKGROUND: url("1429690177226-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/dh_title.gif*/ #fff no-repeat left top; FONT-SIZE: 14px; BORDER-RIGHT: #666 1px solid; PADDING-TOP: 10px; margin:0 auto;
+}
+.nav_main A {
+	COLOR: #f60
+}
+.text A {
+	COLOR: #f60
+}
+.ask A {
+	COLOR: #fff
+}
+.ask A:hover {
+	COLOR: #fff
+}
+.nav .title {
+	BORDER-BOTTOM: #e3e3e3 1px solid; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 3px; MARGIN: 0px 5px; PADDING-LEFT: 30px; WIDTH: 928px; PADDING-RIGHT: 0px; DISPLAY: block; FONT: 20px microsoft yahei,黑体; BACKGROUND: url("256061-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_title.gif*/ #f7f7f7 no-repeat 5px 4px; COLOR: #333; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 5px
+}
+.nav .box {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 5px
+}
+.nav .box .cases01 {
+PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 470px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; BORDER-RIGHT: #e3e3e3 1px dashed; PADDING-TOP: 5px
+}
+.nav .box .cases01 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 150px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box .cases01 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box .cases01 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box .cases01 .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 270px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box .cases02 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 471px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: right; PADDING-TOP: 5px
+}
+.nav .box .cases02 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 150px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box .cases02 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box .cases02 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box .cases02 .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 270px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box .cases03 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 470px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; BORDER-RIGHT: #e3e3e3 1px dashed; PADDING-TOP: 5px
+}
+.nav .box .cases03 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 150px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box .cases03 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box .cases03 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box .cases03 .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 270px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 29px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box .cases04 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px 0px 3px; PADDING-LEFT: 0px; WIDTH: 468px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 5px
+}
+.nav .box .cases04 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 150px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box .cases04 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box .cases04 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 280px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box .cases04 .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 270px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box02 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 5px
+}
+.nav .box02 .cases05 {
+	BORDER-BOTTOM: #e3e3e3 1px dashed; PADDING-BOTTOM: 5px; MARGIN: 0px 5px 0px 3px; PADDING-LEFT: 0px; WIDTH: 948px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 5px
+}
+.nav .box02 .cases05 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 250px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box02 .cases05 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 660px; PADDING-RIGHT: 4px; BACKGROUND: #803a21; FLOAT: left; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box02 .cases05 .btitle A {
+	COLOR: #fff
+}
+.nav .box02 .cases05 .btitle A:hover {
+	COLOR: #fff
+}
+.nav .box02 .cases05 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 660px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box02 .cases05 .text_ask {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 660px; PADDING-RIGHT: 4px; BACKGROUND: #f8f8f8; FLOAT: left; FONT-SIZE: 14px; BORDER-TOP: #e3e3e3 1px dashed; PADDING-TOP: 4px
+}
+.nav .box02 .cases05 .text_ask .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 651px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box02 .cases06 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 948px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 5px
+}
+.nav .box02 .cases06 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 250px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: right; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box02 .cases06 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 660px; PADDING-RIGHT: 4px; BACKGROUND: #803a21; FLOAT: left; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box02 .cases06 .btitle A {
+	COLOR: #fff
+}
+.nav .box02 .cases06 .btitle A:hover {
+	COLOR: #fff
+}
+.nav .box02 .cases06 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 660px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box02 .cases06 .text_ask {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 660px; PADDING-RIGHT: 4px; BACKGROUND: #f8f8f8; FLOAT: left; FONT-SIZE: 14px; BORDER-TOP: #e3e3e3 1px dashed; PADDING-TOP: 4px
+}
+.nav .box02 .cases06 .text_ask .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 651px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box03 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 5px
+}
+.nav .box03 .cases07 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px 0px 3px; PADDING-LEFT: 0px; WIDTH: 948px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 5px
+}
+.nav .box03 .cases07 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 250px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box03 .cases07 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 392px; PADDING-RIGHT: 4px; BACKGROUND: #803a21; FLOAT: left; COLOR: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box03 .cases07 .btitle A {
+	COLOR: #fff
+}
+.nav .box03 .cases07 .btitle A:hover {
+	COLOR: #fff
+}
+.nav .box03 .cases07 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 392px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box03 .cases07 .text_ask {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 392px; PADDING-RIGHT: 4px; BACKGROUND: #f8f8f8; FLOAT: left; FONT-SIZE: 14px; BORDER-TOP: #e3e3e3 1px dashed; PADDING-TOP: 4px
+}
+.nav .box03 .cases07 .text_ask .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 380px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box03 .cases07 .list {
+	BORDER-BOTTOM: #e3e3e3 1px solid; BORDER-LEFT: #e3e3e3 1px solid; PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 255px; PADDING-RIGHT: 4px; BACKGROUND: #f8f8f8; FLOAT: right; OVERFLOW: hidden; BORDER-TOP: #e3e3e3 1px solid; BORDER-RIGHT: #e3e3e3 1px solid; PADDING-TOP: 8px
+}
+.nav .box03 .cases07 .list LI {
+	LINE-HEIGHT: 25px; WIDTH: 255px; FLOAT: left; FONT-SIZE: 14px
+}
+.nav .box03 .cases07 .list LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url("236609-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_01.gif*/ no-repeat 2px 8px; COLOR: #333; PADDING-TOP: 0px
+}
+.nav .box03 .cases07 .list LI A:hover {
+	BACKGROUND: url("236609-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_01.gif*/ #e1e1e1 no-repeat 2px 8px; COLOR: #f30; TEXT-DECORATION: none
+}
+.nav .box03 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 960px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.nav .box03 .cases08 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px 0px 3px; PADDING-LEFT: 0px; WIDTH: 270px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 5px
+}
+.nav .box03 .cases08 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 250px; PADDING-RIGHT: 4px; HEIGHT: 150px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box03 .cases08 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 5px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 252px; PADDING-RIGHT: 4px; DISPLAY: block; BACKGROUND: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box03 .cases08 P {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 252px; PADDING-RIGHT: 4px; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box03 .cases09 {
+	BORDER-LEFT: #e3e3e3 1px dashed; PADDING-BOTTOM: 5px; MARGIN: 0px 5px 0px 3px; PADDING-LEFT: 0px; WIDTH: 395px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 5px
+}
+.nav .box03 .cases09 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 5px; PADDING-LEFT: 4px; WIDTH: 150px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: right; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.nav .box03 .cases09 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 5px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 210px; PADDING-RIGHT: 4px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.nav .box03 .cases09 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 210px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.nav .box03 .cases10 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 2px; PADDING-LEFT: 5px; WIDTH: 380px; PADDING-RIGHT: 5px; DISPLAY: inline; BACKGROUND: url("233178-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg01.gif*/ no-repeat left top; FLOAT: left; BORDER-TOP: #e3e3e3 1px dashed; PADDING-TOP: 5px
+}
+.nav .box03 .cases10 .ask {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 5px 0px 0px; PADDING-LEFT: 4px; WIDTH: 330px; PADDING-RIGHT: 4px; BACKGROUND: url("1429690397798-2.jpg")/*tpa=http://www.39yst.com/zt/womansingle/images/ask_bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 55px; COLOR: #fff; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.nav .box03 .box_s {
+	PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 478px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+.nav .box03 .box_s .box_title {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 470px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: url("230606-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/test_title_bg2.gif*/ repeat-x left top; FLOAT: left; HEIGHT: 33px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.nav .box03 .box_s .box_title .test_title_l {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 14px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 33px; PADDING-TOP: 0px
+}
+.nav .box03 .box_s .box_title .test_title_bg {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: bold 20px microsoft yahei,黑体; BACKGROUND: url("266219-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/test_title_bg.gif*/ repeat-x left top; FLOAT: left; HEIGHT: 31px; COLOR: #f30; PADDING-TOP: 2px
+}
+.nav .box03 .box_s .box_title .test_title_r {
+	MARGIN: 0px; WIDTH: 5px; FLOAT: left; HEIGHT: 33px
+}
+.nav .box03 .box_s .box_title .test_title_r2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 3px; PADDING-RIGHT: 0px; FLOAT: right; HEIGHT: 33px; PADDING-TOP: 0px
+}
+.nav .box03 .box_s .text_03 {
+	SCROLLBAR-ARROW-COLOR: #849cbd; BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; SCROLLBAR-FACE-COLOR: #f1f4f5; PADDING-BOTTOM: 0px; OVERFLOW-X: hidden; OVERFLOW-Y: auto; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 468px; PADDING-RIGHT: 0px; DISPLAY: inline; SCROLLBAR-DARKSHADOW-COLOR: #fff; BACKGROUND: #fff; FLOAT: left; HEIGHT: 369px; SCROLLBAR-HIGHLIGHT-COLOR: #fff; SCROLLBAR-SHADOW-COLOR: #849cbd; BORDER-TOP: #bebebe 1px; SCROLLBAR-TRACK-COLOR: #fff; BORDER-RIGHT: #bebebe 1px solid; SCROLLBAR-3DLIGHT-COLOR: #fff; PADDING-TOP: 0px
+}
+.text_03 .test_question {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 22px; PADDING-LEFT: 20px; WIDTH: 428px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #333; FONT-SIZE: 14px; PADDING-TOP: 15px
+}
+.text_03 .test_questiontitle {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.text_03 .test_questiontitle .color {
+	FONT: bold 30px Georgia; COLOR: #f60
+}
+.text_03 .test_choice {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 65px; WIDTH: 372px; PADDING-RIGHT: 10px; FLOAT: left; COLOR: #333; FONT-SIZE: 14px; PADDING-TOP: 5px
+}
+.test_choice .but01 {
+	LINE-HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 8px; WIDTH: 58px; BACKGROUND: url("264572-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/test_up.gif*/ no-repeat; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 23px; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer
+}
+.test_choice .but02 {
+	LINE-HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 8px; WIDTH: 58px; BACKGROUND: url("259946-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/test_re.gif*/ no-repeat; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 23px; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer
+}
+.nav .box03 .box_s .text_04 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 468px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 0px
+}
+.cases11 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px 0px 3px; PADDING-LEFT: 0px; WIDTH: 226px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.cases11 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 200px; PADDING-RIGHT: 4px; DISPLAY: block; HEIGHT: 120px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.cases11 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 7px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 200px; PADDING-RIGHT: 4px; DISPLAY: block; BACKGROUND: #fff; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.cases11 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 204px; PADDING-RIGHT: 4px; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.text_04 .list {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; WIDTH: 430px; PADDING-RIGHT: 0px; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; OVERFLOW: hidden; BORDER-TOP: #e3e3e3 1px dashed; PADDING-TOP: 5px
+}
+.text_04 .list LI {
+	LINE-HEIGHT: 22px; WIDTH: 420px
+}
+.text_04 .list LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 420px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url("236609-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_01.gif*/ no-repeat 2px 8px; COLOR: #333; PADDING-TOP: 2px
+}
+.text_04 .list LI A:hover {
+	BACKGROUND: url("236609-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_01.gif*/ #e1e1e1 no-repeat 2px 8px; COLOR: #f30; TEXT-DECORATION: none
+}
+.nav .box03 .box_s .text_051 {
+	BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 22px; OVERFLOW-X: hidden; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 10px; WIDTH: 448px; PADDING-RIGHT: 10px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 10px
+}
+.nav .box03 .box_s .text_052 {
+	BORDER-BOTTOM: #e3e3e3 1px dashed; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 22px; OVERFLOW-X: hidden; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 10px; WIDTH: 448px; PADDING-RIGHT: 10px; DISPLAY: inline; BACKGROUND: #f8f8f8; FLOAT: left; FONT-SIZE: 14px; BORDER-TOP: #e3e3e3 1px dashed; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 10px
+}
+.nav .box03 .box_s .text_053 {
+	BORDER-BOTTOM: #bebebe 1px solid; TEXT-ALIGN: right; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 10px; LINE-HEIGHT: 22px; OVERFLOW-X: hidden; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 10px; WIDTH: 448px; PADDING-RIGHT: 10px; DISPLAY: inline; BACKGROUND: #e1e1e1; FLOAT: left; FONT-SIZE: 14px; BORDER-TOP: #e3e3e3 1px dashed; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 10px
+}
+.cases12 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 5px; PADDING-LEFT: 0px; WIDTH: 458px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.cases12 .pic_r {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 230px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: right; PADDING-TOP: 0px
+}
+.cases12 .pic_l {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 230px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 0px
+}
+.cases12 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 5px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 200px; PADDING-RIGHT: 4px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.cases12 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px 0px 0px 3px; PADDING-LEFT: 4px; WIDTH: 208px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.box03 .box_91 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 8px; PADDING-LEFT: 0px; WIDTH: 308px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 2px
+}
+.box03 .box_91 .no {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 60px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.box03 .box_91 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 10px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 220px; PADDING-RIGHT: 4px; BACKGROUND: #fff; FLOAT: left; COLOR: #333; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.box03 .box_91 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 287px; PADDING-RIGHT: 4px; BACKGROUND: #fff; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.box03 .line {
+	WIDTH: 960px; DISPLAY: inline; FLOAT: left; HEIGHT: 8px; OVERFLOW: hidden
+}
+.cases13 {
+	PADDING-BOTTOM: 5px; MARGIN: 0px 0px 0px 3px; PADDING-LEFT: 0px; WIDTH: 955px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.cases13 .pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 250px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; HEIGHT: 200px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.cases13 .list {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 270px; PADDING-RIGHT: 4px; DISPLAY: inline; FLOAT: left; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.cases13 .list_r {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 5px; PADDING-LEFT: 4px; WIDTH: 270px; PADDING-RIGHT: 4px; DISPLAY: inline; BACKGROUND: #f7f7f7; FLOAT: right; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 4px
+}
+.cases13 .btitle {
+	PADDING-BOTTOM: 4px; MARGIN: 5px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 260px; PADDING-RIGHT: 4px; FLOAT: left; COLOR: #333; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 4px
+}
+.cases13 .text {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 260px; PADDING-RIGHT: 4px; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.ico_right {
+	PADDING-BOTTOM: 4px; MARGIN: 50px 0px 0px 5px; PADDING-LEFT: 4px; WIDTH: 70px; PADDING-RIGHT: 4px; FLOAT: left; PADDING-TOP: 4px
+}
+.cases13 .info {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 945px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: #803a21; FLOAT: left; PADDING-TOP: 0px
+}
+.cases13 .info .pic01 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 157px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.cases13 .info .text01 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; TEXT-INDENT: 2em; PADDING-LEFT: 0px; WIDTH: 780px; PADDING-RIGHT: 5px; FLOAT: right; COLOR: #fff; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.nav .button {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 3px; MARGIN: 5px 5px 0px; PADDING-LEFT: 33px; WIDTH: 149px; PADDING-RIGHT: 0px; DISPLAY: inline; FONT: 20px microsoft yahei,黑体; BACKGROUND: url("256061-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_title.gif*/ #f7f7f7 no-repeat 5px 4px; FLOAT: left; COLOR: #333333; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 5px
+}
+.nav .button A {
+	COLOR: #333333
+}
+.nav .button A:hover {
+	COLOR: #f30
+}
+.main_con4 {
+	PADDING-BOTTOM: 8px; MARGIN: 5px 0px 0px; PADDING-LEFT: 8px; WIDTH: 954px; PADDING-RIGHT: 8px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.content_27 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 220px; PADDING-RIGHT: 0px; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.content_27 UL {
+	PADDING-BOTTOM: 10px; LIST-STYLE-TYPE: none; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.content_27 LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.content_27 LI IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 200px; PADDING-RIGHT: 4px; HEIGHT: 120px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.content_27 LI P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 29px; MARGIN: 5px 0px 0px; TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.content_28 {
+	MARGIN: 0px 0px 0px 8px; WIDTH: 712px; DISPLAY: inline; FLOAT: left
+}
+.remark {
+	MARGIN: 0px 0px 0px 10px; WIDTH: 680px; DISPLAY: inline; BACKGROUND: #fff; FLOAT: left
+}
+.retitle {
+	WIDTH: 680px; FLOAT: left
+}
+.remark .t {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 21px; PADDING-RIGHT: 0px; BACKGROUND: url("257308-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/ico_remark.gif*/ no-repeat 2px 0px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.remark .m {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 3px
+}
+.remark UL {
+	BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 5px 0px 0px; PADDING-LEFT: 0px; WIDTH: 680px; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; BORDER-TOP: #bebebe 1px solid; PADDING-TOP: 0px
+}
+.remark LI {
+	BORDER-BOTTOM: #bebebe 1px solid; LINE-HEIGHT: 24px; WIDTH: 679px; FLOAT: left
+}
+.remark LI .c1 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; TEXT-OVERFLOW: ellipsis; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 2px; dispaly: inline
+}
+.remark LI .c2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; TEXT-OVERFLOW: ellipsis; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 2px; dispaly: inline
+}
+.remark LI .c3 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; TEXT-OVERFLOW: ellipsis; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 2px; dispaly: inline
+}
+.remark LI .c1 {
+	TEXT-ALIGN: center
+}
+.remark LI .c3 {
+	TEXT-ALIGN: center
+}
+.remark LI .c1 {
+	WIDTH: 85px
+}
+.remark LI .c2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 446px; PADDING-RIGHT: 5px; PADDING-TOP: 2px
+}
+.remark LI .c3 {
+	WIDTH: 135px
+}
+.abg {
+	TEXT-ALIGN: center; DISPLAY: inline; BACKGROUND: #f7f7f7; FLOAT: left; OVERFLOW: hidden
+}
+.remarkbox {
+	BORDER-BOTTOM: #bebebe 1px; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 668px; PADDING-RIGHT: 0px; FLOAT: left; BORDER-TOP: #bebebe 1px; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 0px
+}
+.username {
+	BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; WIDTH: 668px; PADDING-RIGHT: 0px; FLOAT: left; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 10px
+}
+.username INPUT {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; VERTICAL-ALIGN: middle; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 3px
+}
+.remarkbox TEXTAREA {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 495px; PADDING-RIGHT: 3px; HEIGHT: 60px; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 3px
+}
+.rebut {
+	BORDER-BOTTOM: #bebebe 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 678px; PADDING-RIGHT: 0px; FLOAT: left; BORDER-TOP: #bebebe 1px; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 0px
+}
+.rebut .but1 {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 80px; PADDING-RIGHT: 3px; BACKGROUND: url("265937-2.shtml")/*tpa=http://www.39yst.com/zt/womansingle/images/butbg_02.gif*/ repeat-x left top; HEIGHT: 20px; VERTICAL-ALIGN: middle; BORDER-TOP: #999 1px solid; CURSOR: pointer; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 2px
+}
+.rebut .tbox {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 50px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: middle; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 2px
+}
+.nav .copyright {
+	BORDER-BOTTOM: #fff 1px; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 958px; PADDING-RIGHT: 0px; DISPLAY: inline; FONT: 20px microsoft yahei,黑体; BACKGROUND: white; FLOAT: left; HEIGHT: 50px; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 0px
+}
+.nav .copyright .name {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 5px; PADDING-LEFT: 0px; WIDTH: 450px; PADDING-RIGHT: 10px; FLOAT: right; FONT-SIZE: 12px; PADDING-TOP: 5px
+}
+.nav .copyright .back {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FONT: 16px microsoft yahei,黑体; FLOAT: left; PADDING-TOP: 10px
+}
+.nav .copyright .back A {
+	COLOR: #333
+}
+.wrap1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 970px; PADDING-RIGHT: 0px; BACKGROUND: #fff; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 8px
+}
+.tools {
+	TEXT-ALIGN: center; BACKGROUND: #fff
+}
+.tools A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN: 0px 20px 0px 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+.tools .set1 {
+	BACKGROUND: url("259961-2.shtml")/*tpa=http://image.39.net/images/tellFriends.gif*/ no-repeat 0px 0px
+}
+.tools .set2 {
+	BACKGROUND: url("257492-2.shtml")/*tpa=http://image.39.net/images/addToFavorites.gif*/ no-repeat 0px 0px
+}
+.user_login {
+	BORDER-LEFT: #bebebe 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; HEIGHT: 20px; CLEAR: both; OVERFLOW: hidden; BORDER-RIGHT: #bebebe 1px solid; PADDING-TOP: 15px
+}
+.user_login SPAN {
+	FONT: 12px/20px Arial; FLOAT: left
+}
+.user_login .ownInput {
+	MARGIN-TOP: -1px; WIDTH: 70px; HEIGHT: 14px; MARGIN-RIGHT: 10px
+}
+.user_login .ownBtn {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 0px; WIDTH: 50px; PADDING-RIGHT: 0px; BACKGROUND: url("248161-2.shtml")/*tpa=http://image.39.net/images/remark_btn2.gif*/; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; BORDER-LEFT-WIDTH: 0px; MARGIN-RIGHT: 5px; PADDING-TOP: 2px
+}
+.user_login FONT {
+	FONT: 12px/20px Arial; COLOR: #999
+}
+.user_login .ownCheckbox {
+	MARGIN: -1px 0px 0px 10px
+}

@@ -1,0 +1,51 @@
+
+/* CSS Document */
+body {margin-top: 0px;font-family:"宋体", Arial, Helvetica; font-size:12px; color:#333;}
+body,div,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div,ul,li,dt,dl,dd{margin:0;padding:0;border:0; }
+ul{ list-style:none}
+img{ border:none;}
+
+/* 链接颜色 */
+a:link { color: #666; text-decoration:none;}
+a:visited { color: #666; text-decoration:none;}
+a:active { color: #8b4f01; text-decoration:none;}
+a:hover { color: #8b4f01; text-decoration:underline;}
+i,em{ font-style:normal;}
+.clear{ width:0px; height:0px; clear:both; overflow:hidden; font-size:0px;}
+.blue a:link,.blue a:visited{ color:#2d64b3;}
+.white a:link,.white a:visited{ color:#fff;}
+.red a:link,.red a:link{ color:#e50013;}
+
+/*头部导航*/
+#header{  background:#f5f5f5;border-bottom:1px solid #eeeeee;width:100%; height:30px; line-height:29px;}
+.header_menu{ width:1000px; margin:0 auto;}
+	.header_menu li{ float:left;}
+	.header_menu li span{ margin:0 6px 0 6px; color:#ccc;}
+	.header_menu li a{ color:#666;}
+
+/*logo and search*/
+.banner{ background:url("1305589-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/banner.jpg*/ no-repeat top center; height:80px; background-color:#fcf8f7; }
+.wrap{ margin:0 auto; width:1000px;}
+.logo{ display:black; float:left; margin:10px 10px 0 0px; width:173px; height:59px; background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0 -67px;}
+.middle span{ display:block; float:left; margin-top:20px; padding:15px 0 0 10px; height:30px; line-height:40px; border-left:1px solid #ccc; font-size:20px; font-family:"微软雅黑";}
+#search{  background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0 0; height:35px; float:right; margin-top:17px;}
+.btn{ border:0; width:80px; height:35px; background:none; cursor:pointer; display:block; float:left; }
+.text{ width:400px; height:25px; border:0; margin:5px 0  0 5px; font-size:14px; display:block; float:left; overflow:hidden;}
+.searchHot{ font-size:12px;padding-top:5px; clear:both;}
+.searchHot a{ text-decoration:none; color:#777; margin-right:3px;}
+.searchHot .redFont{ color:#e50013}
+/*menu*/
+.menu{ background:#A38137; width:100%; height:40px; line-height:40px;}
+	.menu li{ float:left; width:101px; text-align: center;margin-right:10px; font-size:14px;}
+	.menu li:hover,.menu .menu_cur{ background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat -174px -67px;}
+
+/*===========底部=============*/
+.footer{ text-align:center;border-top:2px solid #a38137;margin-top:20px;padding-top:10px; line-height:24px; color:#333;}
+.footer a{ color:#333;}
+/*=============分页=========*/
+.page{ text-align:center; margin:30px 0 30px 0; font-size:14px;}
+.page a{ padding:7px 15px;border:1px solid #a38137; background:url("271097-1.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/page_bg.png*/ repeat-x;margin-left:5px;}
+.page .page_curent{ background:#a38137;border:1px solid #8b4f01; }
+.page .page_curent:link,.page .page_curent:visited{ color:#fff;}
+.con_page{ text-align:left;margin-top:25px;}
+a[title="全景统计"]{display: none}

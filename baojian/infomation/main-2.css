@@ -1,0 +1,216 @@
+body {margin-top: 0px;font-family:"宋体", Arial, Helvetica; font-size:12px}
+body,div,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div,ul,li,dt,dl,dd{margin:0;padding:0;border:0; }
+ul{ list-style:none}
+img{ border:none;}
+.colors{ color:#2b64b3;}
+.line{ border-bottom: 2px solid #3C6D9D;margin-top:10px;}
+h4{ font-weight:normal;}
+.column_r:after,.column:after,.medicine_con ul:after,.features_dls:after,.tutorial:after,.combat dl:after,.clearfix:after{ content: " "; display: block; font-size: 0; height: 0;line-height: 0;visibility: hidden;width: 0;clear: both;}
+.column_r,.column,.clearfix{ zoom:1;}
+.titles_h1{text-indent:-99999px; overflow:hidden; color:#fff; font-size:0px; width:0px; height:0px;}
+
+/* 链接颜色 */
+a:link { color: #666; text-decoration:none;}
+a:visited { color: #666; text-decoration:none;}
+a:active { color: #1c84c4; text-decoration:none;}
+a:hover { color: #349c00; text-decoration:none;}
+i,em{ font-style:normal;}
+.clear{ width:0px; height:0px; clear:both; overflow:hidden; font-size:0px;}
+.blue a:link,.blue a:visited{ color: #349c00}
+.white a:link,.white a:visited{ color: #fff;}
+.wrap{ width:980px; margin:0 auto;}
+/**字体颜色**/
+.col006fb3{color:#006fb3;}
+.colbd1300{color:#bd1300!important;}
+.col006fb3{color:#006fb3!important;}
+/**块级元素**/
+.dis{display:block;}
+.in_dis{display:inline-block;}
+.fl{float:left;}
+.fr{float:right;}
+.bold{font-weight:bold;}
+.normal{font-weight:normal;}
+.w110{width:110px!important;}
+/*header*/
+.header{ height:34px; line-height:34px; overflow:hidden; background:#f7f7f7;border-bottom:1px solid #dbdbdb;}
+.header a{ color:#231815;}
+.header .red{ color:#e61d24;}
+/*logo*/
+span.logo_pic{ display:block; float:left; width:165px; height:46px; margin-top:14px;background:url("pic_all-14.png")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/pic_all.png*/ no-repeat left top; }
+.banner{ width:462px; float:left; height:80px; padding-left:30px;}
+/*search*/
+.search_all{ position:relative; z-index:1;}
+.search_input{ width:210px; color:#999;padding-left:29px; height:25px; line-height:25px; border:1px solid #dfdfdf; }
+.search_bnt{ background:none; border:none; width:44px; height:29px; line-height:27px; color:#fff; background:#9fdcfb; cursor:pointer;}
+.search{ float:right;margin-top:20px;}
+.search p{ clear:both;padding-top:6px; color:#343434;}
+span.icon_search{ width:20px;  height:25px; background:url("common-10.png")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/common.png*/ no-repeat 0px -5px; position:absolute; z-index:4;left:2px;top:2px;*+top:3px;_top:3px; }
+/*menu*/
+.menu{ clear:both;background:url("267898-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/nav_bg.jpg*/ repeat-x; height:40px; line-height:40px; font-family:"微软雅黑"; padding-left:48px; text-align:center;}
+.menu li{ background:url("145-14102Q603580-L-2.jpg")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/nav_libg.jpg*/ no-repeat right center;}
+.menu li,.menu li a{ display:inline-block; float:left; font-size:14px; padding:0 10px;}
+.menu li.current{background:none;}
+.list_bar{ height:32px; background:#f7f7f7; line-height:32px;padding: 0 10px;color:#666;}
+.list_bar a{ color:#666; padding:0 8px;}
+/*底部*/
+.footer{ text-align:center; color:#6d6b6c;padding-top:20px;}
+.footer p{ line-height:24px;}
+.footer a{ color:#6d6b6c;}
+/*图集*/
+.common_bor2{ border:1px solid #dbdbdb;padding:10px 0  15px 5px;}
+.atlas{ clear:both;}
+.atlas dl{ width:150px; float:left;margin:15px 0 0 10px;}
+.atlas .none{ margin-left:0px;}
+.atlas dt img{ width:150px; height:150px; overflow:hidden;}
+.atlas dd{ text-align:center; margin-top:5px;}
+.common_bor2 .title_l em{  width:846px;}	
+.atlas_title{ margin:0 15px;}
+/*main_left*/
+.column{ margin-top:15px;}
+.main_left{ width:330px; float:left; }
+/*幻灯片*/
+.slide_all,.slide_pic{ position: relative; overflow:hidden;}
+.slide_pic ul{ position:absolute; left:0; top:0; z-index:0;}
+.slide_pic li{float:left;}
+.slide_pic dl{ height:280px;}
+.slide_pic{ height:280px; overflow:hidden; margin:0 auto;}
+.slide_pic dt{ width:330px;height:280px; margin:0 auto; }
+.slide_pic dt img{ width:330px;height:280px;}
+.slide_pic dd {position:relative;}
+.slide_pic dd div{ height:34px;line-height:34px; background:#000;position:absolute; bottom:0px; left:0;width:330px; z-index:5; filter:alpha(opacity=50); -moz-opacity:0.5;-khtml-opacity: 0.5;  opacity:0.5; }
+.slide_pic dd a{position:absolute; bottom:8px; left:0; width:330px;text-align:center;z-index:99;color:#fff;}
+.slide_pic .slide_tit{ font-size:14px;  color:#fff;padding-left:10px; }
+.slide_pic .slide_tit a,.video-test2 a,.common_title a{ color:#fff;}
+.slide_pic span{ display:block; width:36px; height:35px; cursor:pointer;}
+.slide_pic .sp_l{ background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ left -189px;position:absolute; left:0; top:88%;}
+.slide_pic .sp_r{ background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ -38px -189px;position:absolute; right:0; top:88%;}
+
+/*main_center*/
+.main_center{ width:360px; float:left; display:inline; margin-left:15px; display:inline;}
+/*养生运动头条*/
+.main_center .medicine_con{  width:360px; margin:0 auto;}
+.wen_bg{ background:url("pic_all-14.png")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/pic_all.png*/ no-repeat 0px -102px; height:27px;}
+.wen_bg2{ background:url("pic_all-14.png")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/pic_all.png*/ no-repeat 0px -130px; height:27px; }
+.medicine_con a:hover{color:#006db0;}
+.medicine_con h2{ font-family:"微软雅黑";font-size:18px; font-weight:normal; text-align:center; clear:both;padding-top:10px;}
+.medicine_con h2 a{ color:#333;}
+.medicine_con ul{ margin-top:6px; border-bottom:1px dashed #dbdbdb;padding-bottom:6px; clear:both; zoom:1;}
+.medicine_con .no-padding{ padding:0px; border:none;}
+.medicine_con li{text-align:center; font-size:14px; height:25px; margin:0 2px 0 3px;  line-height:25px; overflow:hidden; display:inline-block;}
+.medicine_con .no-top{ padding-top:0px;}
+.list{ font-size:14px;zoom:1;  }
+.list li{ float:left; width:205px;  overflow:hidden;margin-left:10px;height:24px; line-height:24px;}
+/*main_right*/
+.main_right{ float:right;width:250px;}
+.introduce{ background:#F8F5EC;}
+/*热门推荐*/
+.illustration .common_list{margin-top:0px; }
+.illustration .common_dl{ border-left:2px solid #218ece; border-top:1px solid #ccc;border-right:1px solid #ccc; border-bottom:1px solid #ccc; width:239px; height:88px;  background:#fff; margin-top:38px; padding:6px 0 0 8px;}
+.column_r dt,.column_r dt img{ width:80px; height:80px; float:left; overflow:hidden;}
+.column_r dd{ float:left; margin-left:10px; width:140px; color:#999999; line-height:20px;}
+
+/*******cont_l左边部分*******/
+.cont{width:980px;margin-top:22px; border-bottom:1px solid #ccc; float:left; padding-bottom:32px;}
+.cont_l{width:333px; float:left;}
+.gcw,.taiji{margin-top:20px;}
+.sport h2{height:27px; line-height:27px; color:#006fb3;font-size:24px;}
+.sport h2 span{width:26px;height:26px; background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat left top; float:left; margin-right:6px; display:inline-block;}
+.sport h2 .sp2{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat left -30px; margin-right:4px;}
+.sport h2 b{width:246px; height:25px; background:url("109-141024162149D1-3.jpg")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/js_r.jpg*/ repeat-x; display:inline-block; float:right;}
+.sport h2 .b1{width:220px;}
+.sport dl{width:155px; height:122px; float:left; margin:20px 10px 12px 0;}
+.uls li{line-height:27px; height:28px; background:url("187567-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/g_pic1.jpg*/ no-repeat left center; padding-left:12px; overflow:hidden;}
+.uls li a{font-size:14px; font-family:"微软雅黑";}
+.uls li a:hover{ text-decoration:underline; color:#006fb3;}
+.ship{ height:275px; float:left; overflow:hidden;}
+.ship1{ height:275px; float:left;}
+.ship2{ display:none;}
+.mydl{position:relative; float:left; margin-right:10px;}
+.uls_1 li{background:url("145-1410231516380-L-2.jpg")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/g_pic2.jpg*/ no-repeat left center;}
+.uls_1 li a{font-size:12px; font-weight:normal; color:#333;}
+.uls_2 li{height:38px; line-height:38px;border:1px solid #ccc;  border-top:0; background:#f4f9fb url("145-1410231516380-L-3.jpg")/*tpa=http://img.39yst.com/images/ysyd/g_pic2.jpg*/ no-repeat scroll 10px center; padding-left:22px;}
+
+
+.taiji h2{font-weight:normal; height:25px; line-height:25px;}
+.taiji h2 b{font-size:12px; display:inline-block; width:117px; float:left; background:#f0f0f0; border-left:2px solid #218ece; padding-left:15px;}
+.taiji h2 span{float:right; background:url("187306-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/span_bg.jpg*/ no-repeat left top; width:196px; padding-top:1px;}
+.taiji h2 span a{display:inline-block; width:54px; height:25px; text-align:center; font-size:12px;color:#fff; float:left;}
+.taiji h2 span .current{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -31px -157px; color:#666; margin-left:87px; border-right:1px solid #ccc;}
+.taiji h2 span .current2{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -87px -157px;color:#666;}
+.taiji h2 span .over0{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -31px -129px; color:#fff;}
+.taiji h2 span .over1{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -87px -129px; color:#fff;}
+
+
+.taiji dl{width:155px; height:122px; float:left; margin:10px 10px 10px 0; position:relative;}
+.mydl b{width:155px; height:25px; background:#000; display:block; position:absolute; left:0; bottom:0; filter:alpha(opacity=60); -moz-opacity:0.6;-khtml-opacity: 0.6;  opacity:0.6;}
+.mydl dd a{display:block; position:absolute; left:0; bottom:5px;color:#fff; width:155px; text-align:center;}
+.mydl dd .sp{position:absolute; left:0; bottom:5px; width:110px; text-align:center; }
+
+/*******cont_c中间部分*******/
+.cont_c{width:362px; float:left; margin:0 17px;}
+.cont_2{margin-top:16px;}
+.cont_2 h2{width:100%;padding-bottom:6px;margin-bottom:6px; font-size:24px; height:30px;}
+.cont_21,.cont_22{border-bottom:2px solid #2ea1df; overflow:hidden; float:left; height:30px; padding-right:6px;}
+.cont_2 li a{ margin-right:5px;}
+/*.cont_2 h2 b{display:inline-block; width:275px; border-bottom:2px solid #ccc;height:30px; float:right}
+.cont_2 h2 .b_r{width:225px; float:right;}*/
+
+
+.cont_2 h2 b {
+    border-bottom: 2px solid #ccc;
+    display: block;
+    float: left;
+    height: 30px;
+    margin-left: 1px;
+    width: 273px;
+}
+.cont_2 h2 .b_r {
+    float: left;
+    width: 220px;
+}
+
+.cont_2 h2 span{width:25px; height:27px; background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat left -60px;  margin-right:5px;}
+.cont_2 h2 .sp2{ background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat left -93px;}
+.cont_2 h2 .sp3{ background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat left -125px;}
+
+/*******cont_r右边部分*******/
+.cont_r{width:250px; float:left;}
+.fuwai{height:292px; background:#f4f9fb; margin-bottom:18px; padding-left:10px;}
+.fuwai span{padding-top:44px; font-size:14px; color:#004276;}
+.fuwai dl{padding-top:8px;}
+.fuwai dt{width:100px;}
+.fuwai dd{width:120px; padding:0 10px; line-height:21px; padding-top:6px;}
+.fuwai dd a{color:#666;}
+.main_right .p1,.fuwai p{width:141px; height:38px; background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -31px top;}
+.fuwai .p2{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -31px  -85px;}
+.fuwai .p3{background:url("187942-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/spr.png*/ no-repeat -31px -42px;}
+
+.top{margin-top:30px;}
+.top h2{border-bottom:1px solid #ccc; padding-bottom:12px; font-size:24px; margin-bottom:12px;}
+.top h2 a{color:#218dcd;}
+.top li{height:32px; line-height:32px;}
+.top li span{display:inline-block; width:15px; text-align:center;margin-right:14px;color:#fff;background:url("145-1410221A1010-L-2.jpg")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/g_pic4.jpg*/ no-repeat left center;}
+.top li span.current{ background:url("186588-2.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/ysyd/g_pic3.jpg*/ no-repeat left center; }
+.titles_h1{text-indent:-99999px; overflow:hidden; color:#fff; font-size:0px; width:0px; height:0px;}
+a[title="全景统计"]{display: none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

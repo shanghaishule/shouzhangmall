@@ -1,0 +1,62 @@
+.column_list_con{ padding:0 20px 20px 20px;zoom:1;}
+.colum_list_1 {   clear: both;  padding-top: 10px;}
+.colum_list_1 .head_tit {  display: inline-block;font-size: 18px; font-family:"微软雅黑";}
+.head_tit{  margin: 8px 0; text-align: left;}
+.colum_list_dl dt {  float: left; height: 126px;overflow: hidden; width: 190px; text-align: center;}
+.colum_list_dl dt img{ overflow: hidden;width: 190px;height: 126px}
+.colum_list_dl dd { color: #666;float: left;line-height: 24px; margin-left: 20px;width: 400px;}
+.share_all {  border-bottom: 1px solid #ccd3e4; clear: both; height:29px; line-height:29px;zoom:1;padding-bottom:10px; position:relative;}
+.share_all p {  display: inline; float: left;}
+.share_all .share_bnt { float: right;}
+.share_bnt a { display: block; float: left; margin-left: 15px;}
+.published_time{ color:#999;}
+.medicine_tag{ margin-top:10px;}
+.medicine_tag a{ margin-right:10px; color:#b91b20;}
+.head_tit .blue_a{ color:#1669ab;}
+.add{ margin-top:5x;}
+
+.takeaway:after{ content: " "; display: block; font-size: 0; height: 0;line-height: 0;visibility: hidden;width: 0;clear: both;}
+
+/*导读*/
+.takeaway{ clear:both;border:1px solid #ccd3e4;zoom:1; background: #f6f9f9 url("list_daidu.png")/*tpa=http://img.39yst.com/templates/39yst/images/article_new/list_daidu.png*/ no-repeat;border-top:none}
+.takeaway_r{ float:left; margin: 15px 0 0px 30px;}
+.takeaway_r h1{ font-size:24px; font-family:"微软雅黑"; font-weight:normal;color:#b91b20;}
+.takeaway_r .takeway_con{text-indent: 24px;font-family:"微软雅黑";font-size:14px; color:#666; line-height:1.7;margin-top:5px;padding-bottom: 10px;}
+
+/*列表分享列表*/
+i.icon-share{ width:19px; height:19px; background:url("common-1.png")/*tpa=http://img.39yst.com/templates/39yst/images/article_new/common.png*/ no-repeat 0px -131px; display:inline-block; position:relative;top:5px;margin-right:5px;}
+.share_bnt{ position:relative;}
+.share_bnt .share_bnt_r{ width:63px; height:29px; line-height:29px; text-align:center; color:#999;border: 1px solid #fff;border-bottom:none;}
+.share_bnt .bianse_blue{ border: 1px solid #dbdbdb;border-bottom:none;}
+.dropdown .dropdown-content2{ width:89px; position:absolute; z-index:2; top:30px;right:0px;}
+.right{ right:0px; }
+.dropdown2 .dropdown-content2 ul .share_last{ border:none}
+.dropdown-content2{ position:relative;}
+.dropdown2 .dropdown-content2  .clearfix{ background:#fff;top:-7px; width:47px; float:right; height:1px; margin-left:25px; left:0px; position:absolute; z-index:2;border:none;}
+.article-tools-share-pop{ display:none;}
+
+/*分页*/
+.page { color: #999999; font-family: Arial;  font-size: 14px;  height: 28px; line-height: normal;text-align: center; white-space: nowrap;margin-top:30px;}
+.page a {  display: inline-block; height: 26px; line-height: 26px;margin-left: -1px;    min-width: 18px;  padding: 0 5px;text-align: center; vertical-align: top;}
+.page a:link, .page a:visited { background-color: #FAFBFC; border: 1px solid #CCD3E4;    color: #3B5998;text-decoration: none;}
+.page a:hover { background-color: #F0F0F0;border: 1px solid #CCD3E4; color: #3B5998;    text-decoration: none;}
+.page a.current:link, .page a.current:visited, .page a.current:hover {
+    background-color: #0B3B8D;border: 1px solid #0B3B8D;color: #FFFFFF;cursor: default;    text-decoration: none;}
+.page .page-item-info { display: inline-block;font-size: 12px;line-height: 28px;margin-right: 8px;}
+.page .page-item-first { margin-right: 5px;}
+.page .page-item-prev {  margin-right: 5px; width: 50px;}
+.page .page-item { margin: 0 5px;}
+.page .page-item-next {  margin-left: 5px;width: 50px;}
+.page .page-item-last { margin-left: 5px;}
+.page a.page-disabled:link, .page a.page-disabled:visited, .page a.page-disabled:hover {
+background-color: #EFEFEF;border: 1px solid #D0D0D0; color: #999999;cursor: default;}
+.page-small { font-size: 12px;height: 20px;}
+.page-small a { height: 18px;line-height: 18px;}
+.page-small .page-item-info { line-height: 20px;}
+.page .page-item-jump {  background-color: #FAFBFC;border: 1px solid #CCD3E4; color: #999999; display: inline-block; font-family: 宋体;font-size: 12px; height: 26px;    line-height: 26px; margin: 0 6px; padding: 0 4px;}
+.page .page-item-jump .page-item-jump-text { background-color: #FFFFFF;border: 1px solid #CCD3E4; color: #666666; float: left; height: 18px;line-height: 18px;margin: 3px 5px 0 0; padding: 0 3px;text-align: center; width: 25px;}
+.page-small .page-item-jump {height: 18px;line-height: 18px;}
+.page-small .page-item-jump .page-item-jump-text { height: 12px;line-height: 12px;    margin-top: 2px;}
+
+a[title="全景统计"]{display: none}
+

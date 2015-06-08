@@ -1,0 +1,360 @@
+/* 链接颜色 */
+a:link { color: #333; text-decoration:none;}
+a:visited { color: #333; text-decoration:none;}
+a:active { color: #318b00; text-decoration:none;}
+a:hover { color: #318b00; text-decoration:underline;}
+i,em{ font-style:normal;}
+.clear{ width:0px; height:0px; clear:both; overflow:hidden; font-size:0px;}
+.white a:link,.white a:visited{ color: #fff;}
+.wrap{ width:980px; margin:0 auto;}
+.column_r:after,.column:after,.medicine_con ul:after,.features_dls:after,.tutorial:after,.combat dl:after,.clearfix:after,.common_box:after{ content: " "; display: block; font-size: 0; height: 0;line-height: 0;visibility: hidden;width: 0;clear: both;}
+.column_r,.column,.clearfix,.common_box{ zoom:1;}
+
+/*header*/
+.header{ height:34px; line-height:34px; overflow:hidden; background:#f7f7f7;border-bottom:1px solid #dbdbdb;}
+.header a{ color:#666;}
+.header .red{ color:#e61d24;}
+/*logo*/
+span.logo_pic{ display:block; float:left; width:216px; height:61px; background:url("pic_all-11.png")/*tpa=http://www.39yst.com/images/caipu/pic_all.png*/ no-repeat 0 0;margin-top:12px;}
+.banner{ width:450px; float:left; height:82px; margin-left:10px;}
+/*search*/
+.search_all{ position:relative; z-index:1;}
+.search_input{ width:226px; color:#999;padding-left:29px; height:25px; line-height:25px; border:1px solid #ccc; }
+.search_bnt{ background:none; border:none; width:65px; height:29px; line-height:27px; color:#fff; background:#318b00; cursor:pointer;}
+.search_all2 .search_input{ width:190px;}
+.search_all2 .search_bnt{ background:#452c1a; width:65px;margin-left:5px;}
+.search{ float:right;margin-top:20px;}
+.search p{ clear:both;padding-top:6px; }
+span.icon_search{ width:20px;  height:25px; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -5px; position:absolute; z-index:4;left:2px;top:2px;*+top:3px;_top:3px; }
+
+										
+					/*===============列表页==================*/
+.sl_logo{ display:inline-block; width:117px; height:30px; background:url("55983-1-1.html")/*tpa=http://www.39yst.com/images/caipu/sl_all.png*/ no-repeat 0 0;}
+.con_lines {  border-top: 2px solid #349c00; clear: both;margin-top:5px; }
+.column_right{ width:300px; float:right;}
+/*右侧切换板块一*/
+.Recipes_all{ border:1px solid #dddddd; clear:both;margin-top:10px;padding-bottom:15px;}
+.Recipes_all .Recipes_tit{ background:#f2f2f2;}
+.Recipes_all .Recipes_tit li{ height:30px; float:left; width:98px; line-height:30px; text-align:center; background:#f2f2f2; position:relative;border-left:1px solid #fff;}
+.Recipes_all .Recipes_tit .common_list_cur{ background:#318b00;}
+.Recipes_all .Recipes_tit .common_list_cur a{ color:#fff;font-weight:bold;}
+.common_list_cur span.icon_down_arrow{ display:block;width:8px; height:5px;background:url("55983-1-1.html")/*tpa=http://www.39yst.com/images/caipu/sl_all.png*/ no-repeat 0 -31px; position:absolute; z-index:1; bottom:-5px; left:50%;}
+span.icon_triangle{ display:block;margin-top:5px; overflow:hidden; float:left;width:6px; height:9px;background:url("55983-1-1.html")/*tpa=http://www.39yst.com/images/caipu/sl_all.png*/ no-repeat -115px -33px;margin-right:10px;_margin-right:5px;}
+.Recipes_con li{ float:left; width:115px; line-height:24px;margin-left:20px; display:inline;}
+.con1{ padding-top:10px; clear:both;}
+/*当季食谱*/
+.quarter{ border:1px solid #ddd; padding:10px 20px;margin-top:10px;}
+.quarter_tit{ font-size:16px; font-family:"微软雅黑"; color:#318b00;}
+span.icon_quar{ display:inline-block; overflow:hidden;width:4px; height:18px;background:url("55983-1-1.html")/*tpa=http://www.39yst.com/images/caipu/sl_all.png*/ no-repeat -116px -45px; position:relative;top:3px;margin-right:10px;}
+.quarter dl{ padding-top:20px; clear:both;}
+.quarter dt{ float:left; width:114px;}
+.quarter dt img{ width:114px; height:85px; overflow:hidden;}
+.quarter dd{ float:left; margin-left:10px;width:133px; color:#666;}
+.quarter .quarter_con_tit{ font-size:14px; font-family:"微软雅黑";}
+.quarter .quarter_con_tit a{ color:#318b00;}
+.quarter .quarter_con{ line-height:1.6; color:#666;margin-top:7px;*+margin-top:-10px;}
+/*热门食材和专题推荐*/
+.project{ padding:10px 0px;border:1px solid #ddd; margin-top:10px;}
+.project .quarter_tit{ padding-left:15px;}
+.project .quarter_tit2{ border-top:1px solid #ddd; width:270px; margin:0 auto;padding:10px 0 5px 0;margin-top:15px;}
+.hot_ingre_tag{ padding:10px 0 0 15px;word-break:break-all;width:270px; overflow:hidden;}
+.hot_ingre_tag a{ margin-right:15px;word-break:break-all; line-height:24px; }
+.hot_project_tag a{ padding:5px 10px; background:#318b00; color:#fff; display:inline-block;margin:5px 0 5px 15px;}
+/*编辑推荐1*/
+.editor_tj{ border:1px solid #ddd;margin-top:10px;padding:10px 15px;}
+.editor_tj dl{ padding-top:20px; clear:both;}
+.editor_tj dt{ float:left; width:114px;}
+.editor_tj dt img{ width:114px; height:85px; overflow:hidden;}
+.editor_tj dd{ float:left; margin-left:10px;width:133px; color:#666;}
+.editor_tj .quarter_con_tit{ font-size:14px; font-family:"微软雅黑";}
+.editor_tj .quarter_con_tit a{ color:#318b00;}
+.editor_tj .quarter_con{ line-height:1.6; color:#666;margin-top:7px;*+margin-top:-10px;}
+.editor_tj ul{ clear:both; line-height:24px;}
+.editor_tj ul li{ clear:both;}
+span.icon_dot{ width:4px; height:4px;background:url("55983-1-1.html")/*tpa=http://www.39yst.com/images/caipu/sl_all.png*/ no-repeat -116px -64px; display:block; float:left;margin-top:10px;margin-right:3px; }
+/*热门阅读*/
+.hot_read{ border:1px solid #ddd;margin-top:10px;padding:10px 15px;}
+.hot_read ul{ line-height:24px;padding-top:10px;}
+.hot_read ul li{ clear:both;}
+/*编辑推荐图文*/
+.editor_pics{ border:1px solid #ddd;margin-top:10px;padding:10px 0;}
+.editor_pics .quarter_tit{ padding-left:15px;}
+.editor_pics dl{ width:128px; float:left;margin:15px 0 0 14px; display:inline;}
+.editor_pics dl dt img{  width:128px; height:96px; overflow:hidden;}
+.editor_pics dl dd{ text-align:center;}
+
+
+/*左侧介绍*/
+.takeaway:after {  clear: both; content: " "; display: block; font-size: 0;height: 0; line-height: 0; visibility: hidden; width: 0;}
+.takeaway {background:#F6F9F9 url("list_daidu-8.png")/*tpa=http://www.39yst.com/images/caipu/list_daidu.png*/ no-repeat scroll 0 0 ;border: 1px solid #CCD3E4;border-top:none;clear: both; zoom:1;}
+.takeaway_r { float: left;padding: 15px 15px 0 15px;}
+.takeaway_r h1 {  color: #B91B20; font-family: "微软雅黑"; font-size: 24px; font-weight: normal;}
+.takeaway_r .takeway_con {  color: #666666;font-family: "微软雅黑";  font-size: 14px; line-height: 1.7;margin-top: 5px;padding-bottom: 10px;}
+/*column_list*/
+.column_list{ width:670px; float:left; display:inline;}
+.column_list_con{ border:1px solid #dbdbdb; border-top:none;padding:0 30px 20px 30px;zoom:1;}
+.colum_list_1 {   clear: both;  padding-top: 10px;}
+.colum_list_1 .head_tit {  display: inline-block;font-size: 18px; font-family:"微软雅黑";}
+.head_tit{  margin: 8px 0; text-align: left;}
+.colum_list_dl dt {  float: left; height: 110px;overflow: hidden; width: 200px;}
+.colum_list_dl dt img{  height: 110px; overflow: hidden;width: 200px;}
+.colum_list_dl dd { color: #666;float: left;line-height: 24px; margin-left: 20px;width: 380px;}
+.share_all {  border-bottom: 1px solid #dbdbdb; clear: both; height:29px; line-height:29px;zoom:1;padding-bottom:10px; position:relative;}
+.share_all p {  display: inline; float: left;}
+.share_all .share_bnt { float: right;}
+.share_bnt a { display: block; float: left; margin-left: 10px;}
+.published_time{ color:#999;}
+.medicine_tag{ margin-top:7px;}
+.medicine_tag a{ margin-right:10px; color:#b91b20;}
+.tag_title{ padding:4px 12px; background:#51a041; color:#fff;margin-right:10px;}
+.tag_title2{ background:#f59600;}
+/*column_r*/
+.column_r2{ width:300px; float:right; display:inline;}
+/*分页*/
+.page { color: #999999; font-family: Arial;  font-size: 14px;  height: 28px; line-height: normal;text-align: center; white-space: nowrap;margin-top:30px;}
+.page_left{ text-align:left;}
+.page a {  display: inline-block; height: 26px; line-height: 26px;margin-left: -1px;    min-width: 18px;  padding: 0 5px;text-align: center; vertical-align: top;}
+.page a:link, .page a:visited { background-color: #fff; border: 1px solid #90ca81;    color: #51a041;text-decoration: none;}
+.page a:hover { background-color: #F0F0F0;border: 1px solid #90ca81; color: #3B5998;    text-decoration: none;}
+.page a.current:link, .page a.current:visited, .page a.current:hover {
+    background-color: #51a041;border: 1px solid #51a041;color: #FFFFFF;cursor: default;    text-decoration: none;}
+.page .page-item-info { display: inline-block;font-size: 12px;line-height: 28px;margin-right: 8px;}
+.page .page-item-first { margin-right: 5px;}
+.page .page-item-prev {  margin-right: 5px; width: 50px;}
+.page .page-item { margin: 0 5px;}
+.page .page-item-next {  margin-left: 5px;width: 50px;}
+.page .page-item-last { margin-left: 5px;}
+.page a.page-disabled:link, .page a.page-disabled:visited, .page a.page-disabled:hover {
+background-color: #fff;border: 1px solid #90ca81; color: #51a041;cursor: default;}
+.page-small { font-size: 12px;height: 20px;}
+.page-small a { height: 18px;line-height: 18px;}
+.page-small .page-item-info { line-height: 20px;}
+.page .page-item-jump {  background-color: #FAFBFC;border: 1px solid #CCD3E4; color: #999999; display: inline-block; font-family: 宋体;font-size: 12px; height: 26px;    line-height: 26px; margin: 0 6px; padding: 0 4px;}
+.page .page-item-jump .page-item-jump-text { background-color: #FFFFFF;border: 1px solid #CCD3E4; color: #666666; float: left; height: 18px;line-height: 18px;margin: 3px 5px 0 0; padding: 0 3px;text-align: center; width: 25px;}
+.page-small .page-item-jump {height: 18px;line-height: 18px;}
+.page-small .page-item-jump .page-item-jump-text { height: 12px;line-height: 12px;    margin-top: 2px;}
+
+/*相关菜谱*/
+.common_colum{ zoom:1;border:1px solid #dbdbdb; clear:both; }
+.editor_recom{ margin-top:10px;padding-bottom:15px; border:1px solid #dbdbdb;}
+.editor_recom .theory_list{ width:199px;margin:10px 7px 10px 10px; display:inline; }
+.editor_recom .list{ font-size:12px;}
+.editor_tit{ font-size:16px; color:#608e36; font-family:"微软雅黑"; padding-left:10px; height:32px;  line-height:32px; background:#f3f3f3;}
+.hd_pic{ padding:0px 0 0px 2px; zoom:1;}
+.hd_pic dl{ width:145px; height:120px;display:inline; margin:15px 5px 0 14px; float:left;}
+.hd_pic dt img{ width:145px; height:98px; overflow:hidden;}
+.hd_pic dd{ text-align:center;}
+
+
+/*养生推荐*/
+.article-about{ border:1px solid #dbdbdb; padding-bottom:10px; zoom:1;margin-top:10px;}
+.article_tit{ font-size:14px; font-weight:bold; height:30px; background:#f9f9f9; line-height:30px; padding-left:14px;border-bottom:1px solid #dbdbdb;}
+.cont_1{ border:1px solid #dbdbdb; padding-bottom:10px; zoom:1;margin-top:10px;}
+.t{  font-size:16px; color:#608e36; font-family:"微软雅黑"; padding-left:10px; height:32px;  line-height:32px; background:#f3f3f3;}
+.cont_1 .tj_list{ font-size:14px;padding:10px 0px 0 0px; overflow:hidden;border-bottom:1px dashed #dbdbdb; width:650px; margin:0 auto; padding-bottom:10px;}
+.cont_1 .tj_list li{ height:26px; line-height:26px;width:210px; margin-left:5px;  float:left; overflow:hidden;}
+
+.cont_1_down .cont_1_downl{ width:315px; float:left;margin:15px 0 0 10px;}
+.cont_1_down .cont_1_downl b{ font-size:14px;margin-right:5px; _margin-right:0px;display:block; float:left;margin-top:1px;}
+.cont_1_down .cont_1_downl dl{ float:left; width:125px;}
+.cont_1_down .cont_1_downl dl dt img{ width:125px;height:91px; overflow:hidden;}
+.cont_1_down .cont_1_downl dl dd{ text-align:center;margin-top:5px;}
+.cont_1_down .cont_1_downl ul{ float:left;margin-left:5px;}
+.cont_1_down .cont_1_downl li{ line-height:20px; clear:both; overflow:hidden;}
+/*===================标签聚合页====================*/
+.column_list_con2{ padding:0px 0 20px 0;}
+.citieslist h2{display:inline-block;*display:inline;zoom:1;height:32px;margin:20px 20px 12px 20px;padding:0 14px;line-height:30px;border-radius:0;background:#318b00;position:relative;color:#FFF}
+.citieslist h2 span{float:none;display:block;position:absolute;top:32px;left:20px;width:0;height:0;line-height:0;font-size:0;border-style:solid;border-width:6px;border-color:#318b00 #FFF #FFF #FFF}
+.citieslist li{border-top:1px #FFF solid;border-bottom:1px #FFF solid}
+.citieslist p{padding:6px 10px 6px 30px;border-top:1px #FFF solid;border-bottom:1px #FFF solid}
+.citieslist .label{display:inline-block;width:30px;height:30px;vertical-align:top;border:1px #DDD solid;margin-right:5px;*display:inline;zoom:1;border-radius:0;color:#666;line-height:24px}
+.citieslist .label strong{display:block;width:28px;height:28px;text-align:center;background:#f1f1f1;border:1px #f7f7f7 solid;border-radius:0;font-family:Tahoma;font-size:16px}
+.citieslist span{display:inline-block;width:580px;vertical-align:top;*display:inline;zoom:1}
+.citieslist span a{ color:#318B00; font-size:14px;}
+.citieslist span i{color:#CCC;font-style:normal;margin:0 3px}
+.citieslist .hover{border-color:#e5e5e5}
+.citieslist .hover p{background:#f7f7f7}
+.citieslist .hover .label{border-color:#dddddd}
+.citieslist .hover .label strong{background:#318b00;color:#FFF;border-color:#f7f7f7}
+.citieslist a{display:inline-block;*display:inline;zoom:1;height:20px;padding:4px 5px;margin:5px 10px;border-radius:0;line-height:20px}
+.citieslist a:hover{background:#318b00;color:#FFF; text-decoration:none;}
+.citieslist .isonline{font-weight:bold}
+.f-text{border:1px solid #d4d4d4;border-radius:2px 0 0 2px;font-size:12px;height:18px;line-height:18px;background:#FFF;outline:0}
+.widget-autocomplete{border:1px solid #d4d4d4}
+.widget-autocomplete .widget-autocomplete-list .current,.widget-autocomplete .widget-autocomplete-list .current .extra{background-color:#def7f8;color:#333}
+/*===================标图文结合页====================*/
+.Label{ border:1px solid #dddddd;margin-top:10px;padding-bottom:20px;*+padding-bottom:0px;}
+.common_tags{ background:#f2f2f2;}
+.common_tags li{ float:left; width:94px; height:32px; line-height:32px; text-align:center; background:#f2f2f2;border-left:1px solid #fff;font-size:14px;}
+.common_tags .common_list_cur{ border-top:2px solid #318b00; background:#fff; font-weight:bold;}
+.common_tags .common_list_cur a{ color:#318b00;}
+.common_tags .first_list{ width:95px;}
+.set_con p{ clear:both; width:650px; margin:0 auto;padding:20px 0px;}
+.set_con .lab_r{ width:570px; float:left; line-height:24px;}
+.set_con .eat_tag{ border-bottom:1px dashed #ddd;}
+.set_con span{ display:block; float:left; color:#666;}
+.set_con .eat{ padding:4px 15px; background:#318b00; font-size:14px; color:#fff;margin-right:20px;}
+.set_con .taboo{  padding:4px 15px; background:#e50215; font-size:14px; color:#fff;margin-right:20px;}
+.set_con dl{ width:140px; float:left; display:inline;margin:20px 5px 0 18px;}
+.set_con dl dt img{ width:140px; height:110px; overflow:hidden;}
+.set_con dl dd{ text-align:center; font-size:14px;}
+.set_con dl dd a{ color:#318b00;}
+/*=======================内容页=========================*/
+.column_detailes{ padding:17px 10px;border:1px solid #ddd;}
+.column_detailes h1{ font-size:18px; font-family:"微软雅黑"; color:#5b4827;}
+.recipe_con .big_pic{ width:350px; float:left;}
+.recipe_con .big_pic img{ width:350px;height:260px;}
+.recipe_con .recipe_detaile{ width:275px;float:left;margin-left:15px;}
+.recipe_detaile p{ line-height:24px; clear:both;}
+.recipe_detaile p strong{ color:#666;}
+.recipe_detaile p strong,.recipe_detaile p span{ display:block; float:left;}
+.recipe_detaile p span{ width:210px; color:#318b00;}
+.recipe_detaile p span em{ color:#333;}
+.recipe_detaile p a{color: #318b00;}
+/*步骤*/
+.steps_tit{ font-size:16px; font-family:"微软雅黑";color:#318b00;}
+.icon_num{ display:inline-block; background:#318b00; width:30px; height:30px;color:#fff; text-align:center; line-height:30px;margin-right:10px; border-radius:25px;font-size:16px; font-family:"微软雅黑";}
+.steps_one{ border-top:1px solid #ddd; padding-top:15px;margin-top:20px;padding-left:5px;}
+.composition{ font-size:14px;margin-top:10px;}
+.composition li{ float:left;margin-right:15px; white-space: nowrap; line-height:24px;}
+.composition span{ color:#318b00;margin-right:5px;}
+.methods{ font-size:14px; line-height:24px; padding-top:10px;}
+
+/*更多*/
+.n_drop-more{ position:relative; z-index:4;_margin-top:10px;}
+ .con_header .n_drop li{ margin-left:0px; font-size:12px;}
+.n_drop .n_drop_con {  background: url("navmore_bg-6.png")/*tpa=http://www.39yst.com/images/caipu/navmore_bg.png*/ repeat-y scroll 0 0 ; height: 100%;   overflow: hidden;padding: 0 5px; position: relative;}
+ .n_drop .n_drop_bot { background: url("navmore_bbg-6.png")/*tpa=http://www.39yst.com/images/caipu/navmore_bbg.png*/ no-repeat scroll 0 0 ;
+font-size: 1px; height: 10px; line-height: 10px;position: relative;}
+.n_drop .n_drop_con ul li {    background: url("line_bg1-5.png")/*tpa=http://www.39yst.com/images/caipu/line_bg1.png*/ repeat-x scroll center bottom ; line-height: 26px; padding: 5px 0; vertical-align: bottom;
+}
+.n_drop .n_drop_con ul li dl { float: left; overflow: hidden; width: 332px;}
+.n_drop .n_drop_con ul li dl dd {  float: left; height: 26px; margin-right: 5px; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 60px;}
+.n_more {   padding-right:15px; cursor: pointer; font-size: 14px;}
+.n_more1 { background: url("con_pic-5.png")/*tpa=http://www.39yst.com/images/caipu/con_pic.png*/ no-repeat scroll right -28px;}
+span.icon_arrow2{ background-position:0px -88px; display:none;}
+span.icon_arrow{ width:14px; height:7px; display:inline-block; background: url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat scroll 0px -81px; position:relative;top:-2px; margin:0px; overflow:hidden;}
+.n_drop {  margin: 2px 0 0 -365px; position: absolute; width: 428px;  z-index: 5;}
+.n_drop .n_drop_con ul li em { background-color: #F6F6F6; color: #666666; float: left;    font-weight: bold; margin-right: 15px; overflow: hidden; text-align: center;width: 67px;}
+
+
+
+/*返回顶部*/
+.gotop02 {  bottom: 500px; left: 50%; margin-left: 505px; position: fixed; z-index: 500;}
+.favo{ width:49px; height:38px; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0 -253px; display:block;}
+.favo:hover{ background-position:-60px -253px;}
+.gotop02-con{ width:49px; height:39px; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -291px; display:block;}
+.gotop02-con:hover{ background-position:-60px -291px;}
+/*漂浮导航*/
+.article-tools {   width: 670px;}
+.article-tools .article-tools-content { height: 35px;text-align: center;
+    width: 670px; z-index: 999;}
+.article-tools .article-tools-collect {  display: inline-block; position: relative;text-align: left;   z-index: 50;}
+.article-tools .article-tools-share { display: inline-block; position: relative;    text-align: left;    z-index: 50;}
+.article-tools a.btn {margin-right: -7px;  width:89px; height:23px; line-height:23px; }
+.article-tools a.btn:link, .article-tools a.btn:visited, .article-tools a.btn:hover {    border-top: 0 none !important;}
+.btn-blue, .btn-blue:link, .btn-blue:visited {  background-color: #967b5d;  border: 1px solid #583b22;  color: #FFFFFF;}
+.btn-blue:hover {  background-color: #7e674d; color: #FFFFFF;}
+.btn-blue:active {  background-color: #7e674d; color: #FFFFFF;}
+.article-tools-share .dropdown {  position: relative;  z-index: 10;}
+.article-tools-share .article-tools-share-pop {  left: -2px; position: absolute;top: 25px;width:95px;}
+.dropdown .dropdown-content { background-color: #FFFFFF; border: 1px solid #dbdbdb;   padding: 5px 0;}
+.dropdown .dropdown-content ul li {  height: 27px;line-height: 27px;}
+.dropdown .dropdown-content ul li:hover{ background:#F2F5F8;}
+.dropdown .dropdown-content ul li a { color: #333333; display: block; height: 27px;   padding: 0 12px;  text-decoration: none;}
+
+/*所有图片*/
+span.icon_ser{ display:inline-block; background:url("pic_all-11.png")/*tpa=http://www.39yst.com/images/caipu/pic_all.png*/ no-repeat -115px 0; width:19px; height:25px; position:absolute; z-index:1; left:10px;top:2px;}
+.icon16{ display:block; float:left;background:url("pic_all-11.png")/*tpa=http://www.39yst.com/images/caipu/pic_all.png*/ no-repeat -52px -34px; width:16px; height:16px;   margin: 2px 4px 0 5px;}
+i.icon16-star1{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -28px; width:18px; height:17px; position:relative;top:3px;*+top:0px;margin-right:3px;}
+i.icon16-star2{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -65px; width:16px; height:15px; position:relative;top:0px;margin-right:3px;}
+i.icon16-page{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -236px; width:8px; height:14px; position:relative;top:3px;*+top:0px;margin-left:13px;}
+i.icon16-share{  display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -48px; width:17px; height:17px; position:relative;top:3px;margin-right:10px;}
+i.icon-weixin{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -151px; width:16px; height:16px; position:relative;top:4px;margin-right:5px; }
+i.icon-kongjian,.bshare-qzone{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -168px; width:16px; height:16px; position:relative;top:4px;margin-right:5px; }
+
+i.icon-sina,.bshare-sinaminiblog{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -185px; width:16px; height:16px; position:relative;top:4px;margin-right:5px; }
+i.icon-tengxun,.bshare-qqmb{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -202px; width:16px; height:16px; position:relative;top:4px;margin-right:5px; }
+i.icon-renren,.bshare-renren{ display:inline-block; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -219px; width:16px; height:17px; position:relative;top:4px;margin-right:5px; }
+.bshare-qzone,.bshare-sinaminiblog,.bshare-qqmb,.bshare-renren{top:0px;margin-right:0px}
+span.icon_line_2{ width:2px; height:34px; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat -110px 0px; display:inline-block; overflow:hidden;margin-left:15px;}
+/**/
+.n_drop{ display:none;}
+.show{ display:block;}
+.hover .icon_arrow2{ display:block;margin:-20px 0 0 28px;background-position:0px -88px;}
+.add1{ height:50px; width:980px; overflow:hidden; margin:10px 0;}
+.add{ margin-top:10px;}
+/*列表分享列表*/
+i.icon-share{ width:19px; height:19px; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -131px; display:inline-block; position:relative;top:5px;margin-right:5px;}
+.share_bnt{ position:relative;}
+.share_bnt .share_bnt_r{ width:63px; height:29px; line-height:29px; text-align:center; color:#999;border: 1px solid #fff;border-bottom:none;}
+.share_bnt .bianse_blue{ border: 1px solid #dbdbdb;border-bottom:none;}
+.dropdown .dropdown-content2{ width:89px; position:absolute; z-index:2; top:30px;right:0px;_right:84px;}
+.dropdown2 .dropdown-content2 ul { padding:0 10px;}
+.dropdown2 .dropdown-content2 ul li a{ padding: 0px;}
+.dropdown2 .dropdown-content2 ul li { border-bottom:1px dashed #ccd3e4; clear:both;}
+.right{ right:0px; }
+.dropdown2 .dropdown-content2 ul .share_last{ border:none}
+.dropdown2{ position:relative;}
+.article-tools-share-pop{ display:none;}
+.dropdown2 .dropdown-content2  .clearfix{ background:#fff;top:-1px; width:64px; float:right; height:1px; margin-left:25px; left:0px; position:absolute; z-index:2;border:none;}
+.dropdown-content2 a{ float:none;}
+ /*===================内容页===========*/
+/*header*/
+.con_header{ height:37px; background:url("top_bg-4.jpg")/*tpa=http://www.39yst.com/images/caipu/top_bg.jpg*/ repeat-x; height:37px;padding:0 10px; line-height:35px;font-size:14px;}
+.con_header ul{ float:left;}
+.con_header li{ float:left;  margin-left:10px;_margin-left:8px; display:inline; }
+.con_header li a{ display:inline-block; float:left;}
+.con_header .n_drop-more a{ float:none;}
+span.icon_line{ width:2px; height:34px; background:url("pic_all-11.png")/*tpa=http://www.39yst.com/images/caipu/pic_all.png*/ no-repeat -427px -294px; display:inline-block; overflow:hidden;margin-left:15px; top:6px;*+top:0px;}
+.con_header .con_logo span{ display:block; float:left; background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -331px; width:113px; height:27px;margin:4px 0;}
+.con_header .con_userinfo{ float:right; font-size:12px;_margin-top:6px;}
+.con_header .con_userinfo a{ margin-left:10px;}
+span.icon_login{ display:inline-block; width:16px; height:17px;background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -96px; position:relative;top:3px;margin-right:5px;}
+span.icon_reg{ display:inline-block; width:16px; height:16px;background:url("common-8.png")/*tpa=http://www.39yst.com/images/caipu/common.png*/ no-repeat 0px -114px; position:relative;top:3px;margin-right:5px;}
+/*内容页当前位置*/
+.con_posi{_margin-top:10px;}
+.con_posi2{ height:30px; line-height:30px;}
+.con_posi .con_posi_tag{ float:left;}
+.con_posi_tag a{ color:#618e36;}
+.con_posi_logo{ float:left; width:117px;}
+.con_posi_right{ float:left; margin-left:15px; line-height:34px;}
+.con_search{ float:right; position:relative; z-index:1;}
+.con_search_input{ width:209px; padding-left:30px; height:25px; line-height:25px; border:1px solid #DFDFDF;border-right:none; float:left;}
+.con_search_bnt{ width:44px; background:none; border:none; height:29px; float:left; background:#0165B1; cursor:pointer; color:#fff; text-align:center;}
+.row{  border-top:2px solid #967b5d;}
+.column_l{ width:670px;  float:left; }
+.column_in{ border:1px solid #dbdbdb;border-top:none;padding:10px 0;}
+.articlewrap{ width:610px; margin:0 auto; overflow:hidden;}
+.articlewrap h1 {    color: #333333;  font-family: 微软雅黑;font-size: 28px; height: 49px;  line-height: 49px;  margin: 0 -34px;    text-align: center; font-weight:normal;}
+.article-info {  border-bottom: 1px solid #dbdbdb; color: #999999; line-height: 22px;margin: 0 -24px; padding: 5px 0;text-align: center;}
+.article-info a{ color:#967b5d;}
+.article-info span { padding: 0 10px;}
+.article-content { color: #333333;font-size: 16px; line-height: 28px;padding-top: 10px;}
+.article-content p { line-height: 28px; margin: 15px 0; padding: 0;}
+.video{ font-size:14px; text-align:right;}
+.add3{ width:580px; height:90px; margin:0 auto;margin-top:20px;}
+.con_add2{ margin:5px 0 0 50px; float:left;}
+/*百科内容页2*/						
+.graydeep { color: #666666;}
+.f14 { font-size: 14px;padding:0 10px;}
+.baike-title {  border:none ;margin-bottom: -1px; position: relative; z-index: 100;}
+.lh200 {  line-height: 200%;}
+.fb {  font-weight: 700;}
+.fYaHei {  font-family: 微软雅黑;}
+.f20 {  font-size: 20px;}
+.orange, .orange-a a { color: #FF9441;}
+.text-intro dt {  border-top: 1px solid #DDDDDD; color: #FF7103; font-family: 微软雅黑; font-size: 15px; font-weight: bold; line-height: 35px;padding-top: 10px;}
+.text-intro dd { line-height: 28px;  padding-bottom: 15px;}
+.Recipes_all .quarter_tit{ padding:10px 0 0 15px;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* coffee' last work */
+*{ padding:0px; margin:0px;}
+body{ font-size:12px; font-family:宋体;}
+.left{ float:left;}
+.right{ float:right;}
+img{ border:none;}
+a,span,p{ text-decoration:none;}
+.menu,.s,.ad,.tbox,.all{ width:980px; margin:0 auto; clear:both;}
+ul,li{ list-style:none;}
+.xxk{Z-INDEX: 10; LEFT: 6px; POSITION: absolute; TOP: 105px; width: 300px; height: 300px;}
+.topbg{ height:31px; width:100%; background:#f7f7f7;}
+.top{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ no-repeat; width:980px; height:35px; margin:0 auto; line-height:30px; color:#333; margin-top:-31px;}
+.top a{color:#333;}
+.top a:hover{ color:#900;}
+.top b{font-weight:normal;}
+.menu .logo h1{ text-indent:-9999px; background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ 0px -35px no-repeat; width:190px; height:50px;}
+.menu .logo{ float:left; padding-right:15px; padding-top:3px;}
+.menu .nav{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -198px -35px no-repeat; padding-top:6px; float:left; height:50px; padding-left:8px;}
+.menu .nav p{ padding:0px 3px; border-right:#e4e4e4 dotted 1px; float:left;}
+.menu .nav p a{ line-height:23px; color:#000; padding:3px 5px;}
+.menu .nav p a:hover{ background:#006599; color:#fff;}
+.s{ background:url("allbg2011-1.jpg")/*tpa=http://www.39yst.com/templets/default/style/images/allbg2011.jpg*/ 0px -118px no-repeat; width:980px; height:60px;}
+.s .left{ padding:12px 50px 0px 70px; width:120px; line-height:18px;}
+.s .left a{ color:#fff; margin-right:5px;}
+.s .search{ padding-top:18px; float:left;}
+.stext{ height:25px;  width:460px; border:none; line-height:27px; font-size:14px; color:#777F77;}
+.sbt{ background:none repeat scroll 0 50% transparent; width:93px; height:27px; border:none; cursor:pointer;}
+.s .right{ width:195px; padding:12px 10px 0px 0px;}
+.s .right a{ color:#fff; line-height:18px;}
+.s .right a:hover,.s .left a:hover,.tbox .content p a:hover{ color:#f00;}
+.ad{ padding:10px 0px; float:left;}
+.tbox{ border:#cbcbcb solid 1px; width:978px; float:left;}
+.tbox .content{ padding:0px 5px;}
+.tbox .content p{ line-height:25px; text-align:center;}
+.tbox .content p a{ color:#333; margin:0px 5px;}
+
+.wrapper{float:left; margin-top:10px; width:980px; }
+.newsb{ margin-top:0px;}
+.wrapper .l_left{ width:282px; float:left; overflow:hidden;}
+.wrapper .l_left .qa .title{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ 0px -371px no-repeat; width:252px; padding:0px 15px; height:23px; overflow:hidden; line-height:25px;}
+.wrapper .l_left .qa .title a{ color:#313131; font-weight:bold; line-height:26px;}
+.wrapper .l_left .qa .title .right a{ font-weight:normal;line-height:26px;}
+.wrapper .l_left .qa .content{ border:#c8d8ee solid 1px; background:url("new_bg_y.jpg")/*tpa=http://www.39yst.com/images/images_index/images/new_bg_y.jpg*/ repeat-y; padding:10px 15px; height:224px;}
+.wrapper .l_left .qa .content ul li{ line-height:23px; height:23px; overflow:hidden; background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -583px -290px no-repeat; padding-left:30px; *height:20px!important;}
+.wrapper .l_left .qa .content ul{ padding:3px 0px 3px 0px;}
+.wrapper .l_left .qa .content ul li.ico_shang{}
+.wrapper .l_left .qa .content ul li.ico_jing{ background-position:-583px -314px;}
+.wrapper .l_left .qa .content ul li.ico_huo{ background-position:-583px -337px;}
+.had_a{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -60px -426px no-repeat; width:40px; height:18px; margin-left:10px; float:right; text-indent:-9999px; display:block;}
+.wrapper .l_left .qa .content ul li a{ color:#515151; line-height:23px; float:left;}
+.wrapper .l_left .qa p{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -134px -421px no-repeat; padding:0px 4px; width:240px; height:30px;}
+.wrapper .l_left .qa p a{ line-height:30px; color:#4769ac; padding:0px 6px;}
+.wrapper .l_left .qa p a:hover{ color:#900;}
+.focus{ width:282px; height:214px; overflow:hidden;}
+#panel{ display:block; z-index:-1;}
+.slide{ width:1000px; margin:0 auto; display:block; z-index:999;}
+.slide a{ float:right; color:#f00; line-height:20px; margin-top:-26px; display:block;z-index:9999; background:#f9f9f9; right:1px; position:absolute; cursor:pointer; padding:3px 10px;}
+.sliderwrapper{ height:180px; overflow:hidden;}
+.contentdiv{ height:180px; overflow:hidden;}
+.contentdiv img{ width:282px; height:180px;}
+.pagination{ background:#333; height:25px; line-height:25px;}
+.pagination .toc{ width:94px; display:block; color:#fff; float:left; text-align:center;}
+.pagination .selected{ background:#099603; color:#fff;}
+.wrapper .l_left .ys_box{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ 0px -195px no-repeat; width:282px; height:164px; margin-top:10px;}
+.wrapper .l_left .ys_box .content{ padding:15px 0px 15px 17px;}
+.wrapper .l_left .ys_box .content h3{ color:#173d88; font-size:14px; font-weight:bold; clear:both;}
+.wrapper .l_left .ys_box .content .green{ padding:10px 0px;}
+.wrapper .l_left .ys_box .content .green a{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -290px -195px no-repeat; width:118px; margin-right:9px; line-height:23px; color:#256d08; float:left; height:23px; text-align:center; display:block;}
+.wrapper .l_left .ys_box .content .green a:hover,.wrapper .l_left .ys_box .content .zc p a:hover,.wrapper .c_left .content .f h2:hover,.wrapper .c_left .content .f p a:hover,.wrapper .c_left .content ul li a:hover{ color:#900;}
+.wrapper .l_left .ys_box .content .blue{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -290px -226px no-repeat; width:245px; height:73px; clear:both; margin-top:10px; float:left; margin-bottom:10px;}
+.wrapper .l_left .ys_box .content .blue p{ width:116px; padding:1px;}
+.wrapper .l_left .ys_box .content .blue p a{ height:24px; line-height:24px; text-align:center; color:#4769ac; width:118px;_width:116px; display:block;}
+.wrapper .l_left .ys_box .content .blue p a:hover{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -290px -308px no-repeat; color:#900; width:116px; height:23px; margin-bottom:1px; line-height:23px;}
+.wrapper .l_left .ys_box .content .zc{ padding:20px 20px 20px 0px; _padding:15px 20px 15px 0px;}
+.wrapper .l_left .ys_box .content .zc p{ text-align:center; line-height:27px; color:#4769ac;}
+.wrapper .l_left .ys_box .content .zc p a{ color:#4769ac;}
+.wrapper .c_box{ width:431px; float:left; margin-left:10px;}
+.wrapper .c_left2{ width:431px; float:left; margin-left:10px;}
+.wrapper .c_left2 .hot_bbs_list .title{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -288px -371px no-repeat; overflow:hidden; padding:0px 15px; width:401px; height:23px; line-height:23px;}
+.wrapper .c_left2 .hot_bbs_list .title .left a{ color:#26782c; font-size:14px; font-weight:bold; line-height:25px;}
+.wrapper .c_left2 .hot_bbs_list .title .right a{ color:#26782c; line-height:25px;}
+.wrapper .c_left2 .hot_bbs_list .content{ border:#93d16b solid 1px; padding:13px 0px 13px 15px; height:218px; _height:242px; overflow:hidden;}
+.bbs_topimglist{height:27px; }
+.wrapper .c_left2 .hot_bbs_list .content .bbs_topimglist ul li{ float:left; width:100px; height:120px; text-align:center;}
+.wrapper .c_left2 .hot_bbs_list .content .bbs_topimglist ul li p a{ color:#004499; line-height:27px; overflow:hidden;}
+.wrapper .c_left2 .hot_bbs_list .content .bbs_textlist{ clear:both; border-top:#bebebe 1px dotted; width:398px;}
+.wrapper .c_left2 .hot_bbs_list .content .bbs_textlist ul{ padding-top:15px;_margin-top:-10px;*margin-top:-10px!important;}
+.wrapper .c_left2 .hot_bbs_list .content .bbs_textlist ul li{ float:left; width:174px; line-height:23px; background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -288px -345px no-repeat; padding:0px; padding-left:25px; overflow:hidden; _height:16px;*height:15px!important;*line-height:15px!important;}
+.wrapper .c_left2 .hot_bbs_list .content .bbs_textlist ul li a{ color:#515151; padding:0px;}
+
+.wrapper .c_left{ float:left; overflow:hidden; width:429px; height:384px; overflow:hidden; border:#95baca solid 1px; border-top:#006699 solid 3px;}
+/*.wrapper .c_left{ float:left; overflow:hidden; width:429px; height:384px; overflow:hidden; border:#7fa1e3 solid 1px; border-top:#02369a solid 3px;}*/
+
+.hjh_all_list li,.ly_hui li{ float:left ;font-size:12px; line-height:20px }
+.ly_hui li{ float:left ; margin-right:2px;}
+.ly_huiq li a{ font-size:14px;}
+.ly_huiq li{margin-top:3px;margin-right:0px}
+.hjh_all_list li{font-size:14px;overflow:hidden;margin-right:4px;}
+.hjh_all_list a:link,.hjh_all_list a:visited{font-size:14px;}
+
+
+/*修改开始*/
+.con{ margin-top:10px; clear:both; float:left; width:980px;}
+.con .title{ background:url("ysyzu.jpg")/*tpa=http://www.39yst.com/images/images_index/images/ysyzu.jpg*/; width:980px; height:32px;}
+.con .title h2 a{ float:left; display:block; width:150px; height:32px; text-indent:-9999px;}
+.con .title .contitc{ padding-left:11px;padding-right:11px;padding-top:8px; margin-left:30px; float:left;}
+.con .title .contitc a{ margin:0 5px; color:#6a5e27; background:url("ico.gif")/*tpa=http://www.39yst.com/images/images_index/images/ico.gif*/ 0px -2px no-repeat; padding-left:15px;}
+.con .title .contitc a:hover{ color:#900;}
+.con .content{ padding:20px 20px 10px 20px; float:left; width:938px; border:#af8866 solid 1px; border-top:none;}
+.con .content .box{ width:312px; float:left;}
+.con .content .box .stitle{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -21px -755px no-repeat; width:285px; height:22px; padding-left:15px;}
+.con .content .box .stitle .left{ font-size:14px; font-weight:bold; color:#7a612d; line-height:17px;}
+.con .content .box .stitle .right a{ color:#717171; line-height:20px;}
+.con .content .box .stitle .right a:hover,.con .content .box2 .stitle .right a:hover{ color:#900;}
+.con .content .box .cbox{ padding:10px 0px 0px 0px; text-align:center;}
+.con .content .box .cbox h4{ color:#313131; line-height:30px; font-size:14px; font-weight:bold;}
+.con .content .box .cbox dt{ text-align:left; width:285px;}
+.con .content .box .cbox dt a{ line-height:18px; color:#717171; text-align:left;}
+.con .content .box .cbox .cbox_b{ padding:10px 0px; border-top:#ccc dotted 1px; margin-top:10px; float:left; width:315px;}
+.con .content .box .cbox .cbox_b .left{ border:#d9d9d9 solid 1px; width:96px; height:133px; text-align:center; padding-top:3px; margin-right:5px;}
+.con .content .box .cbox .cbox_b .left p{ text-align:center; padding:0px 3px}
+.con .content .box .cbox .cbox_b .left p a{ line-height:20px; color:#313131;}
+.con .content .box .cbox .cbox_b .right{ width:180px; overflow:hidden; float:left; text-align:left;}
+.con .content .box .cbox .cbox_b .right ul li{ font-size:14px; line-height:24px; height:24px; _line-height:28px; overflow:hidden;}
+.con .content .box .cbox .cbox_b .right ul li a{color:#313131;}
+.con .t2{ background:url("yskt.jpg")/*tpa=http://www.39yst.com/images/images_index/images/yskt.jpg*/; width:980px; height:32px;}
+.con .t3{ background:url("shbjq.jpg")/*tpa=http://www.39yst.com/images/images_index/images/shbjq.jpg*/; width:980px; height:32px;}
+.con .t4{ background:url("shansys.jpg")/*tpa=http://www.39yst.com/images/images_index/images/shansys.jpg*/; width:980px; height:32px;}
+.con .b2{ border:#53c5e5 solid 1px; border-top:none;}
+.con .b3{ border:#8aaf66 solid 1px; border-top:none;}
+.con .b4{ border:#af666e solid 1px; border-top:none;}
+.con .title .c2 a{ background-position:0px -21px; color:#2059a7;}
+.con .title .c3 a{ background-position:0px -40px; color:#3f772b;}
+.con .title .c4 a{ background-position:0px -58px; color:#6a3727;}
+/*修改结束*/
+
+.con .content .box2{ width:468px; float:left; margin-bottom:10px; overflow:hidden;}
+.con .content .box2 .stitle{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -20px -798px; no-repeat; width:435px; height:22px; padding-left:15px;}
+.con .content .box2 .stitle .left{ font-size:14px; font-weight:bold; color:#186eb7; line-height:17px;}
+.con .content .box2 .stitle .right a{ color:#717171; line-height:20px;}
+.con .content .box2 .cbox2{ padding:10px 5px;}
+.con .content .box2 .cbox2 .cbox2_1{ width:325px; float:left;}
+.con .content .box2 .cbox2 .cbox2_1 .one{ width:325px;}
+.con .content .box2 .cbox2 .cbox2_1 .one .left{ width:75px; float:left;}
+.con .content .box2 .cbox2 .cbox2_1 .one .left img{ padding:2px; border:#d1d1d1 solid 1px; width:60px; height:60px;}
+.con .content .box2 .cbox2 .cbox2_1 .one .right{ width:250px; float:left; text-align:center;}
+.con .content .box2 .cbox2 .cbox2_1 .one .right h4{ color:#313131; line-height:30px; font-size:14px; font-weight:bold;}
+.con .content .box2 .cbox2 .cbox2_1 .one .right p{ text-align:left;}
+.con .content .box2 .cbox2 .cbox2_1 .one .right p a{  line-height:18px; color:#717171; text-align:left;}
+.con .content .box2 .cbox2 .cbox2_1 ul{ padding:10px 0px; float:left;}
+.con .content .box2 .cbox2 .cbox2_1 ul li a{ color:#313131; line-height:24px; font-size:14px;}
+.con .content .box2 .cbox2 .cbox2_2{ float:right; margin-right:20px; width:106px; text-align:center;border:#dadada solid 1px;}
+.con .content .box2 .cbox2 .cbox2_2 img{ margin-top:3px;}
+.con .content .box2 .cbox2 .cbox2_2 p a{ line-height:20px; color:#313131;}
+
+.ph{ margin-top:10px; clear:both; float:left; width:960px; border:#c2c2c2 solid 1px; padding:10px;}
+.ph .phbox{ width:170px; padding:0px 10px 10px 10px; float:left;}
+.ph .phbox .title{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -16px -918px no-repeat; height:30px; line-height:30px; padding:0px 5px; padding-bottom:10px;}
+.ph .phbox .title .left{ font-size:14px; font-weight:bold;}
+.ph .phbox .title .right a{ color:#004499;}
+.ph .phbox ul{ background:url("list.jpg")/*tpa=http://www.39yst.com/images/images_index/images/list.jpg*/ scroll 5px 0px no-repeat; padding-left:27px; float:left;}
+.ph .phbox ul li{ float:left; clear:both; line-height:25px; width:140px;}
+.ph .phbox ul li .left a{ color:#004499;}
+.ph .phbox ul li .right{ color:#c1c1c1;}
+
+.con .content .box2 .s1{ background-position:-21px -835px;}
+.con .content .box2 .s1 .left{ color:#3a7326;}
+.con .content .box2 .s2{ background-position:-21px -875px;}
+.con .content .box2 .s2 .left{ color:#77342b}
+
+.copylink,.copybot{width:980px;height:auto;overflow:hidden; margin-top:10px; margin:0 auto;}
+.linktit{width:980px;background:url("copy.gif")/*tpa=http://www.39yst.com/images/images_index/images/copy.gif*/ no-repeat;line-height:23px;height:23px;font-size:12px;}
+.linktit span{float:right;}
+.linktit span a{margin-right:12px;color:#515151;}
+.linktit ul li{width:73px;text-align:center;float:left;margin-right:2px;cursor:pointer;background:url("copy.gif")/*tpa=http://www.39yst.com/images/images_index/images/copy.gif*/ no-repeat -75px top;height:23px;}
+.linktit ul li.active,.linktit ul li.hover{background:url("copy.gif")/*tpa=http://www.39yst.com/images/images_index/images/copy.gif*/ no-repeat left top;height:23px;}
+.linktit ul li.active a,.linktit ul li.hover a{color:#1e202d; font-weight:bold}
+.linktit ul li a{color:#515151;}
+.linkcon{border:1px #d3e1ea solid;border-top:0;width:968px;height:auto;padding:10px 5px;overflow:hidden;}
+.linkcon ul li{line-height:22px;height:22px;float:left;text-align:center;width:85px;_width:85px; overflow:hidden;}
+.linkcon ul li a{color:#414141;font-size:12px;}
+
+.footer{ text-align:center; line-height:20px; color:#313131; margin-top:10px; margin:0 auto; clear:both; width:980px; padding-top:10px; border-top:#e4e4e4 solid 1px;}
+.footer p a{ color:#313131;}
+.footer p a:hover{ color:#900;}
+
+#tab-body ul{display:none;}
+#tab-body .now{display:block}
+#tab-body{ height:175px;overflow:hidden;}
+
+.zttui {width:385px;height:15px;line-height:15px;margin-bottom:7px; font-weight:bold;font-size:14px; color:#004499;  }
+.zttuis { float:right;height:15px;background:url("xx.gif")/*tpa=http://www.39yst.com/templets/default/style/images/xx.gif*/; background-repeat:no-repeat;width:280px;}
+.zttuis span {float:right;font-size:12px;font-weight:normal;color:#004499;}
+.zttuis span a{color:#004499;}
+.luntan {width:244px;height:172px;border:#93D16B solid 1px;overflow:hidden;margin-bottom:10px;}
+.luntan a {color:#313131;}
+.luntanspan {float:left;height:120px;width:80px;padding:2px;border:#FFC1E0 solid 0px; margin-top:10px; margin-left:10px;}
+.luntanspan p { margin-left:5px;margin-top:5px;height:16px;line-height:16px;}
+.luntan ul{float:left;margin-top:10px; width:140px; }
+.luntan ul li {height:25px;line-height:25px;overflow:hidden;padding-left:10px;}
+.luntan ul li a {height:25px;}
+.luntant {background:#93D16B;height:26px;line-height:26px; padding-left:10px;font-weight:bold;color:#fff;font-size:14px;border-bottom:#93D16B solid 1px;}
+.luntant span {float:right; font-size:12px;  padding-right:10px;font-weight:normal;}
+.luntant span a {color:#ffffff;}
+
+.title2 {background:#ffffff;height:20px; padding-left:10px;padding-top:7px;font-weight:bold;color:#004499;font-size:14px;border-left:#7FA1E3 solid 1px;border-right:#7FA1E3 solid 1px;border-top:#02369A solid 3px;border-bottom:#02369A solid 0px;}
+.title2 span {float:right; font-size:12px;  padding-right:10px;font-weight:normal;}
+.title2 a {color:#004499;}
+.pingzi {width:244px;height:201px;border-left:#7FA1E3 solid 1px;border-right:#7FA1E3 solid 1px;border-bottom:#7FA1E3 solid 1px;margin-bottom:10px;}
+.shop_list {width:244px;height:115px;border-left:#7FA1E3 solid 1px;border-right:#7FA1E3 solid 1px;border-bottom:#7FA1E3 solid 1px;margin-bottom:10px; overflow:hidden;}
+.shop_list ul{ padding:7px;}
+.shop_list ul li{ float:left; width:76px; text-align:center;}
+.shop_list ul li p{ text-align:center;}
+.shop_list ul li p a{ display:block; background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -315px -456px no-repeat; text-align:center; line-height:23px; color:#4769ac; width:67px; height:22px; margin:7px 5px;}
+.shop_list ul li p a:hover{ background:url("allbg2011.jpg")/*tpa=http://www.39yst.com/images/images_index/images/allbg2011.jpg*/ -315px -480px no-repeat; color:#900}
+.shop_list a{color:#666666; }
+.shop_list a:hover{color:#4769ac; }
+
+.pingziimg {width:224px;height:auto;overflow:hidden;border-bottom:#C6C6C6 dotted 1px;padding-bottom:10px;margin-left:10px;}
+.pingziimg img {display:block;}
+.pingziimg1 {width:107px;height:80px;float:left; margin-top:10px;margin-right:10px;}
+.pingziimg2 {width:107px;height:80px;float:left;margin-top:10px;}
+.pingziwenzi {width:242px;height:auto;overflow:hidden;border:#93D16B solid 0px;margin-top:8px;}
+.pingziwenzi a {color:#313131;}
+.pingziwenzi ul {padding-left:10px;}
+.pingziwenzi ul li {height:21px;line-height:21px; }
+
+.boxS7{overflow:hidden; zoom:1;margin:9px auto 0 auto;width:251px; }
+
+.boxS7 a{display:block; height:26px;background:url("mr_cl_033.gif")/*tpa=http://www.39yst.com/images/images_index/images/mr_cl_033.gif*/ no-repeat;line-height:26px; color:#666; }
+
+.boxS7 a span{float:left;width:77px;text-align:center;color:#000;cursor:pointer; }
+
+.boxS7 a:hover{background-position:0 -100px;color:#a00; text-decoration:none;}
+
+.boxS7 a:hover span{color:#fff;}
+
+.ys_box_2011{width:282px; height:164px; margin-top:10px;}
+.ys_box_2011_top{width:282px; height:30px;background:url("topzice.jpg")/*tpa=http://www.39yst.com/images/images_index/images/topzice.jpg*/; line-height:23px;}
+.ceshibeirong{width:281px; height:104px;background:url("topmiddle.jpg")/*tpa=http://www.39yst.com/images/images_index/images/topmiddle.jpg*/; border-right:#b3cbcb 1px solid}
+.ceshibeirong1{width:148px; height:88px; float:left; margin-top:10px;}
+.ceshi1_2011{width:148px; height:40px; line-height:20px;}
+.ceshi1_2011_1{width:148px; height:40px; line-height:20px; margin-top:10px;}
+.ceshi1_2011_2{width:81px; height:88px; float:right;margin-top:10px;}
+.ceshi1_2011_3{width:81px; height:40px; line-height:20px;}
+.ceshi1_2011_4{width:88px; height:40px; line-height:20px; margin-top:10px;}
+.ceshibottom_2011{width:282px; height:33px;background:url("yangshengbottom.gif")/*tpa=http://www.39yst.com/images/images_index/images/yangshengbottom.gif*/;}
+
+.duipeng_big_content{border-bottom:#c8d8ef 1px solid;border-left:#c8d8ef 1px solid;border-right:#c8d8ef 1px solid; background-color:#FFFFFF; padding:10px 15px; height:217px;}
+.duipeng_pic{width:241px; height:88px;}
+.duipeng_pic_content{width:75px; height:75px; float:left; padding:3px; border:#c8d8ef 1px solid}
+.duipeng_pic_font{width:150px; height:85px; float:right; line-height:20px;}
+.jiaodianht{width:243px; height:20px; margin:0 auto; background-image:url("jdht_hengtiao.gif")/*tpa=http://www.39yst.com/images/images_index/images/jdht_hengtiao.gif*/; line-height:20px; margin-top:6px;}
+.xinwennews{width:233px; height:20px; margin:0 auto; background-image:url("xinwenicon.gif")/*tpa=http://www.39yst.com/images/images_index/images/xinwenicon.gif*/; padding-left:8px; line-height:20px; margin-top:5px;}
+
+.pingziimg_2011 {width:234px;height:auto;overflow:hidden;padding-bottom:10px;margin-left:10px;}
+.r_left_2011{ width:246px;float:right; overflow:hidden; }
+.title2_2011 {background:#ffffff;height:41px;background-image:url("ystuijian_top.gif")/*tpa=http://www.39yst.com/images/images_index/images/ystuijian_top.gif*/;}
+.title2_2011 a {color:#666666; font-size:12px;}
+.title2_2011_more{ width:51px; height:18px; float:right; margin-top:12px;}
+.pingzi_2011 {width:244px;height:195px; margin-bottom:7px;border-left:#e6e6e6 solid 1px;border-right:#e6e6e6 solid 1px;border-bottom:#e6e6e6 solid 1px;}
+.pingziimg1_2011 {width:107px;height:90px;float:left; margin-top:10px;margin-right:10px;}
+.pingziimg2_2011 {width:117px;height:90px;float:left;margin-top:10px;}
+.pingziwenzi_2011 {width:232px;height:auto;overflow:hidden;border:#93D16B solid 0px; height:76px;background-image:url("pingziwenzi_font.gif")/*tpa=http://www.39yst.com/images/images_index/images/pingziwenzi_font.gif*/;}
+.pingziwenzi_2011 a {color:#006599; font-size:12px;}
+.pingziwenzi_2011 ul {padding-left:32px;}
+.pingziwenzi_2011 ul li {height:21px;line-height:24px; }
+.ystjjc{ width:200px; margin-left:33px; height:22px; line-height:22px;}
+
+.baoguangtai_1{ width:246px; height:28px; background-image:url("baoguangtai_1.gif")/*tpa=http://www.39yst.com/images/images_index/images/baoguangtai_1.gif*/;}
+.baoguangtai_big{width:244px; height:118px;border-left:#b3cbcb solid 1px;border-right:#b3cbcb solid 1px;border-bottom:#b3cbcb solid 1px; margin-bottom:7px;}
+.baoguangtai_2011{ width:113px; height:18px; line-height:18px;}
+.baoguangtai_2011 a{ font-size:14px; color:#FF0000;}
+.baoguangtai_2011_small{ width:113px; height:18px; line-height:18px;}
+.baoguangtai_2011_small a{ font-size:12px; color:#00659b;}
+.zhuantitop{width:246px; height:28px;background:url("zhuantitop.gif")/*tpa=http://www.39yst.com/images/images_index/images/zhuantitop.gif*/; line-height:23px;}
+.zhuantimiddle{width:244px; height:241px;border-left:#c8d7ea solid 1px;border-right:#c8d7ea solid 1px;border-bottom:#c8d7ea solid 1px;}
+.zhuantilist{width:220px; height:114px; margin-left:10px; background-image:url("zhuantibg.gif")/*tpa=http://www.39yst.com/images/images_index/images/zhuantibg.gif*/;}
+.zhuantilist_news{width:180px; height:20px; margin-left:23px; line-height:20px;}
+.jiaodianh_zhixing{width:234px; height:25px; margin:0 auto;background:url("yszx.gif")/*tpa=http://www.39yst.com/images/images_index/images/yszx.gif*/; line-height:23px; }
+
+.sosobg_2011{ width:980px; height:45px; margin:0 auto; background-image:url("sosobg_2011.jpg.png")/*tpa=http://www.39yst.com/images/images_index/images/sosobg_2011.jpg*/;}
+.sosobg_2011_left{width:589px; height:36px; float:left; margin-left:8px; margin-top:8px; }
+.sosobg_2011_right{width:359px; height:36px; float:right;margin-top:8px; }
+
+.sosobg_2011_right1{height:16px; color:#FFFFFF; font-size:12px; line-height:16px; margin-top:7px;float:left;margin-right:5px;}
+.sosobg_2011_right2{width:359px; height:16px; color:#FFFFFF ;font-size:12px; line-height:16px; margin-top:2px;}
+.sosobg_2011_right1 a{color:#FFFFFF; font-size:12px;}
+.sosobg_2011_right1 a:hover{color:#f99a02; font-size:12px;}
+.sosobg_2011_right2 a{color:#FFFFFF; font-size:12px;}
+.sosobg_2011_right2 a:hover{color:#f99a02; font-size:12px;}
+
+.tuwenzixun_1220{width:978px; height:103px; margin:0 auto; border-left:#d1e2ea 1px solid;border-bottom:#d1e2ea 1px solid;border-right:#d1e2ea 1px solid}
+.tuwenzixun_1220_left{ width:716px; height:94px; float:left; margin-top:6px;}
+.tuwenzixun_1220_left1{width:182px; height:94px;float:left; line-height:23px; }
+.tuwenzixun_1220_left2{width:530px; height:91px; float:right; border:#eaeaea 1px solid;}
+.tuwenzixun_1220_left1 a{ color:#414141; font-size:12px; }
+.tuwenzixun_1220_right{width:256px; height:94px; float:right;margin-top:6px; line-height:23px;}
+.tuwenzixun_1220_right a{ color:#414141; font-size:12px; }
+.wenzileft_1220{ width:174px; height:22px; margin:0 auto;}
+.tuwenzixun_1220 a:hover{ color:#506f9f;}
+.sosobg_2011_right1 a:hover{ color:#FFFF00; font-size:12px;}
+
+.jibingyufang_1220{width:980px;  height:27px; margin:0 auto; border-bottom:#d1e2ea 1px solid}
+.jibingyufang_1220_left{ width:80px; height:24px; line-height:24px; margin-left:0px;color:#FFFFFF; float:left;}
+.jibingyufang_1220_right{width:895px; height:24px; line-height:24px; float:right; color:#012f47; }
+.jibingyufang_1220_right a{ color:#012f47; font-size:12px;}
+
+.baojianpinli{ width:300px; height:188px; margin:0 auto; }
+.baojianpinli ul{ padding:0px; margin:0px;}
+.baojianpinli ul li{ width:62px; height:85px; list-style-type:none; float:left; margin-right:16px;margin-top:6px;}
+.baojianpinli img { border:#dddddd 1px solid}
+.baojianpinli ul li a{ color:#026698; font-size:12px;}
+.baojianpinli .titlebjp{ margin-top:6px;}
+
+.hjh_all_list_left li{font-size:14px; line-height:26px; height:26px; overflow:hidden;margin-right:4px; width:310px; color:#cccccc; font-family:"宋体"; }
+.hjh_all_list_left a:link,.hjh_all_list a:visited{font-size:14px;}
+.xuxianleft{ height:5px; border-top:#cbcbcb 1px dotted; margin-top:3px;}
+
+.hjh_all_list_center li{font-size:14px; line-height:26px; height:26px; overflow:hidden;margin-right:4px; width:174px; float:left; color:#cccccc; font-family:"宋体"; }
+.hjh_all_list_center a:link,.hjh_all_list a:visited{font-size:14px;}
+.xuxianleft{ height:5px; border-top:#cbcbcb 1px dotted; margin-top:3px; clear:both}
+.shixianleft{ height:5px; border-top:#cfd6dc 1px solid; margin-top:3px;clear:both}
+
+.tuijiantuwen{ width:300px; height:110px; margin:0 auto; margin-top:5px;}
+.tuijiantuwen ul{ padding:0px; margin:0px;}
+.tuijiantuwen ul li { float:left; width:150px; height:100px; list-style-type:none; position:relative}
+.tuijiantuwen #pixwenzi{
+	position:absolute;
+	width:136px;
+	height:25px;
+	line-height:25px;
+	left: 0px;
+	top: 74px;
+background-image:url("pic_bg.png")/*tpa=http://www.39yst.com/images/images_index/images/pic_bg.png*/;
+	text-align:center;
+}
+.tuijiantuwen #pixwenzi a{ font-size:12px; color:#FFFFFF;}
+
+
+.tuijiantuwen_mid{ width:340px; height:110px; margin:0 auto; margin-top:5px;}
+.tuijiantuwen_mid ul{ padding:0px; margin:0px;}
+.tuijiantuwen_mid ul li { float:left; width:170px; height:100px; list-style-type:none; position:relative}
+.tuijiantuwen_mid #pixwenzi{
+	position:absolute;
+	width:156px;
+	height:25px;
+	line-height:25px;
+	left: 0px;
+	top: 74px;
+background-image:url("pic_bg.png")/*tpa=http://www.39yst.com/images/images_index/images/pic_bg.png*/;
+	text-align:center;
+}
+.tuijiantuwen_mid #pixwenzi a{ font-size:12px; color:#FFFFFF;}
+
+
+.tuijiantuwenthree{ width:310px;hjh_all_list_left margin:0 auto; margin-top:5px; padding-left:6px;}
+.tuijiantuwenthree ul{ padding:0px; margin:0px;}
+.tuijiantuwenthree ul li { float:left; width:103px; height:80px; list-style-type:none; position:relative}
+.tuijiantuwenthree #pixwenzi{
+	position:absolute;
+	width:96px;
+	height:26px;
+	line-height:25px;
+	left: 1px;
+	top: 54px;
+	background-image:url("pic_bg.png")/*tpa=http://www.39yst.com/images/images_index/images/pic_bg.png*/;
+	text-align:center;
+}
+.tuijiantuwenthree #pixwenzi a{ font-size:12px; color:#FFFFFF;}
+
+ .box3_pic {margin:0 auto;;clear:both;width:336px; height:90px;}
+ .box3_pic .tupianms{ float:left; width:120px; height:85px;}
+ .box3_pic .wenzims{ padding-left:6px; color:#676767; line-height:20px; width:203px; height:86px; float:right}
+  .box3_pic .wenzims a{ font-size:14px; font-weight:bold;}
+ 
+.box3_pic_right {margin:0 auto;;clear:both;width:234px; height:80px;}
+.box3_pic_right .tupianms{ float:left; width:84px; height:69px; border:#d9d7d8 1px solid}
+.box3_pic_right .wenzims{ padding-left:6px; color:#676767; line-height:22px; width:140px; height:68px; float:right}
+.box3_pic_right .wenzims a{ font-size:12px; color:#396592; font-weight:bold;}
+
+.box3_pic_left {margin:0 auto;;clear:both;width:300px; height:70px;}
+.box3_pic_left .tupianms{ float:left; width:84px; height:69px; border:#d9d7d8 1px solid}
+.box3_pic_left .wenzims{ padding-left:6px; color:#676767; line-height:22px; width:205px; height:68px; float:right}
+.box3_pic_left .wenzims a{ font-size:12px; color:#396592; font-weight:bold;}
+
+.yyjzpic{ width:220px; height:120px; margin:0 auto;}
+.yyjztitle{ height:30px; line-height:30px; text-align:center}
+.yyjztitle a{ font-size:12px; color:#343434;}
+
+.tuijiantuwen_bottom{ width:234px; height:103px; margin:0 auto; margin-top:5px;}
+.tuijiantuwen_bottom ul{ padding:0px; margin:0px;}
+.tuijiantuwen_bottom ul li { float:left; width:112px; height:70px; list-style-type:none; position:relative}
+.tuijiantuwen_bottom #pixwenzi{
+	position:absolute;
+	width:108px;
+	height:25px;
+	line-height:25px;
+	left: 0px;
+	top: 74px;
+	text-align:center;
+}
+.tuijiantuwen_bottom #pixwenzi a{ font-size:12px; color:#333333;}
+.tuijiantuwen_bottom #pixwenzi a:hover{ font-size:12px; color:#356b91;}
+
+.box3_pic_right11 {margin:0 auto;;clear:both;width:234px; height:78px;}
+.box3_pic_right11 .tupianms{ float:left; width:84px; height:64px; border:#d9d7d8 1px solid}
+.box3_pic_right11 .wenzims{ padding-left:6px; color:#676767; line-height:20px; width:140px; height:68px; float:right}
+.box3_pic_right11 .wenzims a{ color:#ea620e; font-weight:lighter; font-size:14px;}
+
+.shipinwenzi{ height:24px; line-height:24px; background-color:#7a7879; width:98px; text-align:center}
+#iconsp{
+	position:absolute;
+	width:22px;
+	height:22px;
+	left: 71px;
+	top: 54px;
+}
+.ystupu{ margin:0 auto; width:978px; height:285px; border:#d3e1ea 1px solid;}

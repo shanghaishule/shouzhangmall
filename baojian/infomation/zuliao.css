@@ -1,0 +1,254 @@
+.colors{ color:#2b64b3;}
+.line{ border-bottom: 2px solid #3C6D9D;margin-top:10px;}
+h4{ font-weight:normal;}
+.clearfix:after,.column:after{ content: " "; display: block; font-size: 0; height: 0;line-height: 0;visibility: hidden;width: 0;clear: both;}
+.clearfix{ zoom:1;}
+
+/* 链接颜色 */
+a:link { color: #333; text-decoration:none;}
+a:visited { color: #333; text-decoration:none;}
+a:active { color: #3b5998; text-decoration:none;}
+a:hover { color: #bf8822; text-decoration:none;}
+.gray a:link,.gray a:visited{ color: #666;}
+.green a:link,.green a:visited{color: #bf8822;}
+.white a:link,.white a:visited{ color: #fff;}
+/*logo*/
+span.logo_pic{ display:block; float:left; width:167px; height:60px; background:url("pic_all-8.png")/*tpa=http://img.39yst.com/templates/39yst/images/zuliao/pic_all.png*/ no-repeat 0 0px;margin-top:10px;}
+.banner{float:right; height:82px; margin-left:20px;}
+/*search*/
+.menu .search_all{ position:relative; z-index:1; float:right;margin-right:10px; display:inline;top:-1px;*+top:3px;}
+.search_input{ width:210px; color:#999;padding-left:29px; height:25px; line-height:25px; border:1px solid #dfdfdf; }
+.search_bnt{ background:none; border:none; width:44px; height:29px; line-height:27px; color:#fff; background:#E61D23; cursor:pointer;}
+.search{ float:right;margin-top:20px;}
+.search p{ clear:both;padding-top:6px; color:#666;}
+.search p a{ color:#999;}
+span.icon_search{ width:20px;  height:23px; background:url("common-6.png")/*tpa=http://img.39yst.com/templates/39yst/images/zuliao/common.png*/ no-repeat 0px -5px; position:absolute; z-index:4;left:2px;top:10px;*+top:5px;_top:2px; }
+.con_search span.icon_search{ top:2px;}
+/*main_left*/
+.main_left{ width:300px; float:left;}
+.main_left2{ width:287px;}
+/*menu*/
+.menu{ clear:both;background:#BF8823; height:38px; line-height:38px; font-size:16px; font-family:"微软雅黑";}
+.menu ul{ float:left;}
+.menu li,.menu li a{ width:120px; display:inline-block; float:left; line-height:38px; text-align:center;}
+.menu li:hover,.menu .current{  background:url("pic_all-8.png")/*tpa=http://img.39yst.com/templates/39yst/images/zuliao/pic_all.png*/ no-repeat 0px -62px;}
+.list_bar{ height:32px; background:#fffce9; line-height:32px;padding: 0 10px; clear:both;}
+.list_bar a{ color:#666;}
+/*足疗推荐*/
+.common_dl{ border-bottom:1px dashed #dbdbdb;padding-bottom:15px;}
+.title{ font-family:"微软雅黑";font-size:16px; color:#bf8822;padding-top:10px;}
+.title3{ padding-top:15px;}
+.title span,.title em{ display:block; float:left;}
+.title em{ margin-top:-5px; margin-right:5px;}
+span.icon_flow{ background:url("pic_all-8.png")/*tpa=http://img.39yst.com/templates/39yst/images/zuliao/pic_all.png*/ no-repeat -130px -62px; width:13px; height:13px;margin-right:10px;}
+.title .line_r{ height:1px; background:#dbdbdb; width:338px;margin-top:5px; overflow:hidden;}
+.title .line_r_1{ width:158px;}
+.title .line_r_2{ width:330px;}
+.title .line_r_3{ width:195px;}
+/*足疗种类*/
+.foot_dl{ padding-top:5px;}
+.foot_dl dl{ width:80px; float:left; display:inline;margin-right:13px;}
+.foot_dl .foot_weight_list{ margin-right:0px;}
+.foot_dl dd{ text-align:center;margin-top:5px;}
+
+.foot_weight .common_list{ font-size:14px; border-top:1px dashed #dbdbdb;margin-top:10px;}
+.foot_weight{  border:1px solid #dbdbdb;border-top:2px solid #bf8822; padding:0px 15px 5px 15px;}
+.common_dl dl{ width:131px; float:left; float:left; position:relative;margin:5px 0px 0 0;}
+.common_dl .foot_weight_list{ float:right;}
+.common_dl dt,.foot_weight dt img{ width:131px; height:92px; overflow:hidden;}
+.foot_dl dt,.foot_dl dt img{ width:80px; height:60px; overflow:hidden;}
+.common_dl dd{ height:25px; line-height:25px; text-align:center; background:#000; filter:alpha(opacity=75); -moz-opacity:0.75;-khtml-opacity: 0.75;  opacity:0.75;position:absolute; z-index:1; bottom:0px; left:0px; width:131px;}
+span.icon_dot{ width:2px; height:2px; display:block; background:url("common-6.png")/*tpa=http://img.39yst.com/templates/39yst/images/zuliao/common.png*/ no-repeat 0 0; float:left; margin:10px 5px 0 0;}
+.common_list{ padding-top:7px;}
+.common_list li{ height:26px; line-height:26px; overflow:hidden;}
+/*头条*/
+.main_center{ width:430px; float:left;margin-left:15px;}
+.yoga_headlines{ border-bottom:1px dashed #dbdbdb;padding-bottom:8px;margin-bottom:8px;}
+.yoga_headlines2{ border:none; padding-bottom:0px; margin-bottom:0px;}
+.yoga_headlines h2{ text-align:center; font-family:"微软雅黑"; font-size:18px; font-weight:normal;}
+.yoga_headlines h2 a{ color:#bf8822;}
+.yoga_headlines ul{ padding-top:8px;}
+.yoga_headlines ul li,.yoga_headlines_list li{ float:left;margin-left:5px; display:inline; width:210px; height:24px; line-height:24px; font-size:14px;}
+.yoga_headlines_list{ padding-top:0px;}
+/*孕妇瑜伽*/
+.yoga_pregnant{ margin-top:10px;}
+.title2{ padding-top:0px; }
+.common_yogadl{ border-bottom:1px dashed #dbdbdb;padding:15px 0;margin-bottom:8px;}
+.common_yogadl dt{ width:131px; height:92px; float:left;}
+.common_yogadl dt img{ width:131px; height:92px; overflow:hidden;}
+.common_yogadl dd{ width:285px; float:left; color:#999;margin-left:10px; line-height:1.7;}
+.common_yogadl .pregnant_tit{ font-size:14px;}
+/*main_right*/
+.main_right{ width:220px; float:right;}
+/*瑜伽推荐*/
+.yoga_recom{ padding:0 10px 5px 10px; border:1px solid #dbdbdb;border-top:2px solid #bf8822;}
+.yoga_recomdl{ padding:10px 0;margin-bottom:0px;}
+.yoga_recomdl dt{ width:80px;height:60px;}
+.yoga_recomdl dt img{ width:80px; height:60px; overflow:hidden;}
+.yoga_recomdl dd{ width:95px;}
+.none-padding{ padding-top:0px;margin-right:0px;}
+/*办公室瑜伽*/
+.yoga_office{ border:1px solid #dbdbdb; padding:0px 15px 5px 15px;}
+.yoga_office_dl { border-bottom:1px dashed #dbdbdb;padding-bottom:10px;margin-top:10px;}
+.yoga_office_dl dl{ width:90px; float:left;}
+.yoga_office_dl .yoga_office_dlr{ float:right;}
+.yoga_office_dl dt{ width:90px;}
+.yoga_office_dl dt img{ widows:90px; height:68px; overflow:hidden;}
+.yoga_office_dl dd{ text-align:center; }
+.office_list li{ height:24px; line-height:24px;}
+/*足疗用品*/
+.sense{ margin-top:0px;}
+.sense .yoga_headlines_list{ padding-top:6px;}
+.supplies{ padding-top:15px;padding-bottom:5px;}
+.supplies dl{ width:131px; height:92px;margin-top:10px;margin-bottom:10px;}
+.supplies dt,.supplies dt img{ width:131px; height:92px; overflow:hidden;}
+.supplies dd{ width:131px;}
+.supplies_list li{ width:140px; float:left; font-size:14px;margin-right:10px;}
+.yoga_headlines_list li a strong{ color:#50aa02;}
+.foot_list{ font-size:14px;}
+.foot_product{ margin-bottom:0px;padding-bottom:0px;border:none; clear:both;}
+.foot_product dd{ width:145px;}
+.foot_supplies{ padding-top:15px; }
+/*足疗常识*/
+.foot_column{ border:1px solid #dbdbdb; border-top:none; padding-bottom:10px;}
+.foot_sense{ padding:0 15px;}
+.foot_column .main_right{ width:205px;}
+/*足疗技巧*/
+.foot_pic,.foot_pic img{ width:205px; height:100px; overflow:hidden; float:left; float:left; }
+.foot_skills{ padding-top:10px; clear:both;}
+.foot_skills .foot_list{ padding-top:0px; width:205px; float:right;}
+/*足疗注意事项*/
+.matters_tit{ height:24px; line-height:24px; border-bottom:1px solid #dbdbdb;padding-top:0px;}
+.matters .matters_tit{ padding-top:10px;}
+.matters_tit span{ display:inline-block; height:15px; width:5px; background:#bf8822;margin-right:10px; position:relative;top:5px;}
+.matters_pic{ margin-top:13px; height:56px;}
+.matters_pic img{  height:56px; width:205px; overflow:hidden;}
+/*辅助项目*/
+.auxiliary{ border:none; padding-bottom:5px;}
+.common_dl .auxiliary_dl dl{ width:95px; height:72px;margin-top:15px;}
+.common_dl .auxiliary_dl dt,.auxiliary_dl dt img{  width:95px; height:72px; overflow:hidden;}
+.common_dl .auxiliary_dl dd{ width:95px;}
+/*瑜伽视频*/
+.yoga_video{ margin-top:0px;}
+/*瑜伽达人*/
+.yoga_expert{ margin-top:0px;}
+.yoga_expert ul{ padding-top:8px;}
+.expert_dl dl,.expert_dl dt,.expert_dl dt img{ width:100px; height:100px; overflow:hidden;}
+.expert_dl dl{ margin-right:10px;}
+.expert_dl dd{ width:100px; text-align:center;}
+.expert_dl .none-padding{ margin-right:0px;}
+/*足疗偏方*/
+.foot_head_list{ height:37px; line-height:37px; font-size:14px; margin-top:10px;border:1px solid #f4f4f4; background:#f9f9f9;padding:0 5px;}
+.foot_head_list li{ height:37px; line-height:37px; width:200px; float:left;margin-left:5px;}
+/*瑜伽音乐*/
+.yoga_music dl{ width:190px; height:135px;}
+.yoga_music dt,.yoga_music dt img{ width:190px; height:135px; overflow:hidden;}
+.yoga_music dd{ width:190px;}
+.yoga_music ul{ font-size:14px;}
+/*瑜伽图库*/
+.gallery{  border:1px solid #dbdbdb;border-top:none;}
+.gallery .title{ padding:15px 15px 10px 15px;}
+.gallery_pic{ padding-top:12px;}
+.gallery_pic dl{ float:left; width:150px;margin-left:11px;padding-bottom:15px;}
+.gallery_pic dt img{ width:150px; height:150px; overflow:hidden; }
+.gallery_pic dd{ width:150px; text-align:center;}
+/*足疗常识*/
+.foot_title{ height:34px; line-height:34px; background:#f9f9f9;border-top:2px solid #bf8822; font-size:18px; font-family:"微软雅黑"; padding-left:10px;}
+.foot_dl_all{ clear:both;}
+
+								/*===============列表页==================*/
+.posi{ height:36px; line-height:36px;color:#bf8822;}
+.posi a{ color:#bf8822;}
+
+.con_lines {  border-top: 2px solid #bf8822;clear: both; }
+.column_r{ width:300px; float:right; display:inline;}
+/*左侧介绍*/
+.takeaway:after {  clear: both; content: " "; display: block; font-size: 0;height: 0; line-height: 0; visibility: hidden; width: 0;}
+.takeaway {background:#F6F9F9 url("list_daidu-5.png")/*tpa=http://img.39yst.com/templates/39yst/images/zuliao/list_daidu.png*/ no-repeat scroll 0 0 ;border: 1px solid #CCD3E4;border-top:none;clear: both; zoom:1;}
+.takeaway_r { float: left;padding: 15px 15px 0 15px;}
+.takeaway_r h1 {  color: #B91B20; font-family: "微软雅黑"; font-size: 24px; font-weight: normal;}
+.takeaway_r .takeway_con {  color: #666666;font-family: "微软雅黑";  font-size: 14px; line-height: 1.7;margin-top: 5px;padding-bottom: 10px;text-indent: 24px;}
+/*column_list*/
+.colum_list_1 {   clear: both;  padding-top: 10px;}
+.colum_list_1 .head_tit {  display: inline-block;font-size: 18px; font-family:"微软雅黑";}
+.head_tit{  margin: 8px 0; text-align: left;}
+.colum_list_dl dt {  float: left; height: 126px;overflow: hidden; width: 190px;}
+.colum_list_dl dt img{ height: 126px; overflow: hidden;width: 190px;}
+.colum_list_dl dd { color: #666;float: left;line-height: 24px; margin-left: 20px;width: 380px;}
+.share_all {  border-bottom: 1px solid #dbdbdb; clear: both; height:29px; line-height:29px;zoom:1;padding-bottom:10px; position:relative;}
+.share_all p {  display: inline; float: left;}
+.share_all .share_bnt { float: right;}
+.share_bnt a { display: block; float: left; margin-left: 15px;}
+.published_time{ color:#999;}
+.medicine_tag{ margin-top:10px;}
+.medicine_tag a{ margin-right:10px; color:#b91b20;}
+
+/*分页*/
+.page a.current:link, .page a.current:visited, .page a.current:hover {
+    background-color: #BF8823;border: 1px solid #BF8823;color: #FFFFFF;cursor: default;    text-decoration: none;}
+/*热门推荐*/
+.common_colum{ zoom:1;border:1px solid #dbdbdb; clear:both; }
+.editor_recom{ margin-top:10px;padding-bottom:15px;}
+.editor_recom .theory_list{ width:199px;margin:10px 7px 10px 10px; display:inline; }
+.editor_recom .list{ font-size:12px;}
+.editor_tit{ font-size:14px; font-weight:bold; padding-left:10px; height:32px; border-bottom:1px solid #dbdbdb; line-height:32px; background:#f9f9f9;}
+.hd_pic{ padding:15px 0 0px 2px; zoom:1;}
+.hd_pic dl{ width:126px; display:inline; margin-left:6px; float:left;}
+.hd_pic dt img{ width:126px; height:94px; overflow:hidden;}
+.hd_pic dd{ text-align:center;}
+/*中医精彩推荐*/
+.zjbor { border: 1px solid #cec19f;border-top:2px solid #9d5218;margin-top:15px;padding-bottom:5px;}
+.zjSPic { background: none repeat scroll 0 0 #FFFFFF; margin: 0 auto; overflow: hidden;    padding:10px 0 0 8px;  width: 290px;}
+.zjSPic li {  float: left; width: 95px;}
+.zjSPic a {  display: block;}
+.zjSlist li {  color: #666;float: left; height: 26px;line-height: 26px; overflow: hidden;  width: 145px;}
+.zjSlist li a{ color:#666;}
+.zjSPic h5 {  font-size: 12px; font-weight: normal; height: 26px; line-height: 26px;    text-align: center;}
+.zjSPic h5 a{ color:#666;}
+/*休闲养生*/
+/*.common_box{ border:1px solid #dbdbdb;border-top:none; zoom:1; clear:both;}
+*/.common_box h4{ height:28px; background:#f9f9f9;border-bottom:1px solid #dbdbdb;border-top:2px solid #bf8822; padding-left:10px; line-height:26px; font-weight:bold; font-size:14px;}
+.wlady dl,.wlady dl img{ width: 109px; height:104px; overflow:hidden;}
+.brtg dl { border: 1px solid #CECECE; display: inline; float: left; height: 104px; margin: 13px 0 0 9px;}
+/*最新资讯*/
+.leisure .office_list{ padding:10px 15px 0 15px;}
+.reading_all .leisure{ width:330px; float:left; clear:none;}
+.reading_all .beauty{ float:right;}
+/*养生图库*/
+.hot_pic li {  display: inline; float: left; line-height: 22px;margin: 7px 0 0 10px;    text-align: center; width: 134px;}
+.hot_pic li img{ width:132px; height:132px; overflow:hidden;}
+.wlady ul li { height: 28px; line-height: 28px;}
+.wlady ul {  padding: 13px 0 0 6px; width: 170px; float:left;}
+
+/*内容页当前位置*/
+.row{  border-top:2px solid #bf8822;}
+.article-about{ border:1px solid #dbdbdb; padding-bottom:10px; zoom:1;margin-top:10px;}
+.article_tit{ font-size:14px; font-weight:bold; height:30px; background:#f9f9f9; line-height:30px; padding-left:10px;border-bottom:1px solid #dbdbdb;}
+.cont_1{ border:1px solid #dbdbdb; padding-bottom:10px; zoom:1;margin-top:10px;}
+.t{ font-size:14px; font-weight:bold; height:30px; background:#f9f9f9; line-height:30px; padding-left:10px;border-bottom:1px solid #dbdbdb;}
+.add{ margin-top:10px;}
+/*营养价值*/
+.article-value .article-value-tit a{ color:#bf8822;}
+/*漂浮导航*/
+.btn-blue, .btn-blue:link, .btn-blue:visited {  background-color: #bf8822;  border: 1px solid #855d0a;  color: #FFFFFF;}
+.btn-blue:hover {  background-color: #b3790f; color: #FFFFFF;}
+.btn-blue:active {  background-color: #b3790f; color: #FFFFFF;}
+
+
+/*黄色*/
+
+#main , .cont_title span , .footer , .zongyi dd{border-color: #bf8823;}
+.con_search_bnt{background:#bf8823;}
+#content_all a:hover{color: #bf8823;}
+p.article-info_l span .blue , .con_posi_tag a , .cont_title , .article-value-tit a , 
+.pinglun dl dd p .blue , .right_title ,.qingshi_tab h3 a.cur , .btn-mini , .page a:visited
+{color:#bf8823 !important;}
+.page a.current{color:#fff!important;}
+.btn-blue, .btn-blue:link, .btn-blue:visited , .page a.current:link, .page a.current:visited, .page a.current:hover {
+background-color: #bf8823;border: 1px solid #bf8823;/* border-top:none; */}
+.btn-blue:hover {  background-color: #8d5e08; }
+.article_value .cont_title em .current{background-color: #bf8823;}
+.gotop02 .fhsy:hover , .gotop02 .favo:hover , .gotop02 .gotop02-con:hover{background-color: #8d5e08;color:#fff!important;}
+.gotop02 .fhsy , .gotop02 .favo , .gotop02 .gotop02-con{background-color: #bf8823;}
+.zongyi dd a.selected{background-image: url("274718-1.shtml")/*tpa=http://img.39yst.com/templates/39yst/img/article/jiao_yellow.jpg*/;}
+#content_all #article-tools .btn:hover{ color:#fff;}

@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------wrap--------------*/
+.wrap{ width:1000px; margin:0 auto;}
+/*板块一*/
+.main{ clear:both;margin-top:15px;}
+/*main_left*/
+.banner h1{ display:none}
+.main_left{ width:327px; float:left; display:inline;}
+	/*幻灯片*/
+	.slide_all{ border:1px solid #c0b384; padding:10px; position: relative;  }
+	.slide_pic{ width:307px;height:350px;overflow:hidden;}
+	.slide_pic dt{ width:307px; height:260px;margin-bottom:25px; *+margin-bottom:15px;}
+	.slide_pic dd{ line-height:1.7; color:#666;}
+	.slide_pic .slide_tit{ font-size:14px; font-weight:bold;}
+	.slide_pic .slide_tit a,.video-test2 a,.common_title a{ color:#333;}
+	.slide_num{  position:absolute; z-index:2; top:275px; left:140px;}
+	.slide_num span{ display:block; float:left;margin-right:5px; background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat -379px -40px; width:12px; height:7px; text-indent:-9999px;}
+	.slide_num  .slide_cur{ background-position:-360px -40px;}
+	.slide_all2{ *+padding-top:0px; }
+/*艾灸保健*/
+.care{ border:1px solid #c0b384; margin-top:10px; }
+	.common_tit{ font-size:14px; font-weight:bold; color:#a38137; background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0px -35px; width:305px; height:31px; line-height:30px;padding-left:20px;}
+	.common_con{ padding:10px; line-height:1.7; color:#666;}
+	.common_con .common_title{ font-size:14px; font-weight:bold;}
+	.pic{ width:307px; height:70px; overflow:hidden; margin-top:10px;}
+/*main_center*/
+.main_center{ width:383px; float:left; display:inline;margin-left:10px; overflow:hidden;}
+	.headline_tit{ font-size:14px; font-weight:bold; color:#fff; background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0px -208px; width:363px; height:31px; line-height:30px;padding-left:20px;}
+	.headline_con{ border-bottom:1px dashed #c0b384;padding-bottom:5px;}
+	.headline_con h3{ font-family:"微软雅黑"; font-size:18px; font-weight:bold; text-align:center;padding-top:7px;}
+	.headline_con h3 a:link,.headline_con h3 a:visited{ color:#8b4f01;}
+	.headline_con p{ line-height:1.7; color:#666;padding-top:5px;}
+	.common_list{ border-bottom:1px dashed #c0b384; }
+	.common_list li{ float:left; font-size:14px;  line-height:1.8; width:190px}
+	.common_list2{ padding-bottom:6px;}
+	.common_list2 li{ line-height:1.9;}
+	span.ico_dot{ background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat -487px -38px;width:3px; height:3px; float:left; display:block;margin:12px 5px 0 0;_margin-right:0px;_margin-top:7px; }
+	
+/*艾灸产品*/
+.moxibustion_pro{ background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0px -239px;width:358px; height:95px; padding:15px 0 0 25px;margin-top:10px;}
+	.moxibustion_pro dl{ float:left; width:60px;margin-left:9px; display:inline; line-height:22px;}
+	.moxibustion_pro dd{ text-align:center;}
+/*main_right*/
+.main_right{ width:270px; float:right; display:inline;}
+	/*艾灸视频*/
+	.video{  zoom:1;}
+	.common_rtit{ background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0px -176px;width:248px; height:31px; line-height:30px;padding-left:20px;font-size:14px; font-weight:bold; color:#a38137; }
+	.common_rtit a{ color:#a38137}
+	.video_con{ padding:10px;}
+/*艾灸推荐*/
+.common_margin{ margin-top:10px;}
+	.common_list_r{ border:none;padding:0px 10px;margin:5px 0;}
+	.common_list_r li{ width:250px;}
+/*艾灸常识板块*/
+.project,.sense{ margin-top:10px;*+margin-top:0px;}
+
+	/*sense_left*/
+	.sense_content{ clear:both;margin-top:10px;}
+	.sense_left{ width:px; float:left; display:inline;}
+	.sense_left dl{ height:260px; border:1px solid #c0b384; padding:10px;position:relative;}
+	.sense_left dt{  width:307px; height:260px; overflow:hidden; }
+	.sense_left dd{ text-align:center; width:307px; height:32px; background:#000; opacity: 0.75;-moz-opacity: 0.75;filter:alpha(opacity=75);position:absolute; z-index:2; bottom:10px; line-height:32px; font-size:14px;}
+	.methods_tit{ font-size:14px; font-weight:bold; height:21px; border-bottom:1px solid #a38137;}
+	.methods_tit a{ color:#333333; font-size:14px;}
+	span.ico_flowers{ width:14px; height:14px;background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat -337px -37px;width:14px; height:14px; display:inline-block; vertical-align:middle;margin-right:10px;}
+	.methods{ margin-top:10px;}
+	.methods_tag{ margin-top:10px;}
+	.methods .ico_dot{ display:inline-block; float:inherit;}
+	.methods a{ margin-right:15px; color:#333; line-height:1.7; display:block; float:left; font-size:14px;}
+	.sense_all span{ display:block; float:left;}
+.sense_all{ height:35px; background:#f6f6f6; }
+	.sense_all .sense_title_tag{ float:right; line-height:33px;}
+	.sense_all .sense_title{  float:left;padding:8px 9px; background:#A38137;border:1px solid #906B29; font-size:14px; color:#fff; font-weight:bold;}
+	.sense_all .sense_title a{ color:#FFFFFF;}
+/*senes_center*/
+.common_way{ width:182px; overflow:hidden; float:left; display:inline;padding-bottom:15px;}
+	.common_way .common_list{ border:none;}
+	.common_way li{ width:182px;}
+	.common_way_modern{ float:right;}
+	.sense_dl dl{  width:175px; float:left;padding-top:10px;}
+	.sense_dl .sense_dl_r{ float:right;}
+	.sense_dl .sene_dl_tit{ font-size:14px; font-weight:bold;}
+	.sense_dl .sene_dl_tit a{ color:#333;}
+	.sense_dl dt{ float:left; width:60px; height:60px;}
+	.sense_dl dd{ float:left;margin-left:5px; width:108px; line-height:1.6; color:#666;}
+	.sense_dl_r{ float:right;}
+/*sense_right*/
+.sense_right{ border:1px solid #c0b384;padding-bottom:10px;}
+	.sense_right dl{ width:250px; height:212px; overflow:hidden;margin-left:10px;padding-top:7px; position:relative;}
+	.sense_right dt img{ width:250px; height:212px; overflow:hidden;}
+	.sense_right dd{ height:25px; width:250px;background:#000; opacity: 0.75;-moz-opacity: 0.75;filter:alpha(opacity=75);line-height:25px; position:absolute; z-index:2; bottom:0px; text-align:center;}
+/*艾灸治病*/
+.cure_content,.book,.book_content,.cure{ margin-top:10px; }
+.cure,.book{ *+margin-top:0px;}
+	/*cure_left*/
+	.cure_dl{ clear:both;}
+	.cure_dl_2{ padding-top:10px;*+padding-top:5px;}
+	.cure_dl_2 dt{ width:118px; height:100px; float:left;}
+	.cure_dl_2 dt img{ width:118px; height:100px;}
+	.cure_dl_2 dd{ width:190px; float:left;margin-left:5px; color:#666; line-height:1.8;}
+	.cure_left  .sene_dl_tit{ font-size:14px; font-weight:bold;}
+	.cure_left  .sene_dl_tit a{ color:#333;}
+	.cure_left .common_list{ border:none;margin-top:5px;}
+	.cure_left .common_list li{ width:160px;}
+	.cure_dl dl{ width:158px; float:left;margin-right:10px;padding:12px 0 5px 0;}
+	.cure_dl .cure_dl_last{ margin-right:0px;}
+	.cure_dl dd{ font-size:14px; font-weight:bold; text-align:center;}
+	.cure_dl dd a{ color:#333; line-height:22px;}
+	.urgical{ padding-top:4px;*+padding-top:8px;}
+/*cure_center*/
+.cure_head{ border-bottom:1px dashed #c0b384; background:#fbfaeb;padding:10px 0;}
+.project_center,.parject_right{ padding-top:10px;}
+.cure_head_tit{ font-size:14px; font-weight:bold; text-align:center;}
+.cure_head_tit a{ color:#333;}
+.cure_head_con{ background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0 -349px; width:344px; height:39px; color:#666; line-height:1.6;padding:5px 10px;}
+.common_colum{ padding-top:10px;*+padding-top:0px;*+margin-top:12px; clear:both;}
+.colum_pic{ width:130px; float:left; height:110px; float:left;}
+.common_colum_all{ padding-top:10px;}
+.common_colum_all .common_list{ float:left;width:240px; border:none;margin-left:10px;}
+.common_colum_all .common_list li{ clear:both; width:240px; line-height:1.6;}
+.cure_right .cure_dl dl{ padding-top:5px;}
+/*cure_right*/
+.skin,.bone{ border:1px solid #c0b384; clear:both; zoom:1;}
+.bone{ margin-top:10px;}
+.bone_2{ margin-top:0px; padding-bottom:5px;}
+
+	.skin_dl{ padding-left:10px;}
+	.skin_dl dl{ width:120px; float:left;}
+	.skin_dl dd{ font-size:12px;margin-top:3px;}
+/*艾灸著作*/
+
+	.sense_center_list{ border-bottom:1px dashed #c0b384;}
+	.book_all{ background:url("271186-1.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/pic12.png*/ no-repeat; width:383px; height:154px;padding-top:20px;}
+	.book_all dl{ width:83px;margin-left:4px;}
+/*艾灸专题*/
+.project_dl dl{ clear:both;}
+.project_content{ clear:both;}
+.project_left .sene_dl_tit{ font-size:14px; font-weight:bold;}
+.project_left .sene_dl_tit a{ color:#333;}
+/*project_center*/
+.project_center .sense_center_list{ border:none;}
+/*parject_list*/
+.parject_list{ background:url("thumb_190_126_1432607183844-1.jpg")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/pic17.png*/ no-repeat 0 0; height:133px;padding:5px 0 0 20px; width:250px;}
+.parject_list li{ width:100px; float:left; font-size:14px; line-height:1.7;margin-right:25px;}
+.parject_list .none{ margin-right:0px;}
+/*艾灸产品*/
+.product{ clear:both;margin-top:10px;*+margin-top:0px;}
+.product dl{ float:left; width:190px; display:inline;margin:10px 10px 0 0;}
+.product dt{ width:190px; height:190px;}
+.product dd{ text-align:center; font-size:14px;margin-top:3px;}
+.product_content{ clear:both;}
+/*养生视频*/
+
+.scrolldoorFrame { overflow: hidden; position: relative;}
+.cont {  height: 250px; overflow: hidden; padding: 0;}
+.video-test2 { height: 88px;padding: 5px 0;}
+.video-test2 span { font-size: 14px;height: 35px;line-height: 35px; font-weight:boldsense_title}
+.video-test2 p{ line-height:1.7; color:#666;}
+.scrollUl {  background: url("995875-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/bb_03.png*/ no-repeat ;display: block;height: 17px; left: 0;width:203px;padding-left:45px;position:absolute;top: 128px;   
+}
+.scrollUl li {   background: #fff; color: #333;cursor: pointer;border:1px solid #C0B384; margin-right:10px;  height: 16px;  float:left;text-align: center;width: 16px;}
+.scrollUl .sd01{ border-bottom:1px solid #fff;}
+			
+			
+															/*===========================列表页=====================*/
+.list_main{ margin-top:10px;}
+/*list_main_left*/
+.list_main_left{ width:690px; float:left;}
+	.list_colum{ border:1px solid #c0b384;}
+	.pro{ background:#fffef4;padding:10px; color:#8b4f01;}
+.pro a{ color:#8b4f01;}
+	.common_list_colum{ color:#666;border-bottom: 1px dashed #C0B384;padding:10px 0;line-height:1.9;margin:0px 10px;}
+	.common_list_colum h3{ font-family:"微软雅黑"; font-weight:bold; font-size:16px;}
+	.common_list_colum h3 a{ color:#8b4f01;}
+	/*编辑推荐*/
+	.editor{ margin-top:10px;}
+	.common_editor{ clear:both;margin:10px 0 0 10px;}
+	.common_editor .common_way{ padding-bottom:10px;}
+	.ancient_way{ margin:0 60px;}
+	/*艾灸视觉*/
+	.visual_list{ clear:both;margin-top:10px;}
+	.visual_list dl{ width:158px; float:left; overflow:hidden; display:inline;margin-right:19px;}
+	.visual_list dt{ width:158px; height:133px; overflow:hidden;}
+	.visual_list dd{ text-align:center; font-size:14px; margin-top:5px;}
+	.visual_list .visual_list_last{ margin-right:0px;}
+/*list_main_right*/
+.list_main_right{ width:300px; float:right;}
+	.common_rtit2{ background:url("1305618-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/ico_all.png*/ no-repeat 0px -398px; width:278px;}
+	.wonderful{ padding-bottom:5px;margin-top:10px;}
+	.wonderful dl{ width:135px;}
+	.wonderful_list{ padding-left:10px;border:none;}
+	.wonderful_list li{ width:135px; float:left;margin-right:5px;}
+	
+													/*========================内容页====================*/
+.content_all{ padding:15px 10px 0 10px; zoom:1;}
+.content_all h1{ font-size:26px; font-family:"微软雅黑"; font-weight:normal; text-align:center;}
+.title_sn {  border-bottom: 1px dashed #c0b384;  color: #666; font-size: 12px; line-height: 20px; margin: 0 auto; padding: 9px 0 11px; text-align: center; }
+.title_sn  em{ color:#999;}
+.title_sn span { padding-right: 20px;}
+.title_sn a { color: #666;padding-right: 18px;}
+.content{ font-size:14px; color:#666; line-height:24px;}
+.content p{margin-top:10px;}
+/*分页样式*/
+.badoo_badoo {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 13px; margin:0 auto;
+}
+.badoo_badoo LI {
+	BORDER-BOTTOM: #a38137 1px solid; BORDER-LEFT: #a38137 1px solid; MARGIN: 0px 2px; BACKGROUND: #fff; COLOR: #666666; BORDER-TOP: #a38137 1px solid; BORDER-RIGHT: #a38137 1px solid; TEXT-DECORATION: none; font-size:14px; font-family:"微软雅黑";
+}
+.badoo_badoo LI:hover {
+	BORDER-BOTTOM: #a38137 1px solid; BORDER-LEFT: #a38137 1px solid; COLOR: #ffffff; BORDER-TOP: #a38137 1px solid; BORDER-RIGHT: #a38137 1px solid; background-color:#a38137;font-size:14px; font-family:"微软雅黑";
+}
+.badoo_badoo LI a{ color:#666666;}
+.badoo_badoo .thisclass {
+	BORDER-BOTTOM: #a38137 1px solid; BORDER-LEFT: #a38137 1px solid; background-color:#a38137; MARGIN: 0px 2px; BORDER-TOP: #a38137 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #a38137 1px solid;font-family:"微软雅黑";font-size:14px;padding: 8px 14px; color:#FFFFFF;
+}
+.badoo_badoo LI SPAN.disabled {
+	DISPLAY: none
+}
+.badoo_badoo LI A {
+	DISPLAY: block; FLOAT: left;padding: 8px 14px; text-decoration:none
+}
+.badoo_badoo LI A:hover{color:#ffffff}
+#textslide {
+	WIDTH: 121px; COLOR: #212121; FONT-SIZE: 12px
+}
+.badoo_badoo LI {
+	LIST-STYLE-TYPE: none; FLOAT: left; LIST-STYLE-IMAGE: none
+}
+/*分享按钮*/
+/*.share{ margin-top:10px;}
+#bdshare { float: left; font-size: 12px; padding-bottom: 2px; }
+span.bds_more { background: url("http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/is.png") no-repeat scroll 0 5px ;}
+	.bds_tools a { background: url("http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/is.png") no-repeat scroll 0 0 ;}
+span.bds_more, .bds_tools a { cursor: pointer; display: block; float: left;font-family: '宋体',Arial; height: 16px;padding-bottom: 3px;padding-left: 22px;padding-top: 6px;}
+#bdshare a, #bdshare_s a, #bdshare_pop a { cursor: pointer; text-decoration: none;}
+.bds_tsina { background-position: 0 -115px!important }
+.bds_qzone {background-position: 0 -75px !important;}
+.bds_tqq { background-position: 0 -235px !important;}
+.bds_renren {background-position: 0 -195px !important;}
+.bds_kaixin001 {background-position: 0 -275px !important;}
+.bds_hi {background-position: 0 -355px !important;}
+.bds_baidu {background-position: 0 -1950px !important;}
+.bdaddtocitebtn{ float:right; background: url("http://img.39yst.com/templates/39yst/images/aijiu_pindao/images/addtocite_button.png") no-repeat scroll 0 0 ; height: 25px; width: 156px;}*/
+/*相关阅读推荐*/
+.cont_1{ width:670px; margin:0 auto;}
+.cont_1 .t {
+	COLOR: #8b4f01; FONT-SIZE: 14px; FONT-WEIGHT: bold; padding-left:10px;line-height:28px;
+}
+.cont_1 UL {
+	PADDING-TOP: 2px;padding-left:10px; margin-top:0px;
+}
+.cont_1 LI {
+	LINE-HEIGHT: 24px; WIDTH: 280px; FLOAT: left; FONT-SIZE: 14px
+}
+.cont_1 LI A {
+	TEXT-DECORATION: none; font-size:14px;
+}
+.cont_1 li a:link,.cont_1 li a:visited{color: #666666;}
+.cont_1 li a:hover{color:#D50000}
+.tag a{padding:0px 6px;}
+.shipinys{width:580px; height:20px; margin:0 auto; text-align:right; margin-bottom:10px; font-size:14px;}
+.shipinys a{font-size:14px;}
+
+.badoo {
+	PADDING-RIGHT:20px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 5px; COLOR: #48b9ef; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center;width:610px; margin:0 auto;
+}
+.badoo li{ BORDER-RIGHT: #f0f0f0 2px solid; background:#fff; BORDER-TOP: #f0f0f0 2px solid; MARGIN: 0px 2px; BORDER-LEFT: #f0f0f0 2px solid;  font-family:"微软雅黑";font-size:16px; font-weight:bold;BORDER-BOTTOM: #f0f0f0 2px solid; TEXT-DECORATION: none;color:#898989; padding-top:5px; padding-bottom:5px; list-style-type:none;}
+.badoo li a{color:#898989;font-family:"微软雅黑";font-size:16px;}
+.badoo li:hover {
+	BORDER-RIGHT: #a38137 2px solid; BORDER-TOP: #a38137 2px solid; BORDER-LEFT: #a38137 2px solid; color:#898989; BORDER-BOTTOM: #a38137 2px solid
+}
+.badoo li:active {
+	BORDER-RIGHT: #386BB4 2px solid; BORDER-TOP: #386BB4 2px solid; BORDER-LEFT: #386BB4 2px solid; color:#898989; BORDER-BOTTOM: #386BB4 2px solid
+}
+.badoo .thisclass {MARGIN: 0px 2px;
+	BORDER-RIGHT: #a38137 2px solid; BORDER-TOP: #a38137 2px solid; FONT-WEIGHT: bold;BORDER-LEFT: #a38137 2px solid; BORDER-BOTTOM: #a38137 2px solid; background:#a38137;color:#E0E7D7;;width:23px; height:21px;
+}
+.badoo .thisclass a{padding:2px 10px; color:#FFFFFF}
+.badoo li SPAN.disabled {
+	DISPLAY: none
+}
+.badoo li .current {MARGIN: 0px 2px;
+	BORDER-RIGHT: #386BB4 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #386BB4 2px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #386BB4 2px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #386BB4 2px solid; BACKGROUND-COLOR: #386BB4
+}
+.badoo li a{display:block; padding:2px 10px; float:left;}
+#textslide{color:#212121; font-size:12px; width:121px;}
+.badoo li{ float:left; list-style:none;}
+
+/*黄色*/
+
+#main , .cont_title span , .footer , .zongyi dd{border-color: #C0B384;}
+.con_search_bnt{background:#C0B384;}
+#content_all a:hover{color: #8B4F01;}
+p.article-info_l span .blue , .con_posi_tag a , .cont_title , .article-value-tit a , 
+.pinglun dl dd p .blue , .right_title ,.qingshi_tab h3 a.cur , .btn-mini , .page a:visited
+{color:#8B4F01 !important;}
+.page a.current{color:#fff!important;}
+.btn-blue, .btn-blue:link, .btn-blue:visited , .page a.current:link, .page a.current:visited, .page a.current:hover {
+background-color: #A38137;border: 1px solid #86692b;border-top:none;}
+.btn-blue:hover {  background-color: #8b4f01; }
+.article_value .cont_title em .current{background-color: #51aa02;}
+.gotop02 .fhsy:hover , .gotop02 .favo:hover , .gotop02 .gotop02-con:hover{background-color: #a38137;color:#fff!important;}
+.gotop02 .fhsy , .gotop02 .favo , .gotop02 .gotop02-con{background-color: #8b4f01;}
+.zongyi dd a.selected{background-image: url("1238016-1-1.html")/*tpa=http://img.39yst.com/templates/39yst/img/article/jiao_aijiu.jpg*/;}
+#content_all #article-tools .btn:hover{ color:#fff;}

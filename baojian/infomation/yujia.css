@@ -1,0 +1,278 @@
+.column{ clear:both;margin-top:15px;}
+.column2{ *+margin-top:0px;}
+.yoga_weight{ margin-top:15px;}
+.clearfix:after{ content: " "; display: block; font-size: 0; height: 0;line-height: 0;visibility: hidden;width: 0;clear: both;}
+.clearfix{ zoom:1;}
+.line{ border-bottom: 2px solid #3C6D9D;margin-top:10px;}
+/* 链接颜色 */
+a:link { color: #333; text-decoration:none; font-weight:normal;}
+a:visited { color: #333; text-decoration:none;}
+a:active { color: #50AA02; text-decoration:none;}
+a:hover { color: #50AA02; text-decoration:none;}
+i,em{ font-style:normal;}
+.clear{ width:0px; height:0px; clear:both; overflow:hidden; font-size:0px;}
+.gray a:link,.gray a:visited{ color: #666;}
+.green a:link,.green a:visited{color: #50aa02;}
+.white a:link,.white a:visited{ color: #fff;}
+/*main_left*/
+.main_left{ width:300px; float:left;}
+/*logo*/
+span.logo_pic{ display:block; float:left; width:163px; height:61px; background:url("pic_all-12.png")/*tpa=http://img.39yst.com/templates/39yst/images/yujia/pic_all.png*/ no-repeat 0 -333px;margin-top:10px;}
+.banner{ width:783px; float:left; height:82px; margin-left:20px;}
+/*search*/
+.menu .search_all{ position:relative; z-index:1; float:right;margin-right:10px; display:inline;top:-1px;*+top:3px;}
+.search_input{ width:210px; color:#999;padding-left:29px; height:25px; line-height:25px; border:1px solid #dfdfdf; }
+.search_bnt{ background:none; border:none; width:44px; height:29px; line-height:27px; color:#fff; background:#E61D23; cursor:pointer;}
+.search{ float:right;margin-top:20px;}
+.search p{ clear:both;padding-top:6px; color:#666;}
+.search p a{ color:#999;}
+span.icon_search{ width:20px;  height:23px; background:url("common-9.png")/*tpa=http://img.39yst.com/templates/39yst/images/yujia/common.png*/ no-repeat 0px -5px; position:absolute; z-index:4;left:2px;top:10px;*+top:5px;_top:2px; }
+.con_search span.icon_search{ top:2px;}
+/*menu*/
+.menu{ clear:both;background:#51AA02; height:38px; line-height:38px; font-size:16px; font-family:"微软雅黑";}
+.menu ul{ float:left;}
+.menu li,.menu li a{ width:168px; display:inline-block; float:left; line-height:38px; text-align:center;}
+.menu li:hover,.menu .current{  background:url("pic_all-12.png")/*tpa=http://img.39yst.com/templates/39yst/images/yujia/pic_all.png*/ no-repeat 0px -396px;}
+.list_bar{ height:32px; background:#E3FAC4; line-height:32px;padding: 0 10px; clear:both;}
+.list_bar a{ color:#666;}
+
+/*瑜伽减肥*/
+.common_dl{ border-bottom:1px dashed #dbdbdb;padding-bottom:15px;}
+.title span{ display:block;background:url("pic_all-12.png")/*tpa=http://img.39yst.com/templates/39yst/images/yujia/pic_all.png*/ no-repeat 0 0;}
+.title .icon_weight{ width:225px; height:22px; background-position:0 -39px; }
+.title .icon_pregnant{ width:260px; height:26px; background-position:0 -63px; }
+.title .icon_recom{ width:220px; height:37px; background-position:0 0px;}
+.title .icon_office{ width:185px; height:25px; background-position:0 -91px;}
+.title .icon_supplies{ width:193px; height:25px; background-position:0 -118px;}
+.title .icon_sense{ width:220px; height:25px; background-position:0 -145px;}
+.title .icon_auxiliary{ width:220px; height:38px; background-position:0 -172px;}
+.title .icon_video{ width:158px; height:25px; background-position:0 -212px;}
+.title .icon_expert{ width:180px; height:25px; background-position:0 -239px;}
+.title .icon_music{  width:220px; height:37px; background-position:0 -266px;}
+.title .icon_pics{  width:220px; height:20px; background-position:0 -306px;}
+
+.yoga_weight{ background:#F7FFEA; border:1px solid #D3F1AB; padding:15px 15px 5px 15px;}
+.common_dl dl{ width:131px; float:left; float:left; position:relative;margin:15px 0px 0 0;}
+.common_dl .yoga_weight_list{ float:right;}
+.common_dl dt,.yoga_weight dt img{ width:131px; height:92px; overflow:hidden;}
+.common_dl dd{ height:25px; line-height:25px; text-align:center; background:#000; filter:alpha(opacity=75); -moz-opacity:0.75;-khtml-opacity: 0.75;  opacity:0.75;position:absolute; z-index:1; bottom:0px; left:0px; width:131px;}
+span.icon_dot{ width:2px; height:2px; display:block; background:url("common-9.png")/*tpa=http://img.39yst.com/templates/39yst/images/yujia/common.png*/ no-repeat 0 0; float:left; margin:10px 5px 0 0;}
+.common_list{ padding-top:7px;}
+.common_list li{ height:26px; line-height:26px; overflow:hidden;}
+/*头条*/
+.main_center{ width:430px; float:left;margin-left:15px;}
+.yoga_headlines{ border-bottom:1px dashed #dbdbdb;padding-bottom:8px;margin-bottom:8px;}
+.yoga_headlines2{ border:none; padding-bottom:0px; margin-bottom:0px;}
+.yoga_headlines h2{ text-align:center; font-family:"微软雅黑"; font-size:18px; font-weight:normal;}
+.yoga_headlines h2 a{ color:#50aa02;}
+.yoga_headlines ul{ padding-top:8px;}
+.yoga_headlines ul li,.yoga_headlines_list li{ float:left; display:inline; width:210px; height:24px;margin-left:5px; line-height:24px; font-size:14px;}
+
+.yoga_headlines_list{ padding-top:0px;}
+/*孕妇瑜伽*/
+.yoga_pregnant{ margin-top:10px;}
+.title2{ border-bottom:1px solid #dbdbdb; }
+.common_yogadl{ border-bottom:1px dashed #dbdbdb;padding:15px 0;margin-bottom:8px;}
+.common_yogadl dt{ width:131px; height:92px; float:left;}
+.common_yogadl dt img{ width:131px; height:92px; overflow:hidden;}
+.common_yogadl dd{ width:285px; float:left; color:#999;margin-left:10px; line-height:1.7;}
+.common_yogadl .pregnant_tit{ font-size:14px;}
+/*main_right*/
+.main_right{ width:220px; float:right;}
+/*瑜伽推荐*/
+.yoga_recom{ padding:0 10px 5px 10px; border:3px solid #eeffd8;border-top:none;}
+.yoga_recomdl{ padding:10px 0;margin-bottom:0px;}
+.yoga_recomdl dt{ width:80px;height:60px;}
+.yoga_recomdl dt img{ width:80px; height:60px; overflow:hidden;}
+.yoga_recomdl dd{ width:95px;}
+.none-padding{ padding-top:0px;margin-right:0px;}
+.yoga_padding{ padding:6px 0;}
+/*办公室瑜伽*/
+.yoga_office{ background:#f7ffeb; border:1px solid #d3f1ab; padding:15px 15px 5px 15px;margin-top:15px;}
+.yoga_office_dl { border-bottom:1px dashed #dbdbdb;padding-bottom:10px;margin-top:10px;}
+.yoga_office_dl dl{ width:90px; float:left;}
+.yoga_office_dl .yoga_office_dlr{ float:right;}
+.yoga_office_dl dt{ width:90px;}
+.yoga_office_dl dt img{ widows:90px; height:68px; overflow:hidden;}
+.yoga_office_dl dd{ text-align:center; }
+.office_list li{ height:20px; line-height:20px;}
+/*瑜伽用品*/
+.sense{ margin-top:0px;}
+.sense .yoga_headlines_list{ padding-top:6px;}
+.supplies{ padding-top:15px;padding-bottom:5px;}
+.supplies dl{ width:145px; height:102px;margin-top:0px;margin-bottom:12px;}
+.supplies dt,.supplies dt img{ width:145px; height:102px; overflow:hidden;}
+.supplies dd{ width:145px;}
+.supplies_list li{ width:140px; float:left; font-size:14px;margin-right:10px;}
+.yoga_headlines_list li a strong{ color:#50aa02;}
+/*辅助项目*/
+.auxiliary_list li{ height:25px; line-height:25pxx; font-size:14px;}
+/*瑜伽视频*/
+.yoga_video{ margin-top:0px;}
+/*瑜伽达人*/
+.yoga_expert{ margin-top:0px;}
+.yoga_expert ul{ padding-top:8px;}
+.expert_dl dl,.expert_dl dt,.expert_dl dt img{ width:100px; height:100px; overflow:hidden;}
+.expert_dl dl{ margin-right:10px;}
+.expert_dl dd{ width:100px; text-align:center;}
+.expert_dl .none-padding{ margin-right:0px;}
+/*瑜伽音乐*/
+.yoga_music dl{ width:190px; height:135px;}
+.yoga_music dt,.yoga_music dt img{ width:190px; height:135px; overflow:hidden;}
+.yoga_music dd{ width:190px;}
+.yoga_music ul{ font-size:14px;}
+/*瑜伽图库*/
+.gallery{ background:#f7ffeb; border:1px solid #d3f1ab;margin-top:15px;*+margin-top:5px;}
+.gallery .title{ padding:15px 15px 10px 15px;}
+.gallery_pic dl{ float:left; width:150px;margin-left:11px;padding-bottom:15px;}
+.gallery_pic dt img{ width:150px; height:150px; overflow:hidden; }
+.gallery_pic dd{ width:150px; text-align:center;}
+
+
+								/*===============列表页==================*/
+.posi{ height:36px; line-height:36px;}
+.posi a{ color:#666666;}
+
+.con_lines {  border-top: 2px solid #50AA02 !important; clear: both;margin-top:10px; }
+.column_right{ width:300px; float:right;}
+/*左侧介绍*/
+.takeaway:after {  clear: both; content: " "; display: block; font-size: 0;height: 0; line-height: 0; visibility: hidden; width: 0;}
+.takeaway {background:#F6F9F9 url("list_daidu-9.png")/*tpa=http://img.39yst.com/templates/39yst/images/yujia/list_daidu.png*/ no-repeat scroll 0 0 ;border: 1px solid #CCD3E4;border-top:none;clear: both; zoom:1;border-top:none;}
+.takeaway_r { float: left;padding: 15px 15px 0 15px;}
+.takeaway_r h1 {  color: #B91B20; font-family: "微软雅黑"; font-size: 24px; font-weight: normal;}
+.takeaway_r .takeway_con {  color: #666666;font-family: "微软雅黑";  font-size: 14px; line-height: 1.7;margin-top: 5px;padding-bottom: 10px;text-indent: 24px;}
+/*column_list*/
+.column_list{ width:670px; float:left; display:inline;}
+.column_list_con{  border-top:0;padding:0 20px 20px 20px;zoom:1;}
+.colum_list_1 {   clear: both;  padding-top: 10px;}
+.colum_list_1 .head_tit {  display: inline-block;font-size: 18px; font-family:"微软雅黑";}
+.head_tit{  margin: 8px 0; text-align: left;}
+.colum_list_dl dt {  float: left; height: 126px;overflow: hidden; width: 190px;}
+.colum_list_dl dt img{  height: 126px; overflow: hidden;width: 190px;}
+.colum_list_dl dd { color: #666;float: left;line-height: 24px; margin-left: 20px;width: 400px;}
+.share_all {  border-bottom: 1px solid #DBDBDB; clear: both; height:29px; line-height:29px;zoom:1;padding-bottom:10px; position:relative;}
+.share_all p {  display: inline; float: left;}
+.share_all .share_bnt { float: right;}
+.share_bnt a { display: block; float: left; margin-left: 15px;}
+.published_time{ color:#999;}
+.medicine_tag{ margin-top:10px;}
+.medicine_tag a{ margin-right:10px; color:#b91b20;}
+.head_tit .blue_a{ color:#1669ab;}
+
+/*分页*/
+
+.page a.current:link, .page a.current:visited, .page a.current:hover {
+    background-color: #50aa02;border: 1px solid #50aa02;color: #FFFFFF;cursor: default;    text-decoration: none;}
+
+/*中医高清视觉*/
+.common_colum{ zoom:1;border:1px solid #dbdbdb; clear:both;}
+.editor_recom{ margin-top:10px;padding-bottom:15px;}
+.editor_recom .theory_list{ width:199px;margin:10px 7px 10px 10px; display:inline; }
+.editor_recom .list{ font-size:12px;}
+.editor_tit{ font-size:14px; font-weight:bold; padding-left:10px; height:32px; border-bottom:1px solid #dbdbdb; line-height:32px; background:#f9f9f9;}
+.hd_pic{ padding:15px 0 0px 2px; zoom:1;}
+.hd_pic dl{ width:126px; display:inline; margin-left:6px; float:left;}
+.hd_pic dt img{ width:126px; height:94px; overflow:hidden;}
+/*中医精彩推荐*/
+.zjbor { border: 1px solid #cec19f;border-top:2px solid #9d5218;margin-top:15px;padding-bottom:5px;}
+.zjSPic { background: none repeat scroll 0 0 #FFFFFF; margin: 0 auto; overflow: hidden;    padding:10px 0 0 8px;  width: 290px;}
+.zjSPic li {  float: left; width: 95px;}
+.zjSPic a {  display: block;}
+.zjSlist li {  color: #666;float: left; height: 26px;line-height: 26px; overflow: hidden;  width: 145px;}
+.zjSlist li a{ color:#666;}
+.zjSPic h5 {  font-size: 12px; font-weight: normal; height: 26px; line-height: 26px;    text-align: center;}
+.zjSPic h5 a{ color:#666;}
+
+
+
+                           
+                             /*===================内容页===========*/
+
+/*内容页当前位置*/
+.con_posi .con_posi_tag{ float:left; color:#50aa02 !important;}
+.con_posi_tag a{ color:#50aa02;}
+.row{  border-top:2px solid #50aa02;}
+.add{ margin-top:10px;}
+/*column_r*/
+.column_r{ width:300px; float:right; display:inline;}
+/*相关阅读*/
+.article-about{ border:1px solid #dbdbdb; padding-bottom:10px; zoom:1;margin-top:10px;}
+.article_tit{ font-size:14px; font-weight:bold; height:30px; background:#f9f9f9; line-height:30px; padding-left:15px;border-bottom:1px solid #dbdbdb;}
+.cont_1{ border:1px solid #dbdbdb; padding-bottom:10px; zoom:1;margin-top:10px;}
+.t{ font-size:14px; font-weight:bold; height:30px; background:#f9f9f9; line-height:30px; padding-left:10px;border-bottom:1px solid #dbdbdb;}
+
+.cont_1 ul{ float:left; font-size:14px;padding:10px 10px 0 10px;}
+.cont_1 .article_right{ float:right;}
+.cont_1 li{ height:26px; line-height:26px;}
+/*article-more*/
+.article-more { margin:15px 0; clear:both;}
+.article-more b{ font-size:14px;}
+.article-more a{ margin-left:15px;}
+/*休闲养生*/
+/*.common_box{ border:1px solid #dbdbdb;border-top:none; zoom:1;padding-bottom:10px;margin-top:10px; clear:both;}
+*/.common_box h4{ height:28px; background:#f9f9f9;border-bottom:1px solid #dbdbdb;border-top:2px solid #50aa02; padding-left:10px; line-height:26px; font-weight:bold; font-size:14px;}
+.wlady dl,.wlady dl img{ width: 109px; height:104px; overflow:hidden;}
+.brtg dl { border: 1px solid #CECECE; display: inline; float: left; height: 104px; margin: 13px 0 0 9px;}
+/*最新资讯*/
+.leisure .office_list{ padding:10px 15px 0 15px;}
+.reading_all .leisure{ width:330px; float:left; clear:none;}
+.reading_all .beauty{ float:right;}
+/*养生图库*/
+.hot_pic li {  display: inline; float: left; line-height: 22px;margin: 7px 0 0 10px;    text-align: center; width: 134px;}
+.hot_pic li img{ width:132px; height:132px; overflow:hidden;}
+.wlady ul li { height: 28px; line-height: 28px;}
+.hot_pic li a{font-size:12px;}
+.wlady ul {  padding: 13px 0 0 6px; width: 170px; float:left;}
+
+
+
+/*漂浮导航*/
+.article-tools {   width: 670px;}
+.article-tools .article-tools-content { height: 35px;text-align: center;
+    width: 670px; z-index: 999;}
+.article-tools .article-tools-collect {  display: inline-block; position: relative;text-align: left;   z-index: 50;}
+.article-tools .article-tools-share { display: inline-block; position: relative;    text-align: left;    z-index: 50;}
+.article-tools a.btn {margin-right: -7px;  width:89px; height:23px; line-height:23px; }
+.article-tools a.btn:link, .article-tools a.btn:visited, .article-tools a.btn:hover {    border-top: 0 none !important;}
+.btn-blue, .btn-blue:link, .btn-blue:visited {  background-color: #50aa02;  border: 1px solid #349204;  color: #FFFFFF;}
+.btn-blue:hover {  background-color: #479206; color: #FFFFFF;}
+.btn-blue:active {  background-color: #479206; color: #FFFFFF;}
+.article-tools-share .dropdown {  position: relative;  z-index: 10;}
+.article-tools-share .article-tools-share-pop {  left: -2px; position: absolute;top: 25px;width:95px;}
+.dropdown .dropdown-content { background-color: #FFFFFF; border: 1px solid #dbdbdb;   padding: 5px 0;}
+.dropdown .dropdown-content ul li {  height: 27px;line-height: 27px;}
+.dropdown .dropdown-content ul li:hover{ background:#F2F5F8;}
+.dropdown .dropdown-content ul li a { color: #333333; display: block; height: 27px;   padding: 0 12px;  text-decoration: none;}
+
+
+/*营养价值*/
+
+.article-value .article-value-tit a{ color:#50AA02;}	
+.dropdown .dropdown-content2{ top:30px;}
+/*绿色*/
+
+#main , .cont_title span , .footer , .zongyi dd{border-color: #51aa02;}
+.con_search_bnt{background:#51aa02;}
+#content_all a:hover{color: #51aa02;}
+p.article-info_l span .blue , .con_posi_tag a , .cont_title , .article-value-tit a , 
+.pinglun dl dd p .blue , .right_title ,.qingshi_tab h3 a.cur , .btn-mini , .page a:visited
+{color:#51aa02 !important;}
+.page a.current{color:#fff!important;}
+.btn-blue, .btn-blue:link, .btn-blue:visited , .page a.current:link, .page a.current:visited, .page a.current:hover {
+background-color: #51aa02;border: 1px solid #51aa02;/* border-top:none; */}
+.btn-blue:hover {  background-color: #359205; }
+.article_value .cont_title em .current{background-color: #51aa02;}
+.gotop02 .fhsy:hover , .gotop02 .favo:hover , .gotop02 .gotop02-con:hover{background-color: #359205;color:#fff!important;}
+.gotop02 .fhsy , .gotop02 .favo , .gotop02 .gotop02-con{background-color: #51aa02;}
+.zongyi dd a.selected{background-image: url("1433233910148-2.jpg")/*tpa=http://img.39yst.com/templates/39yst/img/article/jiao_green.jpg*/;}
+#content_all #article-tools .btn:hover{ color:#fff;}	
+
+.searbtn .btn:hover {
+    background: url("259960-3.shtml")/*tpa=http://img.39yst.com/templates/39yst/images/common_img/basehead100925.png*/ no-repeat scroll -10px -268px rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+    height: 26px;
+    text-indent: -9999px;
+    width: 62px;
+}				

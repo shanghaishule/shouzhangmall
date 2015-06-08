@@ -1,0 +1,8 @@
+#zhuanti dl{margin:20px 30px 0 0;width:222px;float:left;} 
+#zhuanti dl dt{width:210px;height:158px;padding:5px; border:1px solid #D6D6D6;margin-bottom:10px;}
+#zhuanti dl dt:hover{border:2px solid #e40405;padding:4px;}
+#zhuanti dl dd a{display:inline-block;background:#3c62a4;font-size:16px; color:#fff; font-family:"微软雅黑";height:24px;line-height:24px;padding:0 7px; overflow:hidden;}
+#zhuanti dl dd p{line-height:24px; color:#666;}
+.blank20 {height:20px;}
+.con_header .hover .icon_arrow2 {display:inline-block;margin:0;}
+.n_drop-more{padding-bottom: 5px;}
