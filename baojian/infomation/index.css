@@ -783,7 +783,8 @@ input,botton {
 	display: inline-block;
 	width: 81px;
 	height: 81px;
-	background: url("all.png")/*tpa=http://img.39yst.com/templates/39yst/img/all.png*/ left -634px;
+	background: url("hajk.jpg")/*tpa=http://img.39yst.com/templates/39yst/img/all.png*/;
+	background-size:81px 81px;
 	position: absolute;
 	left: 10px;
 	top: -12px
@@ -792,10 +793,8 @@ input,botton {
 .link_bottom strong {
 	display: inline-block;
 	float: left;
-	width: 48px;
-	height: 44px;
-	background: url("all.png")/*tpa=http://img.39yst.com/templates/39yst/img/all.png*/ -92px -670px;
-	margin-right: 15px
+	width: 70px;
+	margin-top: 5px
 }
 
 .link_bottom p {
