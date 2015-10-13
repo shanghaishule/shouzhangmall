@@ -11,7 +11,7 @@
 
 // 应用入口文件
 //判断是否上海和北京用户
-    header("Content-type: text/html; charset=utf-8");
+  /*  header("Content-type: text/html; charset=utf-8");
 	function getIPLoc_sina($queryIP){
 		$url = 'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip='.$queryIP;
 		$ch = curl_init($url);
@@ -38,6 +38,7 @@
     if($location == '北京' || $location == '上海'){
     	header("Location:/infomation/");
     }
+    */
 // 检测PHP环境
 
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('PHP版本必须为5.3以上！');
